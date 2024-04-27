@@ -156,7 +156,7 @@ export default function About() {
                             />
                             <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Menstrual Issues</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-md mt-4 text-gray-500 px-6">Menstrual issues encompass a wide range of abnormalities or disturbances in the menstrual cycle, which can affect women&apos;s reproductive health and overall well-being. These issues irregular periods.</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">Menstrual issues encompass a wide range of abnormalities or disturbances in the menstrual cycle, which can affect womens reproductive health and overall well-being. These issues irregular periods.</p>
                            
                         </div>
                     </div>

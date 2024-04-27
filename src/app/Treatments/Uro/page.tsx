@@ -21,7 +21,7 @@ export default function About() {
             <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
                 <p className='text-base text-justify text-[#5C5C5C]'>
                 At Spandan Maternity Home, we understand the delicate nature of urogynecological problems and offer specialized care with 
-                compassion and expertise. Whether you&apos;re facing urinary incontinence, pelvic organ prolapse, or other related issues, our dedicated 
+                compassion and expertise. Whether youre facing urinary incontinence, pelvic organ prolapse, or other related issues, our dedicated 
                 healthcare team is committed to providing comprehensive evaluations and personalized treatment plans tailored to your needs. With a 
                 focus on improving quality of life and restoring confidence, we offer advanced diagnostic techniques and minimally invasive treatment 
                 options to address urogynecological concerns effectively. Trust to provide the support and care you need to overcome urogynecological 

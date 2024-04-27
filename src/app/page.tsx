@@ -68,7 +68,7 @@ export default function Home() {
               
               <div className='w-3/5 flex justify-center items-center'>
                 <div className='pb-10'>
-                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Women&apos;s Health</h1> 
+                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Womens Health</h1> 
                    
                   <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p> 
 
