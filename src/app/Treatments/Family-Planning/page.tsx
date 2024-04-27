@@ -22,7 +22,7 @@ export default function About() {
                 
                 <p className='text-base text-justify text-[#5C5C5C]'>
                 Take control of your reproductive health and make informed decisions with the comprehensive Family Planning services offered at 
-                Spandan Maternity Home. We understand the importance of planning for the future, whether you're considering expanding your family 
+                Spandan Maternity Home. We understand the importance of planning for the future, whether you&apos;re considering expanding your family 
                 or seeking contraceptive options. Our experienced healthcare professionals provide personalized guidance and support, offering a 
                 range of contraceptive methods tailored to your lifestyle and preferences. Additionally, we offer counseling on fertility awareness and 
                 preconception care to help you achieve your family planning goals. With our compassionate approach and commitment to 

@@ -23,7 +23,7 @@ export default function About() {
                 <p className='text-base text-justify text-[#5C5C5C]'>
                 Navigate the changes and challenges of menopause with confidence through the specialized care offered at Spandan Maternity Home. 
                 Our experienced healthcare professionals understand the unique needs of women during this life transition and provide comprehensive 
-                support and treatment for menopausal symptoms. Whether you're experiencing hot flashes, mood swings, or other issues, we offer 
+                support and treatment for menopausal symptoms. Whether you&apos;re experiencing hot flashes, mood swings, or other issues, we offer 
                 personalized solutions tailored to your individual needs. With compassionate expertise and state-of-the-art resources, we empower you 
                 to embrace this new phase of life with vitality and comfort. Spandan provides the guidance and care you need to navigate menopause 
                 with grace and confidence

@@ -22,7 +22,7 @@ export default function About() {
                 
                 <p className='text-base text-justify text-[#5C5C5C]'>
                 Address menstrual issues with confidence at Spandan Maternity Home. Our compassionate healthcare team understands the 
-                importance of menstrual health and is dedicated to providing personalized care and support. Whether you're experiencing irregular 
+                importance of menstrual health and is dedicated to providing personalized care and support. Whether you&apos;re experiencing irregular 
                 periods, painful cramps, heavy bleeding, or any other menstrual concerns, we offer comprehensive evaluations and tailored treatment 
                 plans to help you find relief and regain control over your menstrual health. With state-of-the-art facilities and a patient-centered 
                 approach, we strive to empower women to live their lives fully, free from the limitations of menstrual issues. Trust Spandan to partner 
