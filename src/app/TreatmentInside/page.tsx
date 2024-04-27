@@ -10,15 +10,15 @@ export default function About() {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
             const [activeIndex, setActiveIndex] = useState(0); 
 
-            const handleItemClick = index => {
-                setActiveIndex(index); 
+            // const handleItemClick = index => {
+            //     setActiveIndex(index); 
 
-                const [openAccordion, setOpenAccordion] = useState(null);
+            //     const [openAccordion, setOpenAccordion] = useState(null);
 
-                const handleAccordionClick = (index) => {
-                setOpenAccordion(index === openAccordion ? null : index);
-                };
-            }
+            //     const handleAccordionClick = (index) => {
+            //     setOpenAccordion(index === openAccordion ? null : index);
+            //     };
+            // }
     return(
             <div className="main-content bg-[rgb(240,247,253)] pb-20">
              <div className="relative w-full">
@@ -34,7 +34,7 @@ export default function About() {
                 <div className='container max-w-[1280px] mx-auto mt-20'>
                     <div className="flex gap-12">
                         <div className='w-[30%] h-auto'>
-                            <div className="bg-white rounded-3xl pb-8">
+                            {/* <div className="bg-white rounded-3xl pb-8">
                                 <p className="p-8 text-center text-[rgb(236,72,153)] text-3xl">Our Service</p>
                                 <ul className="list-disc pl-10 mb-0">
                                     <li className={`mb-2 text-[rgb(88,28,135)] flex justify-between text-xl hover:text-[rgb(236,72,153)] ${activeIndex === 0 ? 'active' : ''}`} onClick={() => handleItemClick(0)}>
@@ -78,12 +78,12 @@ export default function About() {
                                     </li>
                                 </ul>
                                         <style jsx>{`
-                                            /* Style for active state */
+                                            
                                             .active {
                                             color:#009290;
                                             }
                                         `}</style>
-                            </div>
+                            </div> */}
                             <div className='h-auto mt-8 rounded-xl p-8 bg-[#27115f]'>
                                 <h3 className="text-slate-50 text-2xl font-bold">Our Location</h3>
                                 <h2 className="text-xl text-bold mt-4 mb-4 text-slate-100">Bhuj</h2>

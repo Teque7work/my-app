@@ -84,7 +84,7 @@ export default function Facilities() {
                             <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                     </div>
-                    <p className='text-5xl text-[#581C87]' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
+                    <p className='text-4xl text-[#581C87]' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
                     <div className="swiper-button-next">
                         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
@@ -216,7 +216,7 @@ export default function Facilities() {
                     </div>
                     <div className='container max-w-[1280px] mx-auto relative z-10 pt-14'>
                         <div className='flex justify-center'>
-                            <p className='text-6xl text-[#581C87]'>IVF Center</p>
+                            <p className='text-4xl text-[#581C87]'>IVF Center</p>
                         </div>
                         <div className="grid grid-cols-4 gap-4 mt-16">
                             <div className=" h-auto rounded-2xl  w-screen/4 flex flex-col">
@@ -229,9 +229,7 @@ export default function Facilities() {
                                         className='rounded-2xl'
                                     />
                                 </div>
-                                <div>
-                                    <p className='text-center mt-4 text-xl text-[#895FAA]'>IVF CENTER</p>
-                                </div>
+                                
                             </div>
                         
                             <div className="text-xl h-auto w-screen/4 flex flex-col justify-center ">
@@ -244,9 +242,7 @@ export default function Facilities() {
                                         className='rounded-2xl'
                                     />
                                 </div>
-                                <div>
-                                <p className='text-center mt-4 text-xl text-[#895FAA]'>IVF CENTER</p>
-                                </div>
+                                
                                 
                             </div>
                             <div className=" h-auto w-screen/4 flex flex-col justify-center">
@@ -259,9 +255,7 @@ export default function Facilities() {
                                         className='rounded-2xl'
                                     />
                                 </div>
-                                <div>
-                                <p className='text-center mt-4 text-xl text-[#895FAA]'>IVF CENTER</p>
-                                </div>
+                               
                                 
                             </div>
                             <div className="h-auto w-screen/4 flex flex-col justify-center">
@@ -274,9 +268,7 @@ export default function Facilities() {
                                         className='rounded-2xl'
                                     />
                                 </div>
-                                <div>
-                                <p className='text-center mt-4 text-xl text-[#895FAA]'>IVF CENTER</p>
-                                </div>
+                               
                                 
                             </div>
                     </div>

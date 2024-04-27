@@ -12,13 +12,14 @@ export default function About() {
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Laparoscopic & Hysteroscopic Surgeries</p>
+                    <p className=" absolute bottom-10 text-white px-8 py-2">
+                    <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Laparoscopic & Hysteroscopic Surgeries</Link>
+                </p>
                     
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-20 mb-24'>
-                <p className=" text-center text-[#009090] px-8 py-2 text-base mb-6">
-                    <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Laparoscopic & Hysteroscopic Surgeries</Link>
-                </p>
+            <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
+                
                 <p className='text-base text-justify text-[#5C5C5C]'>
                 Benefit from advanced surgical precision and minimal invasiveness with Laparoscopic & Hysteroscopic Surgeries at Spandan Maternity 
                 Home. Our skilled surgical team utilizes cutting-edge techniques to perform a variety of procedures, resulting in faster recovery and 
@@ -53,6 +54,55 @@ export default function About() {
                         />
                     </div>
                 </div>
+
+                 {/* footer-section */}
+                 <div className="flex gap-10 mt-24  h-[380px]">
+                        <div className="w-1/3 bg-white-700 flex flex-col items-center shadow-xl">
+                            <div className="flex flex-col items-left">
+                            <a href="/Treatments/Sexually-Transmitted-Disease">
+                            <Image
+                                 src="/images/Rectangle6.png"
+                                width={500}
+                                height={200}
+                                alt="Picture of the author"
+                      
+                            />
+                            <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">Sexually Transmitted Disease</p></a>
+                            </div>
+                        </div>
+                        <div className="w-1/3 bg-white-700 flex flex-col items-center shadow-xl">
+                            <div className="flex flex-col items-left pb-8">
+                            <a href="/Treatments/Adolescent-Health">
+                            <Image
+                                src="/images/Rectangle7.png"
+                                width={500}
+                                height={200}
+                                alt="Picture of the author"
+                               
+                            />
+                            <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">Adolescent Health Counselling</p></a>
+                            </div>
+                        </div>
+                        <div className="w-1/3 bg-white-700 flex flex-col  items-center shadow-xl">
+                            <div className="flex flex-col items-left pb-8">
+                            <a href="/Treatments/IVF-Speciality">
+                            <Image
+                                 src="/images/Rectangle9.png"
+                                width={500}
+                                height={200}
+                                alt="Picture of the author"
+                      
+                            />
+                            <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">IVF Speciality</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    <a href="/Treatments" className="block mt-20 pt-2 pb-2 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
+                        View All Treatments
+                    </a>
+
+                    </div>
             </div>
         </div>
     )}

@@ -30,15 +30,15 @@ export default function Contact() {
             </div>
             <div className='container max-w-[1280px] mx-auto mt-10 mb-24'>
                 <div className="box-border h-auto w-full  flex mt-20 border-2 rounded-2xl">
-                    <img className="rounded-l-2xl" width={600}  src="images/doctor-appoint.webp" alt="Dr. Surabhi Vegad"/>
+                    <img className="rounded-l-2xl" width={600}  src="images/reception.jpg" alt="Dr. Surabhi Vegad"/>
                         <div className='w-30 h-10 p-20'>
                             <p className="text-base text-left  font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
                             <p className="text-4xl text-left  font-bold text-green-500 mt-5" style={{ color: 'rgb(1, 146, 144)'}}>
                                 Make an appointment apply for treatments</p>
                                 <div>
-                                <p className='text-2xl mt-6 text-[rgb(236,80,167)] mb-2'>Contact No</p>
-                                <p className='text-slate-500'>072288 62236</p>
-                                <p className='text-slate-500'>072288 62236</p>
+                                <p className='text-2xl mt-6 text-[rgb(236,80,167)] mb-2'>For Appoinment</p>
+                                <p className='text-slate-500'>99792 32346</p>
+                                <p className='text-slate-500'>72288 62236</p>
                                 </div>
 
                                 <div>
@@ -50,7 +50,11 @@ export default function Contact() {
                                 <p className='text-2xl mt-6 text-[rgb(236,80,167)] mb-2'>Email</p>
                                 <p className='text-slate-500'>spandanhospital@gmail.com</p>
                                 </div>
-                               
+                                <div className="text-slate-500 mt-6">
+                                    <Link href="https://maps.app.goo.gl/fYuXumSpGL1qU6gn8" target="_blank" rel="noopener noreferrer">
+                                        View Map
+                                    </Link>
+                                </div>
                                
                         </div>         
                 </div>

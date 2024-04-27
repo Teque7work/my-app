@@ -58,9 +58,9 @@ export default function Home() {
 
               <div className='w-2/5 flex justify-center'>
                 <Image
-                  src="/Images/Surabhi-Bg.png"
-                  width={640}
-                  height={400}
+                  src="/Images/surbhi vegad.jpg"
+                  width={700}
+                  height={600}
                   alt="Meet the Team"
                   className='rounded-2xl'
                 />
@@ -68,9 +68,9 @@ export default function Home() {
               
               <div className='w-3/5 flex justify-center items-center'>
                 <div className='pb-10'>
-                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Women's Health</h1> 
+                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Women&apos;s Health</h1> 
                    
-                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women's healthcare, consistently advancing research and patient care.</p> 
+                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p> 
 
                   <p className='font-medium pb-6 text-slate-500'>As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care. </p> 
 
@@ -335,7 +335,7 @@ export default function Home() {
             <section className="bg-[url('/Images/parallax-lab-image.jpg')] min-h-96 bg-fixed" >
               <div className="container max-w-[1280px] gap-10  mx-auto flex items-center min-h-96">
                 <div className="w-1/2 flex">
-                  <Image src="/Images/ladies.png" width={570} height={616} alt="" className='rounded-2xl' />
+                  <Image src="/Images/ladies.png" width={570} height={616} alt="" />
                  </div>
                 <div className="w-1/2">
                   <h3 className='mb-10 flex items-center text-[#27115f] w-[500px] font-bold text-2xl'>
@@ -345,37 +345,13 @@ export default function Home() {
 
                   <div>
                     
-                    {/* <div className='space-y-8'>
-
-                      <div className='flex gap-6'>
-                        <div><FontAwesomeIcon icon={faLeaf} className="p-5 border-2 border-[#27115f] text-[#27115f] rounded-full w-5 h-5"></FontAwesomeIcon></div>
-                        <div className='space-y-3'>
-                          <h4 className='text-[#27115f] font-semibold'>Award Winning Service</h4>
-                          <p>Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia</p>
-                        </div>
-                      </div>
-                      <div className='flex gap-6'>
-                        <div><FontAwesomeIcon icon={faStethoscope} className="p-5 border-2 border-[#27115f] text-[#27115f] rounded-full w-5 h-5"></FontAwesomeIcon></div>
-                        <div className='space-y-3'>
-                          <h4 className='text-[#27115f] font-semibold'>Best Doctors</h4>
-                          <p>Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia</p>
-                        </div>
-                      </div>
-                      <div className='flex gap-6'>
-                        <div><FontAwesomeIcon icon={faAmbulance} className="p-5 border-2 border-[#27115f] text-[#27115f] rounded-full w-5 h-5"></FontAwesomeIcon></div>
-                        <div className='space-y-3'>
-                          <h4 className='text-[#27115f] font-semibold'>Dedicated Emergency Care</h4>
-                          <p>Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia</p>
-                        </div>
-                      </div>
-
-                    </div> */}
+                   
 
                     <div className='space-y-8'>
 
                       <div className='flex gap-10'>
                         <div className='space-y-3 text-slate-500'>
-                          <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women's healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
+                          <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
                         </div>
                       </div>
 

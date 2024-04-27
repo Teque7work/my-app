@@ -19,7 +19,7 @@ export default function About() {
             </div>
             <div className='container max-w-[1280px] mx-auto mt-20 mb-24'>
                 <div>
-                    <p className='pl-8 pr-8 text-center text-gray-500 text-xl font-bold'>
+                    <p className='pl-8 pr-8 text-center text-gray-500 text-lg '>
                     Clinical laboratory services are tests provided by a medical lab that aid in diagnosis and treatment of patients. There are many types of clinical laboratory services, including:
                     </p>
                 </div>
@@ -35,9 +35,9 @@ export default function About() {
                                 alt="Picture of the author"
                                 
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Antenatal Care & Postnatal Care</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Antenatal Care & Postnatal Care</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6">Antenatal care provides crucial support and medical attention to expectant mothers throughout their pregnancy, ensuring both maternal and fetal health :</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">Antenatal care provides crucial support and medical attention to expectant mothers throughout their pregnancy, ensuring both maternal and fetal health.</p>
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
@@ -50,9 +50,9 @@ export default function About() {
                                 alt="Picture of the author"
                                
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Preconception Counselling</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Preconception Counselling</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6">Preconception counseling offers valuable guidance and support to individuals or couples planning to conceive, addressing factors such as health:</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">Preconception counseling offers valuable guidance and support to individuals or couples planning to conceive, addressing factors such as health.</p>
                            
                         </div>
                     </div>
@@ -66,9 +66,9 @@ export default function About() {
                                 alt="Picture of the author"
                               
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold"> Cancer Screening, Preventive Vaccination</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold"> Cancer Screening, Preventive Vaccination</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6">Cancer screening aims to detect signs of cancer early, often through tests like mammograms.:</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">Cancer screening aims to detect signs of cancer early, often through tests like mammograms.</p>
 
                         </div>
                     </div>
@@ -86,9 +86,9 @@ export default function About() {
                                 alt="Picture of the author"
                       
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Sexually Transmitted Disease</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Sexually Transmitted Disease</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6"> Sexually transmitted diseases (STDs) are infections spread through sexual contact. They can be caused by bacteria and may present with symptoms like genital sores. Some STDs.:</p>
+                            <p className="text-md mt-4 text-gray-500 px-6"> Sexually transmitted diseases (STDs) are infections spread through sexual contact. They can be caused by bacteria and may present with symptoms like genital sores. Some STDs.</p>
                            
                         </div>
                     </div>
@@ -102,9 +102,9 @@ export default function About() {
                                 alt="Picture of the author"
                                 
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Laparoscopic & Hysteroscopic Surgeries</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Laparoscopic & Hysteroscopic Surgeries</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6">Laparoscopic and hysteroscopic surgeries are minimally invasive procedures commonly used to diagnose and treat various gynecological conditions.:</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">Laparoscopic and hysteroscopic surgeries are minimally invasive procedures commonly used to diagnose and treat various gynecological conditions.</p>
                            
                         </div>
                     </div>
@@ -118,10 +118,10 @@ export default function About() {
                                 alt="Picture of the author"
                                
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Adolescent Health Counselling</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Adolescent Health Counselling</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-6 text-gray-700 px-4">
-                            Adolescent health counseling plays a pivotal and proactive role in promoting the physical, emotional, and social well-being of young individuals during a critical phase of development.:</p>
+                            <p className="text-md mt-6 text-gray-500 px-4">
+                            Adolescent health counseling plays a pivotal and proactive role in promoting the physical, emotional, and social well-being of young individuals during a critical phase of development.</p>
                             
                         </div>
                     </div>
@@ -138,9 +138,9 @@ export default function About() {
                                 alt="Picture of the author"
                       
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">IVF Speciality</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">IVF Speciality</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6">IVF (In Vitro Fertilization) is a specialized area within reproductive medicine that focuses on assisting individuals or couples who are experiencing infertility or difficulties conceiving a child.:</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">IVF (In Vitro Fertilization) is a specialized area within reproductive medicine that focuses on assisting individuals or couples who are experiencing infertility or difficulties conceiving a child.</p>
                             
                         </div>
                     </div>
@@ -154,9 +154,9 @@ export default function About() {
                                 alt="Picture of the author"
                                 
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Menstrual Issues</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Menstrual Issues</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-4 text-gray-700 px-6">Menstrual issues encompass a wide range of abnormalities or disturbances in the menstrual cycle, which can affect women's reproductive health and overall well-being. These issues irregular periods.:</p>
+                            <p className="text-md mt-4 text-gray-500 px-6">Menstrual issues encompass a wide range of abnormalities or disturbances in the menstrual cycle, which can affect women&apos;s reproductive health and overall well-being. These issues irregular periods.</p>
                            
                         </div>
                     </div>
@@ -170,9 +170,9 @@ export default function About() {
                                 alt="Picture of the author"
                                
                             />
-                            <p className="text-2xl mt-4 text-black pl-6 font-bold">Infertility Work-up</p></a>
+                            <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Infertility Work-up</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                            <p className="text-lg mt-6 text-gray-700 px-4">The goal of the infertility work-up is to identify any factors contributing to infertility and develop a personalized treatment plan to address them within a reasonable timeframe.:</p>
+                            <p className="text-md mt-6 text-gray-500 px-4">The goal of the infertility work-up is to identify any factors contributing to infertility and develop a personalized treatment plan to address them within a reasonable timeframe.</p>
                             
                         </div>
                     </div>
@@ -191,9 +191,9 @@ export default function About() {
                                     height={200}
                                     alt="Picture of the author"
                                 />
-                                <p className="text-2xl mt-4 text-black pl-6 font-bold">Uro - Gynecological Problems</p></a>
+                                <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Uro - Gynecological Problems</p></a>
                                 <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                                <p className="text-lg mt-4 text-gray-700 px-6">Uro-gynecological problems may include pelvic organ prolapse, urinary incontinence, recurrent urinary tract infections, and other related issues requiring specialized medical attention.:</p>
+                                <p className="text-md mt-4 text-gray-500 px-6">Uro-gynecological problems may include pelvic organ prolapse, urinary incontinence, recurrent urinary tract infections, and other related issues requiring specialized medical attention.</p>
                             </div>
                         </div>
                     </div>
@@ -207,9 +207,9 @@ export default function About() {
                                     height={200}
                                     alt="Picture of the author"
                                 />
-                                <p className="text-2xl mt-4 text-black pl-6 font-bold">Menopausal Problems</p></a>
+                                <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Menopausal Problems</p></a>
                                 <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                                <p className="text-lg mt-4 text-gray-700 px-6">Menopausal problems refer to the various physical and psychological symptoms experienced by women as they transition from their reproductive years to menopause.:</p>
+                                <p className="text-md mt-4 text-gray-500 px-6">Menopausal problems refer to the various physical and psychological symptoms experienced by women as they transition from their reproductive years to menopause.</p>
                             </div>
                         </div>
                     </div>
@@ -223,9 +223,9 @@ export default function About() {
                                     height={200}
                                     alt="Picture of the author"
                                 />
-                                <p className="text-2xl mt-4 text-black pl-6 font-bold">Family Planning</p></a>
+                                <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Family Planning</p></a>
                                 <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
-                                <p className="text-lg mt-4 text-gray-700 px-6">Family planning encompasses a range of services and strategies aimed at helping individuals and couples achieve their desired family size while promoting reproductive health and autonomy.:</p>
+                                <p className="text-md mt-4 text-gray-500 px-6">Family planning encompasses a range of services and strategies aimed at helping individuals and couples achieve their desired family size while promoting reproductive.</p>
                             </div>
                         </div>
                     </div>

@@ -12,20 +12,21 @@ export default function About() {
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Adolescent Health Counselling</p>
+                    <p className="absolute bottom-10 text-white px-8 py-2">
+                    <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Adolescent Health Counselling</Link>
+                    </p>
                     
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-20 mb-24'>
-                <p className=" text-center text-[#009090] px-8 py-2 text-base mb-6">
-                    <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Adolescent Health Counselling</Link>
-                </p>
+            <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
+               
                 <p className='text-base text-justify text-[#5C5C5C]'>
                 Empower your adolescent to thrive with the dedicated support of Adolescent Health Counselling at Spandan Maternity Home. Our 
                 experienced counselors provide a safe and confidential space for teenagers to discuss a range of physical, emotional, and social health 
                 concerns. From navigating puberty and sexual health to managing stress, peer pressure, and mental well-being, we offer personalized 
-                guidance and strategies tailored to each individual's needs. With a compassionate approach and a focus on empowerment, we help 
+                guidance and strategies tailored to each individual&apos;s needs. With a compassionate approach and a focus on empowerment, we help 
                 adolescents develop the knowledge, skills, and resilience necessary to navigate the challenges of adolescence and emerge as healthy, 
-                confident young adults. Spandan will support your adolescent's journey towards a happy and fulfilling life.
+                confident young adults. Spandan will support your adolescent&apos;s journey towards a happy and fulfilling life.
                 </p>
                 <div className='flex'>
                 <div className='w-1/2 mt-12'>
@@ -57,6 +58,53 @@ export default function About() {
                         />
                     </div>
                 </div>
+
+                {/* footer-section */}
+                    <div className="flex gap-10 mt-24  h-[380px]">
+                        <div className="w-1/3 bg-white-700 flex flex-col items-center shadow-xl">
+                            <div className="flex flex-col items-left">
+                                <a href="/Treatments/Antenatal-Care">
+                                <Image
+                                    src="/images/Rectangle1.png"
+                                    width={500}
+                                    height={200}
+                                    alt="Picture of the author"
+                                />
+                                <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">Antenatal Care & Postnatal Care</p></a>
+                            </div>
+                        </div>
+                        <div className="w-1/3 bg-white-700 flex flex-col items-center shadow-xl">
+                            <div className="flex flex-col items-left pb-8">
+                            <a href="/Treatments/Preconception-Counselling">
+                                <Image
+                                src="/images/Rectangle2.png"
+                                    width={500}
+                                    height={200}
+                                    alt="Picture of the author"
+                                />
+                                <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">Preconception Counselling</p></a>
+                            </div>
+                        </div>
+                        <div className="w-1/3 bg-white-700 flex flex-col  items-center shadow-xl">
+                            <div className="flex flex-col items-left pb-8">
+                            <a href="/Treatments/Cancer-Screening">
+                                <Image
+                                    src="/images/Rectangle4.png"
+                                    width={500}
+                                    height={200}
+                                    alt="Picture of the author"
+                                
+                                />
+                                <p className="text-xl mt-4 text-purple-900  pl-6 font-bold"> Cancer Screening, Preventive Vaccination</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    <a href="/Treatments" className="block mt-20 pt-2 pb-2 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
+                        View All Treatments
+                    </a>
+
+                    </div>
             </div>
         </div>
     )}

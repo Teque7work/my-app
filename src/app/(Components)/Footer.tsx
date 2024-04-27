@@ -19,7 +19,8 @@ const Footer = () =>{
                         </span>
                         <div>
                             <p className="text-sm">Give us a call</p>
-                            <p>234-567 -8900</p>
+                            <p>99792 32346</p>
+                            <p>72288 62236</p>
                         </div>
                     </div>
 
@@ -32,7 +33,7 @@ const Footer = () =>{
                         </span>
                         <div>
                             <p className="text-sm">Send message</p>
-                            <p>hello@example.com</p>
+                            <p>spandanhospital@gmail.com</p>
                         </div>
                     </div>
 
@@ -43,17 +44,23 @@ const Footer = () =>{
                 <div className="w-1/6">
                     <h3 className="text-[#ffffff80] text-xl font-bold mb-6">Treatments</h3>
                     <ul className="text-sm space-y-4">
-                        <li>Gynaecology</li>
-                        <li>Male Infertility</li>
-                        <li>Laparoscopy Surgery</li>
+                        <li>Antenatal Care & Postnatal Care</li>
+                        <li>Preconception Counselling</li>
+                        <li>Cancer Screening, Diagnosis & Preventive Vaccination</li>
+                        <li>Menstrual Issues</li>
+                        <li>Uro - Gynecological Problems</li>
+                        <li>Sexually Transmitted Disease</li>
                        
                     </ul>
                 </div>
                 <div className="w-2/6">
                     <ul className="text-sm mt-12 space-y-4">
-                        <li>Women Infertility</li>
-                        <li>Maternity</li>
-                        <li>IVF Center</li>
+                        <li>Infertility Work-up</li>
+                        <li>Family Planning</li>
+                        <li>Laparoscopic & Hysteroscopic Surgeries</li>
+                        <li>Menopausal Problems</li>
+                        <li>Adolescent Health Counselling</li>
+                        <li>IVF Speciality</li>
                     </ul>
                 </div>
                 <div className="w-1/2">
@@ -66,13 +73,32 @@ const Footer = () =>{
                             <path fillRule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="text-base"> <Link href="#"> View Map </Link> </div>
+                        <div className="text-base"> <Link href="https://maps.app.goo.gl/fYuXumSpGL1qU6gn8" target="_blank"> View Map </Link> </div>
                     </div>
                     <div className="flex mt-8 items-center space-x-6">
-                    <span> <Image src="/SVG/facebook-app-symbol.svg" alt="Instagram" width={15} height={15} /> </span>
-                    <span> <Image src="/SVG/instagram-icon.svg" alt="Instagram" width={15} height={15} /> </span>
-                    <span> <Image src="/SVG/twitter-icon.svg" alt="Instagram" width={15} height={15} /> </span>
-                    <span> <Image src="/SVG/whatsapp-x-icon.svg" alt="Instagram" width={15} height={15} /> </span>
+                    <Link href="https://www.instagram.com/spandanmaternityhome">
+                        <span>
+                            <Image src="/SVG/facebook-app-symbol.svg" alt="Instagram" width={15} height={15} />
+                        </span>
+                    </Link>
+                    <Link href="https://www.instagram.com/spandanmaternityhome/">
+                    <span>
+                            <Image src="/SVG/instagram-icon.svg" alt="Instagram" width={15} height={15} />
+                    </span>
+                    </Link>
+                    <Link href="#">
+                    <span> 
+                        <Image src="/SVG/twitter-icon.svg" alt="Instagram" width={15} height={15} />
+                         </span>
+                    </Link>
+                    <Link href="#">
+                    <span> 
+                        <Image src="/SVG/whatsapp-x-icon.svg" alt="Instagram" width={15} height={15} /> 
+                        </span>
+                    </Link>
+                    
+                   
+                   
                 </div>
                 </div>
                 
