@@ -61,7 +61,7 @@ export default function About() {
                         <div className='mt-10'>
                             <p>
                                 Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing
-                                in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning
+                                in state-of-the-art treatments/for a ray-200 wide range of gynaecological issues. With extensive experience spanning
                                 over 20 years,
                                     Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.
                             </p>
