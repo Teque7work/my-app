@@ -56,14 +56,14 @@ export default function About() {
             </div>
                 <div className="text-xl text-center mt-20 bg-slate-100 text-slate-500">
                     <div className='container max-w-[1280px] mx-auto pt-14 pb-14 '>
-                        <p className='text-4xl text-center' style={{ color: 'rgb(1, 146, 144)'}}> Dr. Surabhi Vegad : Empowering Women's Health</p>
+                        <p className='text-4xl text-center' style={{ color: 'rgb(1, 146, 144)'}}> Dr. Surabhi Vegad : Empowering Womens Health</p>
                    
                         <div className='mt-10'>
                             <p>
                                 Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing
                                 in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning
                                 over 20 years,
-                                    Dr. Vegad is a trailblazer in women's healthcare, consistently advancing research and patient care.
+                                    Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.
                             </p>
                             <br></br>
                             <p >
