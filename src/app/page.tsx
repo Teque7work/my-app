@@ -70,7 +70,7 @@ export default function Home() {
                 <div className='pb-10'>
                 <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Women&apos;s Health</h1> 
                    
-                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p> 
+                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
 
                   <p className='font-medium pb-6 text-slate-500'>As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care. </p> 
 
@@ -525,7 +525,7 @@ export default function Home() {
                         </div>
 
                         <div className='text-left text-slate-500'>
-                            <p>Choosing Spandan was a decision I'll forever cherish, as they turned what could have been a daunting experience into a journey filled with support, comfort, and joy.As I welcomed my little one into the world under their care, I knew that the bond forged at Spandan Maternity Home would endure as a cherished chapter in my journey to motherhood.I was greeted not just as a patient, but as a cherished member of their extended family.</p>
+                            <p>Choosing Spandan was a decision I will forever cherish, as they turned what could have been a daunting experience into a journey filled with support, comfort, and joy.As I welcomed my little one into the world under their care, I knew that the bond forged at Spandan Maternity Home would endure as a cherished chapter in my journey to motherhood.I was greeted not just as a patient, but as a cherished member of their extended family.</p>
                         </div>
                         
                         <div className='mt-5'>

@@ -35,7 +35,7 @@ export default function About() {
                     </div>
                     <div className='w-full lg:w-1/2'>
                         {/* Replace the image with your actual image */}
-                        <img src="/images/ivfimg.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
+                        <Image src="/images/ivfimg.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
                     </div>
                 </div>
            </div>
