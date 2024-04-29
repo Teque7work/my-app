@@ -20,7 +20,7 @@ export default function About() {
                 <div className="box-border h-auto w-full p-4 flex">
                     <div>
                         <Image
-                        src="/images/surbhi-vegad-1.jpg"
+                        src="images/surbhi-vegad-1.jpg"
                         width={700}
                         height={600}
                         alt="Dr. Surabhi Vegad"
