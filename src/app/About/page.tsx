@@ -20,12 +20,10 @@ export default function About() {
                 <div className="box-border h-auto w-full p-4 flex">
                     <div>
                         <Image
-                        src="images/surbhi-vegad-1.jpg"
+                        src="/images/surbhi-vegad-1.jpg"
                         width={700}
                         height={600}
-                        alt="Dr. Surabhi Vegad"
-                        
-                        />
+                        alt="Dr. Surabhi Vegad" />
                     </div>
                     <div className="ml-24 mt-8">
                         <h1 className="text-4xl text-left ml-4 font-bold " style={{ color: 'rgb(1, 146, 144)'}} >Dr. Surabhi Vegad</h1>
