@@ -30,7 +30,7 @@ export default function Contact() {
             </div>
             <div className='container max-w-[1280px] mx-auto mt-10 mb-24'>
                 <div className="box-border h-auto w-full  flex mt-20 border-2 rounded-2xl">
-                    <Image className="rounded-l-2xl" width={600}  src="images/reception.jpg" alt="Dr. Surabhi Vegad"/>
+                    <Image className="rounded-l-2xl" width={600} height={600}  src="/images/reception.jpg" alt="Dr. Surabhi Vegad"/>
                         <div className='w-30 h-10 p-20'>
                             <p className="text-base text-left  font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
                             <p className="text-4xl text-left  font-bold text-green-500 mt-5" style={{ color: 'rgb(1, 146, 144)'}}>

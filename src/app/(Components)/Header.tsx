@@ -315,7 +315,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center">
             <div className="text-pink-500 !z-[999]">
               <Link href="/">
-                <Image src="../SVG/Spandan-Logo-Text-Side.svg" alt="Spandan Maternity" width={200} height={64} />
+                <Image  src="/Images/Spandan.png"  alt="Spandan Maternity" width={250} height={64} />
               </Link>
             </div>
             <div className="flex text-black !z-[999]">

@@ -43,13 +43,15 @@ export default function Home() {
             <div className='text-center pt-11 pb-6 w-full'>
               {/* <p className='text-sm mb-2 text-pink-500'>About Us</p> */}
 
+              
                 <h1 className='text-5xl font-bold text-purple-900'>Dr. Surabhi Vegad</h1> 
-                <p className='mb-6 text-sm text-pink-500 pt-2'>Leading Gynecologist in BHUJ, Kutch</p>
+                <p className='mb-6 text-sm text-pink-500 pt-2'>Leading Gynecologist in Bhuj, Kutch</p>
                 <div className='flex justify-center heading-title'>
                   <span>
                     <Image className='mx-auto' src="/Images/Group-98.png" alt="" width={40} height={40} />
                   </span>
                 </div>
+
             </div>
 
             <div className='flex container max-w-[1280px] mx-auto pb-8 gap-20'>
@@ -66,9 +68,9 @@ export default function Home() {
               
               <div className='w-3/5 flex justify-center items-center'>
                 <div className='pb-10'>
-                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Womens Health</h1> 
+                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Women&apos;s Health</h1> 
                    
-                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200 wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p> 
+                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p> 
 
                   <p className='font-medium pb-6 text-slate-500'>As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care. </p> 
 
@@ -78,6 +80,7 @@ export default function Home() {
                       Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                       </svg>
+
                   </button>
 
                   {/* <div className='flex items-center gap-4 mt-12'>
@@ -228,23 +231,7 @@ export default function Home() {
                     </button>
                   </Link>
                 </div>
-
-                {/* <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/Male-Infertility-icon.svg" alt="Laparoscopy Surgery" width={70} height={70} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Male Infertility</h3>
-                  <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
-                  
-                  <Link href="/"> 
-                    <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
-                        Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-
-                    </button>
-                  </Link>
-                </div> */}
-
-                <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
+                <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-8'>
                   <Image className='pb-2' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={70} height={70} />
                   <h3 className='text-purple-900 font-semibold mb-2'>Women Infertility</h3>
                   <p className='text-purple-900 text-sm'> Difficulty conceiving.</p>
@@ -440,7 +427,7 @@ export default function Home() {
                         </div>
 
                         <div className='text-left text-slate-500'>
-                            <p>It was never felt as hospital. So much care, help,guidance received from the staff of spandan team. From starting of pregnancy of my wife, we got very good guidance from Dr. Vinkal dhanani. Thanks to every individual of Spandan team.</p>
+                            <p>Spandan Maternity Home has been a beacon of comfort and care for expecting mothers like me. From the moment I stepped in, I felt welcomed and reassured by the compassionate staff. Their dedication to ensuring a smooth and stress-free experience truly sets them apart. I can confidently say that my journey through pregnancy was made easier and more enjoyable because of the exceptional care provided at Spandan Maternity Home.</p>
                         </div>
                         
                         <div className='mt-5'>
@@ -465,7 +452,7 @@ export default function Home() {
 
                           <div>
 
-                            <h3 className='text-lg font-semibold pb-1 text-slate-500'>Mahendra Karwa</h3>
+                            <h3 className='text-lg font-semibold pb-1 text-slate-500'>Seema chudasama</h3>
                             <div className='flex'>
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                               <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -489,7 +476,7 @@ export default function Home() {
                         </div>
 
                         <div className='text-left text-slate-500'>
-                            <p>It was never felt as hospital. So much care, help,guidance received from the staff of spandan team. From starting of pregnancy of my wife, we got very good guidance from Dr. Vinkal dhanani. Thanks to every individual of Spandan team.</p>
+                            <p>Entering Spandan Maternity Home felt like stepping into a sanctuary tailored for mothers-to-be. The ambiance exudes warmth, and the staff&apos;s attentiveness creates an atmosphere of trust and confidence. Throughout my pregnancy, their comprehensive care, coupled with personalized attention, not only addressed my medical needs but also nurtured my emotional well-being.</p>
                         </div>
                         
                         <div className='mt-5'>
@@ -514,7 +501,7 @@ export default function Home() {
 
                           <div>
 
-                            <h3 className='text-lg font-semibold pb-1 text-slate-500'>Mahendra Karwa</h3>
+                            <h3 className='text-lg font-semibold pb-1 text-slate-500'>Preet Kaur</h3>
                             <div className='flex'>
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                               <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -538,7 +525,7 @@ export default function Home() {
                         </div>
 
                         <div className='text-left text-slate-500'>
-                            <p>It was never felt as hospital. So much care, help,guidance received from the staff of spandan team. From starting of pregnancy of my wife, we got very good guidance from Dr. Vinkal dhanani. Thanks to every individual of Spandan team.</p>
+                            <p>Choosing Spandan was a decision I'll forever cherish, as they turned what could have been a daunting experience into a journey filled with support, comfort, and joy.As I welcomed my little one into the world under their care, I knew that the bond forged at Spandan Maternity Home would endure as a cherished chapter in my journey to motherhood.I was greeted not just as a patient, but as a cherished member of their extended family.</p>
                         </div>
                         
                         <div className='mt-5'>
