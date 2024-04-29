@@ -53,16 +53,17 @@ export default function About() {
                     <AccordionItem key="8" className="p-8 flex flex-col justify-left items-left text-white bg-[rgb(0,110,143)]" aria-label="Accordion 8" title="8. What Insurances Do You Accept?">
                         {defaultContent}
                     </AccordionItem>
-                </Accordion>
-                <Accordion className="grid grid-cols-1 gap-8 mt-8">
-                <AccordionItem 
-                        key="9"  
-                        className="p-8 flex flex-col justify-left items-left border-0 text-white bg-[rgb(0,110,143)]" 
-                        aria-label="Accordion 9" 
-                        title={<div className="border-none">1. What Insurances Do You Accept?</div>}
-                    >
-                        {defaultContent}
-                    </AccordionItem>
+               
+               
+                    <AccordionItem 
+    key="9" 
+    className="p-8 flex flex-col border-0 text-white justify-between bg-[rgb(0,110,143)]"  
+    title={<div className="border-none outline-none text-black flex justify-between">
+    1. What Insurances Do You Accept? {'>'}
+</div>}
+>
+    {defaultContent}
+</AccordionItem>
                     <AccordionItem key="10" className="p-8  flex flex-col justify-left items-left border-none text-white bg-[rgb(0,110,143)]" aria-label="Accordion 10" title="2. What Insurances Do You Accept?">
                         {defaultContent}
                     </AccordionItem>

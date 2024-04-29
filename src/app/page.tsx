@@ -68,7 +68,7 @@ export default function Home() {
               
               <div className='w-3/5 flex justify-center items-center'>
                 <div className='pb-10'>
-                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Women&apos;s Health</h1> 
+                <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Womens Health</h1> 
                    
                   <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
 
@@ -335,7 +335,7 @@ export default function Home() {
 
                       <div className='flex gap-10'>
                         <div className='space-y-3 text-slate-500'>
-                          <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
+                          <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive womens healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
                         </div>
                       </div>
 
@@ -476,7 +476,7 @@ export default function Home() {
                         </div>
 
                         <div className='text-left text-slate-500'>
-                            <p>Entering Spandan Maternity Home felt like stepping into a sanctuary tailored for mothers-to-be. The ambiance exudes warmth, and the staff&apos;s attentiveness creates an atmosphere of trust and confidence. Throughout my pregnancy, their comprehensive care, coupled with personalized attention, not only addressed my medical needs but also nurtured my emotional well-being.</p>
+                            <p>Entering Spandan Maternity Home felt like stepping into a sanctuary tailored for mothers-to-be. The ambiance exudes warmth, and the staffs attentiveness creates an atmosphere of trust and confidence. Throughout my pregnancy, their comprehensive care, coupled with personalized attention, not only addressed my medical needs but also nurtured my emotional well-being.</p>
                         </div>
                         
                         <div className='mt-5'>
