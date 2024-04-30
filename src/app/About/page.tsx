@@ -1,7 +1,8 @@
 'use client';
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 import ModalImage from "react-modal-image";
+
 export default function About() {
     return (
      
