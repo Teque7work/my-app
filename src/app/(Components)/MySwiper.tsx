@@ -5,6 +5,7 @@ import { Button } from '@nextui-org/react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from "swiper/modules";
 
 // Import Swiper styles
 
@@ -21,13 +22,17 @@ const MySwiper: React.FC = () => {
     return(
 
       <Swiper
-        pagination={{
-          dynamicBullets: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper !h-screen !z-[1]"
-        // className="mySwiper !h-screen mt-[-135px] !z-[1]"
-        >
+      pagination={{
+        dynamicBullets: true,
+        clickable: true,
+        bulletClass: 'my-pagination-bullet',
+        bulletActiveClass: 'my-pagination-bullet-active',
+      }}
+      autoplay={true}
+      loop={true}
+      modules={[Autoplay, Navigation, Pagination]}
+      className="mySwiper !h-screen !z-[1]"
+    >
 
           <SwiperSlide className="flex w-full justify-center items-center bg-[url('/Images/Main-Banner-Website-Banner.jpg')] bg-cover bg-no-repeat"> 
             <div className='max-w-[1280px] mx-auto w-full h-full px-4 flex flex-row items-center'>

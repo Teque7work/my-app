@@ -34,13 +34,13 @@ export default function Home() {
           <div className="full mx-auto pl-4 pr-4 lg:pl-0 lg:pr-0">
 
             {/* Swiper Section */}
-            <section className='justify-center fx- mx-auto pb-4 !z-[99999]'>
+            <section className='justify-center fx- mx-auto pb-4 mb-8 !z-[99999]'>
               <MySwiper />
             </section>
 
             {/* About Section */}
 
-            <div className='text-center pt-11 pb-6 w-full'>
+            <div className='text-center pt-11 pb-4 w-full'>
               {/* <p className='text-sm mb-2 text-pink-500'>About Us</p> */}
 
               
@@ -66,8 +66,8 @@ export default function Home() {
                 />
               </div>
               
-              <div className='w-3/5 flex justify-center items-center'>
-                <div className='pb-10'>
+              <div className='w-3/5 flex justify-center  items-center'>
+                <div className=''>
                 <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Womens Health</h1> 
                    
                   <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
@@ -98,38 +98,22 @@ export default function Home() {
             </div>
 
             {/* Services Section */}
-            <div className='container max-w-[1280px] mx-auto mt-2 mb-24'>
-
-              {/* <div className='flex flex-col items-center pt-11 pb-11'>
-                <p className='w-3/4 text-center pb-3 text-2xl'>“Our mission is to empower women to take control of their health, making informed decisions that lead to happier, healthier lives.”</p>
-                <p className='font-semibold text-purple-900 '>Dr Surbhi Vegad, MD</p>
-
-              </div> */}
-
-              {/* Add a vertical line */}
-              {/* <div className='flex justify-center'>
-                <div className="border-l border-yellow-700 h-36 mx-4"></div>
-              </div> */}
-
-              <div className='bg-purple-50 pl-10 mb-6 rounded flex justify-between items-end'>
-
-                <div className='pb-20'>
-                  <h1 className='text-4xl font-bold text-purple-900 mb-2'>Tailored care for every <br></br>stage of life</h1> 
-                  
-                </div>
-
+          
+              <div className='bg-purple-50 mb-8 mt-16 rounded flex justify-between items-end '>
+              <div className='max-w-[1280px] mx-auto'>
+                <h1 className='text-4xl font-bold text-purple-900 mb-2'>Tailored care for every <br></br>stage of life</h1> 
+              </div>
                 <div className='mask-image'>
                   <div className='mask'>
                     <Image src="/Images/women.jpg" width={500} height={500} alt="" />
                   </div>
                 </div>
-
               </div>
-
-              <div className='grid grid-rows-1 grid-flow-col gap-6 items-center pt-14'>
+            <div className='container max-w-[1280px] mx-auto mt-2'>
+              <div className='grid grid-rows-1 grid-flow-col gap-6 items-center pt-16'>
 
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={70} height={70} />
+                  <Image className='pb-2' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50} />
                   <h3 className='text-purple-900 font-semibold mb-2'>Gynaecology</h3>
                   <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
                   <Link href="/"> 
@@ -142,23 +126,8 @@ export default function Home() {
                   </Link>
                 </div>
 
-                {/* <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={70} height={70} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Laparoscopy Surgery</h3>
-                  <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
-                  
-                  <Link href="/"> 
-                    <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
-                        Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-
-                    </button>
-                  </Link>
-                </div> */}
-
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/Male-Infertility-icon.svg" alt="Laparoscopy Surgery" width={70} height={70} />
+                  <Image className='pb-2' src="./SVG/Male-Infertility-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
                   <h3 className='text-purple-900 font-semibold mb-2'>Male Infertility</h3>
                   <p className='text-purple-900 text-sm'>Diagnose and treat reproductive issues in men</p>
                   
@@ -171,26 +140,10 @@ export default function Home() {
                     </button>
                   </Link>
                 </div>
-
-                {/* <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={70} height={70} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Women Infertility</h3>
-                  <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
-                  
-                  <Link href="/"> 
-                    <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
-                        Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-
-                    </button>
-                  </Link>
-                </div> */}
-
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={70} height={70} />
+                  <Image className='pb-2' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={50} height={50} />
                   <h3 className='text-purple-900 font-semibold mb-2'>Maternity</h3>
-                  <p className='text-purple-900 text-sm'>Ensuring healthy pregnancies and safe deliveries.</p>
+                  <p className='text-purple-900 text-sm'>healthy pregnancies and safe deliveries.</p>
                   
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -201,24 +154,8 @@ export default function Home() {
                     </button>
                   </Link>
                 </div>
-
-
-                {/* <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={70} height={70} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Gynaecology</h3>
-                  <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
-                  <Link href="/"> 
-                    <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
-                        Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-
-                    </button>
-                  </Link>
-                </div> */}
-
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={70} height={70} />
+                  <Image className='pb-2' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
                   <h3 className='text-purple-900 font-semibold mb-2'>Laparoscopy Surgery</h3>
                   <p className='text-purple-900 text-sm'>Minimally invasive abdominal procedure.</p>
                   
@@ -231,10 +168,10 @@ export default function Home() {
                     </button>
                   </Link>
                 </div>
-                <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-8'>
-                  <Image className='pb-2' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={70} height={70} />
+                <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6'>
+                  <Image className='pb-2' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={50} height={50} />
                   <h3 className='text-purple-900 font-semibold mb-2'>Women Infertility</h3>
-                  <p className='text-purple-900 text-sm'> Difficulty conceiving.</p>
+                  <p className='text-purple-900 text-sm'>  Journey of hope and perseverance.</p>
                   
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -246,80 +183,14 @@ export default function Home() {
                   </Link>
                 </div>
 
-                {/* <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={70} height={70} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Maternity</h3>
-                  <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
-                  
-                  <Link href="/"> 
-                    <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
-                        Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-
-                    </button>
-                  </Link>
-                </div> */}
-
-
-                
-
               </div>
             </div>
 
-            {/* Services Section: Option - 2 */}
-            
-            {/* <div className="max-w-[1280px] mx-auto flex w-full flex-col pt-14 pb-14">
-              <Tabs aria-label="Options">
-                <Tab key="gynaecology" title="Gynaecology">
-                  <Card>
-                    <CardBody>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </CardBody>
-                  </Card>  
-                </Tab>
-                <Tab key="laparoscopy-surgery" title="Laparoscopy Surgery">
-                  <Card>
-                    <CardBody>
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </CardBody>
-                  </Card>  
-                </Tab>
-                <Tab key="male-infertility" title="Male Infertility">
-                  <Card>
-                    <CardBody>
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </CardBody>
-                  </Card>  
-                </Tab>
-                <Tab key="women-infertility" title="Women Infertility">
-                  <Card>
-                    <CardBody>
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </CardBody>
-                  </Card>  
-                </Tab>
-                <Tab key="maternity" title="Maternity">
-                  <Card>
-                    <CardBody>
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </CardBody>
-                  </Card>  
-                </Tab>
-              </Tabs>
-            </div>  */}
-
-
-                       
-            {/* <div className='container max-w-[1280px] mx-auto pt-8 pb-8'>
-              <Servies />
-            </div> */}
-
             {/* Parallex Section */}
-            <section className="bg-[url('/Images/parallax-lab-image.jpg')] min-h-96 bg-fixed" >
-              <div className="container max-w-[1280px] gap-10  mx-auto flex items-center min-h-96">
+            <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-16" >
+              <div className="container max-w-[1280px]  mx-auto flex items-center">
                 <div className="w-1/2 flex">
-                  <Image src="/Images/ladies.png" width={570} height={616} alt="" />
+                  <Image src="/Images/ladies.png" width={570} height={50} alt="" />
                  </div>
                 <div className="w-1/2">
                   <h3 className='mb-10 flex items-center text-[#27115f] w-[500px] font-bold text-2xl'>

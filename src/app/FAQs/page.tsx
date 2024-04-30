@@ -60,7 +60,8 @@ export default function About() {
     className="p-8 flex flex-col border-0 text-white justify-between bg-[rgb(0,110,143)]"  
     title={<div className="border-none outline-none text-black flex justify-between">
     1. What Insurances Do You Accept? {'>'}
-</div>}
+</div>
+}
 >
     {defaultContent}
 </AccordionItem>
