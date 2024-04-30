@@ -70,7 +70,7 @@ export default function Home() {
                 <div className=''>
                 <h1 className='text-4xl font-bold pb-12 text-purple-900 '>Empowering Womens Health</h1> 
                    
-                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200 wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
+                  <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200'wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
 
                   <p className='font-medium pb-6 text-slate-500'>As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care. </p> 
 
@@ -98,24 +98,25 @@ export default function Home() {
             </div>
 
             {/* Services Section */}
-          
-              <div className='bg-purple-50 mb-8 mt-16 rounded flex justify-between items-end '>
-              <div className='max-w-[1280px] mx-auto'>
-                <h1 className='text-4xl font-bold text-purple-900 mb-2'>Tailored care for every <br></br>stage of life</h1> 
-              </div>
-                <div className='mask-image'>
+                <div className='bg-purple-50 h-[320px]'>
+              <div className=' mb-8 mt-16 rounded flex justify-between items-end max-w-[1280px] mx-auto'>
+                <div>
+                  <h1 className='text-4xl font-bold text-purple-900 mb-16 '>Tailored care for every <br></br>stage of life</h1> 
+                </div>
+                <div className='mask-image mt-1'>
                   <div className='mask'>
-                    <Image src="/Images/women.jpg" width={500} height={500} alt="" />
+                    <Image src="/Images/women.jpg" width={550} height={550} alt="" />
                   </div>
                 </div>
               </div>
-            <div className='container max-w-[1280px] mx-auto mt-2'>
-              <div className='grid grid-rows-1 grid-flow-col gap-6 items-center pt-16'>
+              </div>
+            <div className='container max-w-[1280px] mx-auto mt-2 '>
+              <div className='grid grid-rows-1 grid-flow-col gap-6 items-center pt-16 mb-16'>
 
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Gynaecology</h3>
-                  <p className='text-purple-900 text-sm'>Gynecologists diagnose and manage various</p>
+                  <Image className='pb-4' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50}/>
+                  <h3 className='text-purple-900 font-semibold mb-4'>Gynaecology</h3>
+                  <p className='text-purple-900 text-sm mb-4'>Gynecologists diagnose and manage various</p>
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                         Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
@@ -127,9 +128,9 @@ export default function Home() {
                 </div>
 
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/Male-Infertility-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Male Infertility</h3>
-                  <p className='text-purple-900 text-sm'>Diagnose and treat reproductive issues in men</p>
+                  <Image className='pb-4' src="./SVG/Male-Infertility-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
+                  <h3 className='text-purple-900 font-semibold mb-4'>Male Infertility</h3>
+                  <p className='text-purple-900 text-sm mb-4'>Diagnose and treat reproductive issues in men</p>
                   
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -141,9 +142,9 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={50} height={50} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Maternity</h3>
-                  <p className='text-purple-900 text-sm'>healthy pregnancies and safe deliveries.</p>
+                  <Image className='pb-4' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={50} height={50} />
+                  <h3 className='text-purple-900 font-semibold mb-4'>Maternity</h3>
+                  <p className='text-purple-900 text-sm mb-4'>healthy pregnancies and safe deliveries.</p>
                   
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -155,9 +156,9 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-                  <Image className='pb-2' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Laparoscopy Surgery</h3>
-                  <p className='text-purple-900 text-sm'>Minimally invasive abdominal procedure.</p>
+                  <Image className='pb-4' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
+                  <h3 className='text-purple-900 font-semibold mb-4'>Laparoscopy Surgery</h3>
+                  <p className='text-purple-900 text-sm mb-4'>Minimally invasive abdominal procedure.</p>
                   
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -169,9 +170,9 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6'>
-                  <Image className='pb-2' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={50} height={50} />
-                  <h3 className='text-purple-900 font-semibold mb-2'>Women Infertility</h3>
-                  <p className='text-purple-900 text-sm'>  Journey of hope and perseverance.</p>
+                  <Image className='pb-4' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={50} height={50} />
+                  <h3 className='text-purple-900 font-semibold mb-4'>Women Infertility</h3>
+                  <p className='text-purple-900 text-sm mb-4'>  Journey of hope and perseverance.</p>
                   
                   <Link href="/"> 
                     <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -187,14 +188,13 @@ export default function Home() {
             </div>
 
             {/* Parallex Section */}
-            <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-16" >
+            <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-20 h-[500px]" >
               <div className="container max-w-[1280px]  mx-auto flex items-center">
-                <div className="w-1/2 flex">
-                  <Image src="/Images/ladies.png" width={570} height={50} alt="" />
-                 </div>
+            <div className="w-1/2 flex items-start mt-[-190px]">
+              <Image src="/Images/family.png" width={550} height={400} alt="" />
+            </div>
                 <div className="w-1/2">
-                  <h3 className='mb-10 flex items-center text-[#27115f] w-[500px] font-bold text-2xl'>
-                    {/* <FontAwesomeIcon icon={faQuoteLeft} className="mr-12 h-10 text-[#27115f]"></FontAwesomeIcon> */}
+                  <h3 className=' flex items-center text-[#27115f] w-[500px] font-bold text-2xl mb-8'>
                     Introducing Bavishi Fertility Institute (BFI) - Premier IVF & Gynecology Care in Bhuj, Kutch
                   </h3>
 
@@ -204,7 +204,7 @@ export default function Home() {
 
                     <div className='space-y-8'>
 
-                      <div className='flex gap-10'>
+                      <div className='flex gap-8'>
                         <div className='space-y-3 text-slate-500'>
                           <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive womens healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
                         </div>
@@ -234,7 +234,7 @@ export default function Home() {
 
 
             {/* Testimonials Section */}
-            <div className='container max-w-[1280px] gap-7 flex mx-auto pt-4 pb-8 my-28 items-center'>
+            <div className='container max-w-[1280px] gap-7 flex mx-auto  pb-8 mt-20  items-center'>
 
               <div className='w-2/5'>
                 <div className='text-left'>
@@ -417,10 +417,10 @@ export default function Home() {
 
             </div>
 
-            <section className='bg-purple-50 pt-14 pb-20'>
+            <section className='bg-purple-50 pt-24 mt-14 h-[400px]'>
               <div className="max-w-[1280px] mx-auto">
 
-                  <div className='text-center mb-3'>
+                  <div className='text-center '>
                     <h1 className='text-2xl mb-2 font-bold text-purple-900'>Insurance Approved Consultant</h1> 
                     <p className='text-xs pb-6 text-purple-800'>* All product names, logos, brands, trademarks and registered trademarks are property of their respective owners.</p>
                   </div>

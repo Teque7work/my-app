@@ -1,4 +1,3 @@
-'use client';
 import Link from "next/link";
 import Image from "next/image";
 
@@ -6,12 +5,12 @@ const Footer = () =>{
     return(
         <div className="bg-[#27115f] mt-28">
 
-            <div className="container mx-auto max-w-[1280px] flex justify-between items-center space-x-10 text-white mt-8 ">
+            <div className="container mx-auto max-w-[1280px] flex justify-between items-center space-x-10 text-white mt-8 mb-16">
                 <div className="w-1/2">
                     <Image className="ml-[-5px] mt-12" src="/Images/Asset 5.png" width={300} height={300} alt="Spandan Maternity Home" />
                     {/* <p className="w-52">Empowering Her Health. Every Step of the Way</p> */}
                 </div>
-                <div className="flex w-1/2 space-x-9 mt-[-350px]">
+                <div className="flex w-1/2 space-x-9 mt-[-120px]">
                     <div className="flex w-full items-center justify-center bg-pink-600 p-4 rounded ">
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="bg-pink-700 p-2 rounded-full w-12 h-12 mr-4">
