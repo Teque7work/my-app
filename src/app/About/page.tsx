@@ -95,22 +95,22 @@ export default function About() {
                             <div className="grid grid-cols-3 mx-0 mt-6 gap-20" >
                                 <div>
                                     <ModalImage
-                                        small="/images/Group0213.png"
-                                        large="/images/Group0213.png"
+                                        small="/Images/Group0213.png"
+                                        large="/Images/Group0213.png"
                                     
                                     />
                                 </div>
                                 <div>
                                     <ModalImage
-                                        small="/images/cert2.png"
-                                        large="/images/cert2.png"
+                                        small="/Images/cert2.png"
+                                        large="/Images/cert2.png"
                                     
                                     />
                                 </div>
                                 <div>
                                     <ModalImage
-                                        small="/images/cert3.png"
-                                        large="/images/cert3.png"
+                                        small="/Images/cert3.png"
+                                        large="/Images/cert3.png"
                                     
                                     />
                                 </div>
