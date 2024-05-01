@@ -277,8 +277,6 @@ export default function Facilities() {
 
                 </div>
 
-
-           
         </div>
     );
 }
