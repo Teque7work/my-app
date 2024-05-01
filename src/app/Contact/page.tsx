@@ -70,7 +70,7 @@ export default function Contact() {
                 
                 >
                                 <SwiperSlide>  <Image
-                                    src="/Images/insurance1.jpg"
+                                    src="/Images/insurance1.png"
                                     width={200}
                                     height={200}
                                     alt="Picture of the author"
@@ -119,7 +119,7 @@ export default function Contact() {
                              
                                 /></SwiperSlide>
                                 <SwiperSlide>  <Image
-                                    src="/Images/insurance7.jpeg"
+                                    src="/Images/insurance7.png"
                                     width={200}
                                     height={200}
                                     alt="Picture of the author"
