@@ -28,7 +28,7 @@ export default function Insurance() {
                 <div className="box-border rounded-2xl h-auto w-screen/4 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
                     <div>
                         <Image
-                            src="/images/insurance1.png"
+                            src="/Images/insurance1.png"
                             width={200} 
                             height={200} 
                             alt="Picture of the author"
@@ -39,7 +39,7 @@ export default function Insurance() {
                     <div className="text-xl rounded-2xl box-border h-auto w-screen/4 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
-                                src="/images/insurance2.png"
+                                src="/Images/insurance2.png"
                                 width={200} 
                                 height={200} 
                                 alt="Picture of the author"
@@ -50,7 +50,7 @@ export default function Insurance() {
                     <div className="box-border rounded-2xl h-auto w-screen/4 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
-                                src="/images/insurance3.png"
+                                src="/Images/insurance3.png"
                                 width={200} 
                                 height={200} 
                                 alt="Picture of the author"
@@ -61,7 +61,7 @@ export default function Insurance() {
                     <div className="box-border rounded-2xl h-auto w-screen/4 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
                     <div>
                         <Image
-                            src="/images/insurance4.png"
+                            src="/Images/insurance4.png"
                             width={200} 
                             height={200} 
                             alt="Picture of the author"
@@ -73,7 +73,7 @@ export default function Insurance() {
                     <div className="box-border rounded-2xl h-auto p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300">
                         <div>
                             <Image
-                                src="/images/insurance5.png"
+                                src="/Images/insurance5.png"
                                 width={250} 
                                 height={250} 
                                 alt="Picture of the author"
@@ -84,7 +84,7 @@ export default function Insurance() {
                     <div className="box-border rounded-2xl h-auto p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300">
                         <div>
                             <Image
-                                src="/images/insurance6.png"
+                                src="/Images/insurance6.png"
                                 width={250} 
                                 height={250} 
                                 alt="Picture of the author"
@@ -95,7 +95,7 @@ export default function Insurance() {
                     <div className="box-border rounded-2xl h-auto p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300">
                         <div>
                             <Image
-                                src="/images/insurance7.png"
+                                src="/Images/insurance7.png"
                                 width={250} 
                                 height={250} 
                                 alt="Picture of the author"

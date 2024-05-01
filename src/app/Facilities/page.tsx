@@ -51,7 +51,7 @@ export default function Facilities() {
                             zIndex: '1',
                         }} />
                         <Image
-                            src="/images/facilities7.jpg"
+                            src="/Images/facilities7.jpg"
                             width={1010}
                             height={550}
                             alt="Main Image"
@@ -103,7 +103,7 @@ export default function Facilities() {
                     >
                         <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/facilities2.jpg"
+                                src="/Images/facilities2.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -112,7 +112,7 @@ export default function Facilities() {
                                </SwiperSlide>
                             <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/facilities3.jpg"
+                                src="/Images/facilities3.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -121,7 +121,7 @@ export default function Facilities() {
                         </SwiperSlide>
                         <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/facilities5.jpg"
+                                src="/Images/facilities5.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -130,7 +130,7 @@ export default function Facilities() {
                         </SwiperSlide>
                         <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/facilities6.jpg"
+                                src="/Images/facilities6.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -139,7 +139,7 @@ export default function Facilities() {
                         </SwiperSlide>
                         <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/facilities8.jpg"
+                                src="/Images/facilities8.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -148,7 +148,7 @@ export default function Facilities() {
                         </SwiperSlide>
                         <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/fac1.jpg"
+                                src="/Images/fac1.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -157,7 +157,7 @@ export default function Facilities() {
                         </SwiperSlide>
                         <SwiperSlide style={{ width: '350px', height: '350px' }}>
                             <Image
-                                src="/images/facilities9.jpg"
+                                src="/Images/facilities9.jpg"
                                 layout="fill" 
                                 objectFit="cover" 
                                 alt="First Image"
@@ -190,7 +190,7 @@ export default function Facilities() {
                             zIndex: '1',
                         }} />
                         <Image
-                            src="/images/facilities4.jpg"
+                            src="/Images/facilities4.jpg"
                             width={1010}
                             height={550}
                             alt="Main Image"
@@ -222,7 +222,7 @@ export default function Facilities() {
                             <div className=" h-auto rounded-2xl  w-screen/4 flex flex-col">
                                 <div>
                                     <Image
-                                    src="/images/ivfcenter1.jpg"
+                                    src="/Images/ivfcenter1.jpg"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"
@@ -235,7 +235,7 @@ export default function Facilities() {
                             <div className="text-xl h-auto w-screen/4 flex flex-col justify-center ">
                                 <div>
                                     <Image
-                                        src="/images/ivfcenter6.jpg"
+                                        src="/Images/ivfcenter6.jpg"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"
@@ -248,7 +248,7 @@ export default function Facilities() {
                             <div className=" h-auto w-screen/4 flex flex-col justify-center">
                                 <div>
                                     <Image
-                                    src="/images/ivfcenter3.jpg"
+                                    src="/Images/ivfcenter3.jpg"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"
@@ -261,7 +261,7 @@ export default function Facilities() {
                             <div className="h-auto w-screen/4 flex flex-col justify-center">
                                 <div>
                                     <Image
-                                    src="/images/ivfcenter5.jpg"
+                                    src="/Images/ivfcenter5.jpg"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"

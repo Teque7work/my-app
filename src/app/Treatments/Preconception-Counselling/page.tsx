@@ -47,7 +47,7 @@ export default function About() {
 
                     <div className='w-1/2 mt-12 container max-w-[500px] max-h-[500px]'>   
                         <Image
-                        src="/images/treat2.jpg"
+                        src="/Images/treat2.jpg"
                         width={500}
                         height={500} // Adjusted height
                         alt="Picture of the author"
@@ -62,7 +62,7 @@ export default function About() {
                             <div className="flex flex-col items-left">
                                 <a href="/Treatments/Antenatal-Care">
                                 <Image
-                                    src="/images/Rectangle1.png"
+                                    src="/Images/Rectangle1.png"
                                     width={500}
                                     height={200}
                                     alt="Picture of the author"
@@ -74,7 +74,7 @@ export default function About() {
                             <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Cancer-Screening">
                             <Image
-                                 src="/images/Rectangle4.png"
+                                 src="/Images/Rectangle4.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -87,7 +87,7 @@ export default function About() {
                             <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Sexually-Transmitted-Disease">
                             <Image
-                                 src="/images/Rectangle6.png"
+                                 src="/Images/Rectangle6.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"

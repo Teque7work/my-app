@@ -21,7 +21,7 @@ export default function Contact() {
                 <div className="grid grid-cols-3 mx-0 mt-6 gap-4" >
                     <div >
                         <Image
-                            src="/images/surabhi-Bg.png"
+                            src="/Images/surabhi-Bg.png"
                             width={400}
                             height={300}
                             alt="Picture of the author"
@@ -40,7 +40,7 @@ export default function Contact() {
                     </div>
                     <div>
                         <Image
-                            src="/images/surabhi-Bg.png"
+                            src="/Images/surabhi-Bg.png"
                             width={400}
                             height={300}
                             alt="Picture of the author"
@@ -58,7 +58,7 @@ export default function Contact() {
                     </div>
                     <div className='mr-0'>
                         <Image
-                            src="/images/surabhi-Bg.png"
+                            src="/Images/surabhi-Bg.png"
                             width={400}
                             height={300}
                             alt="Picture of the author"

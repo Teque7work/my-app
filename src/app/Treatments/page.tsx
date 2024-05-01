@@ -29,7 +29,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Antenatal-Care">
                             <Image
-                                src="/images/Rectangle1.png"
+                                src="/Images/Rectangle1.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -44,7 +44,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Preconception-Counselling">
                             <Image
-                               src="/images/Rectangle2.png"
+                               src="/Images/Rectangle2.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -60,7 +60,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Cancer-Screening">
                             <Image
-                                 src="/images/Rectangle4.png"
+                                 src="/Images/Rectangle4.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -80,7 +80,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Sexually-Transmitted-Disease">
                             <Image
-                                 src="/images/Rectangle6.png"
+                                 src="/Images/Rectangle6.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -96,7 +96,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Laparoscopic">
                             <Image
-                               src="/images/Rectangle5.png"
+                               src="/Images/Rectangle5.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -112,7 +112,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Adolescent-Health">
                             <Image
-                                src="/images/Rectangle7.png"
+                                src="/Images/Rectangle7.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -132,7 +132,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/IVF-Speciality">
                             <Image
-                                 src="/images/Rectangle9.png"
+                                 src="/Images/Rectangle9.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -148,7 +148,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Menstrual-Issues">
                             <Image
-                                 src="/images/Rectangle10.png"
+                                 src="/Images/Rectangle10.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -164,7 +164,7 @@ export default function About() {
                         <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Infertility-Work-up">
                             <Image
-                               src="/images/Rectangle11.png"
+                               src="/Images/Rectangle11.png"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"
@@ -186,7 +186,7 @@ export default function About() {
                             <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Uro">
                                 <Image
-                                    src="/images/Rectangle3.png"
+                                    src="/Images/Rectangle3.png"
                                     width={500}
                                     height={200}
                                     alt="Picture of the author"
@@ -202,7 +202,7 @@ export default function About() {
                             <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Menopausal-Problems">
                                 <Image
-                                    src="/images/Rectangle8.png"
+                                    src="/Images/Rectangle8.png"
                                     width={500}
                                     height={200}
                                     alt="Picture of the author"
@@ -218,7 +218,7 @@ export default function About() {
                             <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Family-Planning">
                                 <Image
-                                    src="/images/Rectangle12.png"
+                                    src="/Images/Rectangle12.png"
                                     width={500}
                                     height={200}
                                     alt="Picture of the author"
