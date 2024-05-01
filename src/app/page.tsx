@@ -316,26 +316,24 @@ export default function Home() {
           </div>
             <div className='grid grid-rows-1 grid-flow-col items-center gap-2'>
               <div className='flex justify-center'>
-                <Image src="/Images/insurance1.png" width={100} height={100} alt="cigna" />
+                <Image src="/Images/insurance1.png" width={200} height={200} alt="cigna" />
               </div>
               <div className='flex justify-center'>
-                <Image src="/Images/insurance2.png" width={100} height={100} alt="cigna" />
+                <Image src="/Images/insurance2.png" width={200} height={200} alt="cigna" />
               </div>
               <div className='flex justify-center'>
-                <Image src="/Images/insurance3.png" width={100} height={100} alt="cigna" />
+                <Image src="/Images/insurance3.png" width={200} height={200} alt="cigna" />
               </div>
               <div className='flex justify-center'>
-                <Image src="/Images/insurance4.png" width={100} height={100} alt="cigna" />
+                <Image src="/Images/insurance4.png" width={200} height={200} alt="cigna" />
               </div>
               <div className='flex justify-center'>
-                <Image src="/Images/insurance5.png" width={100} height={100} alt="cigna" />
+                <Image src="/Images/insurance5.png" width={200} height={200} alt="cigna" />
               </div>
               <div className='flex justify-center'>
-                <Image src="/Images/insurance6.png" width={100} height={100} alt="cigna" />
+                <Image src="/Images/insurance6.png" width={200} height={200} alt="cigna" />
               </div>
-              <div className='flex justify-center'>
-                <Image src="/Images/insurance7.png" width={100} height={100} alt="cigna" />
-              </div>
+            
             </div>
         </div>
       </section>

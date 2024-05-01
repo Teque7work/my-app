@@ -35,7 +35,7 @@ export default function About() {
                     </div>
                     <div className='w-full lg:w-1/2'>
                         {/* Replace the image with your actual image */}
-                        <Image src="/images/ivfimg.jpg" alt="Image" className="w-full h-[500px] rounded-2xl" />
+                        <Image src="/Images/ivfimg.jpg" width={500} height={500}alt="Image" className="w-full h-[500px] rounded-2xl" />
                     </div>
                 </div>
            </div>
@@ -49,7 +49,7 @@ export default function About() {
            <div className="flex">
                 <div className="w-[40%]">
                     <Image
-                        src="/images/ivfcenter.jpg"
+                        src="/Images/ivfcenter.jpg"
                         width={500}
                         height={200}
                         alt="Picture of the author"
@@ -79,7 +79,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf1.png"
+                                    src="/Images/ivf1.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -92,7 +92,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf2.png"
+                                    src="/Images/ivf2.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -105,7 +105,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf3.png"
+                                    src="/Images/ivf3.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -118,7 +118,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf4.png"
+                                    src="/Images/ivf4.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -131,7 +131,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf5.png"
+                                    src="/Images/ivf5.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -144,7 +144,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf6.png"
+                                    src="/Images/ivf6.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -157,7 +157,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf7.png"
+                                    src="/Images/ivf7.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -170,7 +170,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf8.png"
+                                    src="/Images/ivf8.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -183,7 +183,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf9.png"
+                                    src="/Images/ivf9.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -196,7 +196,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf10.png"
+                                    src="/Images/ivf10.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -209,7 +209,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf11.png"
+                                    src="/Images/ivf11.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -222,7 +222,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf12.png"
+                                    src="/Images/ivf12.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -235,7 +235,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf13.png"
+                                    src="/Images/ivf13.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -248,7 +248,7 @@ export default function About() {
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
-                                    src="/images/ivf14.png"
+                                    src="/Images/ivf14.png"
                                     width={100}
                                     height={100}
                                     alt="Picture of the author"
@@ -268,9 +268,9 @@ export default function About() {
                         <div className="flex">
                         <div className="flex justify-center border-2 rounded-full overflow-hidden ml-12 border-0">
                             <Image
-                                src="/images/surbhi vegad 1.jpg"
-                                width={500}
-                                height={100}
+                                src="/Images/surbhi-vegad-1.jpg"
+                                width={600}
+                                height={500}
                                 alt="Picture of the author"
                             />
                         </div>

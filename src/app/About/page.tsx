@@ -22,14 +22,14 @@ export default function About() {
                     <div>
                         <Image
                         src="/Images/surbhi-vegad-1.jpg"
-                        width={700}
+                        width={500}
                         height={600}
                         alt="Dr. Surabhi Vegad" />
                     </div>
-                    <div className="ml-24 mt-8">
+                    <div className="ml-24 mt-4">
                         <h1 className="text-4xl text-left ml-4 font-bold " style={{ color: 'rgb(1, 146, 144)'}} >Dr. Surabhi Vegad</h1>
                             <div className="box-border h-auto p-4">
-                                <div className="flex items-start mt-5 leading-loose text-lg">
+                                <div className="flex items-start  leading-loose text-lg">
                                     <p className="box-border w-20 font-bold  mr-4" style={{ color: 'rgb(1, 146, 144)'}}>Speciality</p>
                                     <ul className="flex-grow  ml-3" style={{color:'gray'}}>
                                         <li>High Risk Pregnancy Care</li>
@@ -43,10 +43,11 @@ export default function About() {
                                 <div className="flex items-start mt-2 leading-loose text-lg">
                                     <p className=" box-border w-20 font-bold mr-4 " style={{ color: 'rgb(1, 146, 144)'}}>Education</p>
                                     <ul className="flex-grow  ml-3" style={{color:'gray'}}>
-                                        <li>Dip in Cosmetic Gynecology Training, Florida, USA October 2004</li>
-                                        <li>Dip in Laparoscopic Gynecology, Kiel, Germany October 2004</li>
-                                        <li>Dip in Laparoscopic Gynecology, Kiel, Germany October 2004</li>
-                                        <li>Dip in Laparoscopic Gynecology, Kiel, Germany October 2004</li>
+                                        <li>M.B.B.S (U-Gujarat) 2002</li>
+                                        <li>Bechelor of medicine (U-Gujarat) 2004</li>
+                                        <li>Bechelor of Surgery (U-Gujarat) 2004</li>
+                                        <li>M.D (Obstrectrics & Gynecology) U-Gujarat-2005</li>
+                                       
                                   
                                     </ul>
                                 </div>
@@ -59,8 +60,8 @@ export default function About() {
                     </div>
                 </div>
             </div>
-                <div className="text-xl text-center mt-20 bg-slate-100 text-slate-500">
-                    <div className='container max-w-[1280px] mx-auto pt-14 pb-14 '>
+                <div className="text-xl text-center mt-20 pb-20 pt-20 bg-slate-100 text-slate-500">
+                    <div className='container max-w-[1280px] mx-auto  pb-14 '>
                         <p className='text-4xl text-center' style={{ color: 'rgb(1, 146, 144)'}}> Dr. Surabhi Vegad : Empowering Womens Health</p>
                    
                         <div className='mt-10'>
@@ -86,39 +87,8 @@ export default function About() {
                             </p>
                         </div>
                     </div>
-                
-                   
                 </div>
-                <div className='container max-w-[1280px] mx-auto pb-14 '>
-                    <p className='text-4xl text-center mt-16 mb-8' style={{ color: 'rgb(1, 146, 144)'}}>Certificates</p>
-                        <div className="flex justify-center mb-14">
-                            <div className="grid grid-cols-3 mx-0 mt-6 gap-20" >
-                                <div>
-                                    <ModalImage
-                                        small="/Images/Group0213.png"
-                                        large="/Images/Group0213.png"
-                                    
-                                    />
-                                </div>
-                                <div>
-                                    <ModalImage
-                                        small="/Images/cert2.png"
-                                        large="/Images/cert2.png"
-                                    
-                                    />
-                                </div>
-                                <div>
-                                    <ModalImage
-                                        small="/Images/cert3.png"
-                                        large="/Images/cert3.png"
-                                    
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
             </div>
-   
-     
+
     );
 }
