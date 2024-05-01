@@ -48,19 +48,19 @@ export default function About() {
                     </ul>
                     </div>
 
-                    <div className='w-1/2 mt-12 container max-w-[500px] max-h-[500px]'>  
+                    <div className='w-1/2 mt-12 container bg-black'>   
                         <Image
-                        src="/Images/treat7.webp"
-                        width={500}
-                        height={500} // Adjusted height
+                        src="/Images/treat7.png"
+                        width={640}
+                        height={348}
                         alt="Picture of the author"
-                        className='rounded-2xl'
+                    
                         />
                     </div>
                 </div>
 
                 {/* footer-section */}
-                    <div className="flex gap-10 mt-24  h-[380px]">
+                <div className="flex gap-10 mt-24 text-center  h-[300px]">
                         <div className="w-1/3 bg-white-700 flex flex-col items-center shadow-xl">
                             <div className="flex flex-col items-left">
                                 <a href="/Treatments/Antenatal-Care">
@@ -70,7 +70,7 @@ export default function About() {
                                     height={200}
                                     alt="Picture of the author"
                                 />
-                                <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">Antenatal Care & Postnatal Care</p></a>
+                                <p className="text-lg mt-4 text-purple-900  pl-6 font-bold">Antenatal Care & Postnatal Care</p></a>
                             </div>
                         </div>
                         <div className="w-1/3 bg-white-700 flex flex-col items-center shadow-xl">
@@ -82,7 +82,7 @@ export default function About() {
                                     height={200}
                                     alt="Picture of the author"
                                 />
-                                <p className="text-xl mt-4 text-purple-900  pl-6 font-bold">Preconception Counselling</p></a>
+                                <p className="text-lg mt-4 text-purple-900  pl-6 font-bold">Preconception Counselling</p></a>
                             </div>
                         </div>
                         <div className="w-1/3 bg-white-700 flex flex-col  items-center shadow-xl">
@@ -95,12 +95,12 @@ export default function About() {
                                     alt="Picture of the author"
                                 
                                 />
-                                <p className="text-xl mt-4 text-purple-900  pl-6 font-bold"> Cancer Screening, Preventive Vaccination</p></a>
+                                <p className="text-lg mt-4 text-purple-900  pl-6 font-bold"> Cancer Screening, Preventive Vaccination</p></a>
                             </div>
                         </div>
                     </div>
                     <div>
-                    <a href="/Treatments" className="block mt-20 pt-2 pb-2 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
+                    <a href="/Treatments" className="block mt-16 mb-28 pt-2 pb-2 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
                         View All Treatments
                     </a>
 

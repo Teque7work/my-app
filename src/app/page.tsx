@@ -192,13 +192,13 @@ export default function Home() {
         <div className='w-3/5'>
           <Swiper spaceBetween={30} pagination={{ clickable: true, }} modules={[Pagination]} className="Testimonals">
             <SwiperSlide className='bg-purple-50 p-11 rounded'>
-              <div className=''>
+            <div className='h-[250px]'>
                   <div className='mb-5 flex items-center'>
                     <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
                     </div>
                     <div>
-                      <h3 className='text-lg font-semibold pb-1 text-slate-500'>Mahendra Karwa</h3>
+                      <h3 className='text-lg font-semibold pb-1 text-slate-500'>Mahipatsinh Rathore</h3>
                       <div className='flex'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -219,7 +219,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='text-left text-slate-500'>
-                      <p>Spandan Maternity Home has been a beacon of comfort and care for expecting mothers like me. From the moment I stepped in, I felt welcomed and reassured by the compassionate staff. Their dedication to ensuring a smooth and stress-free experience truly sets them apart. I can confidently say that my journey through pregnancy was made easier and more enjoyable because of the exceptional care provided at Spandan Maternity Home.</p>
+                      <p>It was great experience ... Dr. Surbhi Vegad is best gynaecologist and kind hearted doctor , we are thankful to her and staff for all efforts....Spandan hospital blessed us with cute baby, we will always be thankful to Dr. Surbhi and team... SPANDAN HOSPITAL is highly recommended and dedicated hospital .... thank you so much....</p>
                   </div>
                   <div className='mt-5'>
                       <div>
@@ -230,13 +230,13 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide className='bg-purple-50 p-11 rounded'>
-              <div className=''>
+            <div className='h-[250px]'>
                 <div className='mb-5 flex items-center'>
                   <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                     <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
                   </div>
                   <div>
-                    <h3 className='text-lg font-semibold pb-1 text-slate-500'>Seema chudasama</h3>
+                    <h3 className='text-lg font-semibold pb-1 text-slate-500'>Varsha Devi</h3>
                     <div className='flex'>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                       <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -257,7 +257,7 @@ export default function Home() {
                   </div>  
                 </div>
                 <div className='text-left text-slate-500'>
-                    <p>Entering Spandan Maternity Home felt like stepping into a sanctuary tailored for mothers-to-be. The ambiance exudes warmth, and the staffs attentiveness creates an atmosphere of trust and confidence. Throughout my pregnancy, their comprehensive care, coupled with personalized attention, not only addressed my medical needs but also nurtured my emotional well-being.</p>
+                    <p>I had a positive experience at spandan hospital with Dr. Surbhi Vegad and the nursing staff. The normal delivery charge of INR 14000 (non ac, excluding medicine) seems reasonable, especially if it includes a supportive environment and good care.</p>
                 </div>       
                 <div className='mt-5'>
                     <div>
@@ -267,14 +267,14 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='bg-purple-50 p-11 rounded'>
-              <div className=''>
+            <SwiperSlide className='bg-purple-50 p-11 rounded '>
+              <div className='h-[250px]'>
                   <div className='mb-5 flex items-center'>
                     <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
                     </div>
                     <div>
-                      <h3 className='text-lg font-semibold pb-1 text-slate-500'>Preet Kaur</h3>
+                      <h3 className='text-lg font-semibold pb-1 text-slate-500'>Rudrapal Rathod</h3>
                       <div className='flex'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -295,7 +295,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='text-left text-slate-500'>
-                      <p>Choosing Spandan was a decision I will forever cherish, as they turned what could have been a daunting experience into a journey filled with support, comfort, and joy.As I welcomed my little one into the world under their care, I knew that the bond forged at Spandan Maternity Home would endure as a cherished chapter in my journey to motherhood.I was greeted not just as a patient, but as a cherished member of their extended family.</p>
+                      <p>Dr. Surbhi madam is the best, she personally taking care for the every patients. Spandan's team is the best, well trained and care takers.
+Thank you very much team.</p>
                   </div>
                   <div className='mt-5'>
                       <div>
@@ -308,13 +309,13 @@ export default function Home() {
           </Swiper>
         </div>
       </div>
-      <section className='bg-purple-50 pt-24 mt-14 h-[400px]'>
+      <section className='bg-purple-50 pt-14 mt-14 h-[400px]'>
         <div className="max-w-[1280px] mx-auto">
           <div className='text-center '>
-            <h1 className='text-2xl  font-bold text-purple-900'>Insurance Approved Consultant</h1> 
-              <p className='text-xs pb-6 text-purple-800'>* All product names, logos, brands, trademarks and registered trademarks are property of their respective owners.</p>
+            <h1 className='text-4xl  font-bold text-purple-900'>Insurance Approved Consultant</h1> 
+              <p className='text-xs pt-4 pb-14 text-purple-800'>* All product names, logos, brands, trademarks and registered trademarks are property of their respective owners.</p>
           </div>
-            <div className='grid grid-rows-1 grid-flow-col items-center gap-2'>
+            <div className='grid grid-rows-1 grid-flow-col items-center gap-6'>
               <div className='flex justify-center'>
                 <Image src="/Images/insurance1.png" width={200} height={200} alt="cigna" />
               </div>
@@ -332,6 +333,9 @@ export default function Home() {
               </div>
               <div className='flex justify-center'>
                 <Image src="/Images/insurance6.png" width={200} height={200} alt="cigna" />
+              </div>
+              <div className='flex justify-center'>
+                <Image src="/Images/universal sampoo.jpg" width={200} height={200} alt="cigna" />
               </div>
             
             </div>

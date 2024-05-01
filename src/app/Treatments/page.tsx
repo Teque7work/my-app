@@ -5,15 +5,13 @@ export default function About() {
     return(
             <div className="main-content">
              <div className="relative w-full">
-                <div className="bg-[url('/Images/main-banner.jpg')] bg-cover bg-center min-h-96"></div>
-                <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #007bff 500%)', height: '100%' }}></div>
-
-
+                <div className="bg-[url('/Images/hospitalbanner2.jpg')] bg-cover bg-center min-h-96"></div>
+                <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Treatments</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
-                        <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>
+                        <Link href="/">Home</Link> &gt; <Link href="/Insurance">Treatments</Link>
                     </p>
                 </div>
             </div>
@@ -24,9 +22,9 @@ export default function About() {
                     </p>
                 </div>
                 {/* first section */}
-                <div className="flex gap-10 mt-8">
+                <div className="flex gap-8 mt-8">
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                        <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Antenatal-Care">
                             <Image
                                 src="/Images/Rectangle1.png"
@@ -41,7 +39,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Preconception-Counselling">
                             <Image
                                src="/Images/Rectangle2.png"
@@ -57,7 +55,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Cancer-Screening">
                             <Image
                                  src="/Images/Rectangle4.png"
@@ -75,9 +73,9 @@ export default function About() {
                     
             </div>
              {/* second section */}
-            <div className="flex gap-10 mt-8">
+            <div className="flex gap-8 mt-8">
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Sexually-Transmitted-Disease">
                             <Image
                                  src="/Images/Rectangle6.png"
@@ -93,7 +91,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Laparoscopic">
                             <Image
                                src="/Images/Rectangle5.png"
@@ -109,7 +107,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Adolescent-Health">
                             <Image
                                 src="/Images/Rectangle7.png"
@@ -121,15 +119,15 @@ export default function About() {
                             <p className="text-xl mt-4 text-purple-900 pl-6 font-bold">Adolescent Health Counselling</p></a>
                             <div className="w-28 ml-6 border-b-4 border-teal-500 mt-4"></div>
                             <p className="text-md mt-6 text-gray-500 px-4">
-                            Adolescent health counseling plays a pivotal and proactive role in promoting the physical, emotional, and social well-being of young individuals during a critical phase of development.</p>
+                            Adolescent health counseling plays a pivotal and proactive role in promoting the physical, emotional, and social well-being of young individuals during a critical phase .</p>
                             
                         </div>
                     </div>
                 </div>
                 {/* third section */}
-                <div className="flex gap-10 mt-8">
+                <div className="flex gap-8 mt-8">
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/IVF-Speciality">
                             <Image
                                  src="/Images/Rectangle9.png"
@@ -145,7 +143,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Menstrual-Issues">
                             <Image
                                  src="/Images/Rectangle10.png"
@@ -161,7 +159,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8">
+                    <div className="flex flex-col items-left pb-8 h-[500px]">
                         <a href="/Treatments/Infertility-Work-up">
                             <Image
                                src="/Images/Rectangle11.png"
@@ -180,10 +178,10 @@ export default function About() {
                 </div>
                 {/* forth section */}
 
-                <div className="flex gap-10 mt-8">
+                <div className="flex gap-8 mt-8">
                     <div className="w-1/3 flex justify-center items-center">
                         <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                            <div className="flex flex-col items-left pb-8">
+                        <div className="flex flex-col items-left pb-8 h-[500px]">
                             <a href="/Treatments/Uro">
                                 <Image
                                     src="/Images/Rectangle3.png"
@@ -199,7 +197,7 @@ export default function About() {
                     </div>
                     <div className="w-1/3 flex justify-center items-center">
                         <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                            <div className="flex flex-col items-left pb-8">
+                        <div className="flex flex-col items-left pb-8 h-[500px]">
                             <a href="/Treatments/Menopausal-Problems">
                                 <Image
                                     src="/Images/Rectangle8.png"
@@ -215,7 +213,7 @@ export default function About() {
                     </div>
                     <div className="w-1/3 flex justify-center items-center">
                         <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                            <div className="flex flex-col items-left pb-8">
+                        <div className="flex flex-col items-left pb-8 h-[500px]">
                             <a href="/Treatments/Family-Planning">
                                 <Image
                                     src="/Images/Rectangle12.png"

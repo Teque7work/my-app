@@ -214,11 +214,11 @@ export default function Facilities() {
                         </p>
                     </div>
                     </div>
-                    <div className='container max-w-[1280px] mx-auto relative z-10 pt-14'>
+                    <div className='container max-w-[1280px] mx-auto relative z-10 pt-14 mb-14'>
                         <div className='flex justify-center'>
                             <p className='text-4xl text-[#581C87]'>IVF Center</p>
                         </div>
-                        <div className="grid grid-cols-4 gap-4 mt-16">
+                        <div className="grid grid-cols-4 gap-8 mt-16">
                             <div className=" h-auto rounded-2xl  w-screen/4 flex flex-col">
                                 <div>
                                     <Image
