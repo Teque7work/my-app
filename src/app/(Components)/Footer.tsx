@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Footer = () =>{
     return(
-        <div className="bg-[#27115f] mt-28">
+        <div className="bg-[#27115f]">
 
-            <div className="container mx-auto max-w-[1280px] flex justify-between items-center space-x-10 text-white mt-8 mb-16">
+            <div className="container mx-auto max-w-[1280px] flex justify-between items-center space-x-10 text-white  mb-16">
                 <div className="w-1/2">
                     <Image className="ml-[-5px] mt-12" src="/Images/Asset 5.png" width={300} height={300} alt="Spandan Maternity Home" />
                     {/* <p className="w-52">Empowering Her Health. Every Step of the Way</p> */}
