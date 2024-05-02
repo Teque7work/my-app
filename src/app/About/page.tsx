@@ -29,7 +29,7 @@ export default function About() {
                     <div className="ml-24 mt-4">
                         <h1 className="text-4xl text-left ml-4 font-bold " style={{ color: 'rgb(1, 146, 144)'}} >Dr. Surabhi Vegad</h1>
                             <div className="box-border h-auto p-4">
-                                <div className="flex items-start  leading-loose text-lg">
+                                <div className="flex items-start  leading-loose font-medium ">
                                     <p className="box-border w-20 font-bold  mr-4" style={{ color: 'rgb(1, 146, 144)'}}>Speciality</p>
                                     <ul className="flex-grow  ml-3" style={{color:'gray'}}>
                                         <li>High Risk Pregnancy Care</li>
@@ -40,7 +40,7 @@ export default function About() {
                                         <li>Comprehensive Infertility Solutions</li>
                                     </ul>
                                 </div>
-                                <div className="flex items-start mt-2 leading-loose text-lg">
+                                <div className="flex items-start mt-2 leading-loose font-medium ">
                                     <p className=" box-border w-20 font-bold mr-4 " style={{ color: 'rgb(1, 146, 144)'}}>Education</p>
                                     <ul className="flex-grow  ml-3" style={{color:'gray'}}>
                                         <li>M.B.B.S (U-Gujarat) 2002</li>
@@ -51,7 +51,7 @@ export default function About() {
                                   
                                     </ul>
                                 </div>
-                                <div className="flex items-start mt-2 leading-loose text-lg">
+                                <div className="flex items-start mt-2 leading-loose font-medium ">
                                     <p className=" box-border w-20 font-bold mr-4" style={{ color: 'rgb(1, 146, 144)'}}>Experience</p>
                                     <p className="w-20flex-grow  ml-3" style={{color:'gray'}}>20 years</p>
                                 </div>
@@ -60,7 +60,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-                <div className="text-xl text-center mt-20 pb-20 pt-20 bg-slate-100 text-slate-500">
+                <div className="font-medium text-center mt-20 pb-20 pt-20 bg-slate-100 text-slate-500">
                     <div className='container max-w-[1280px] mx-auto  pb-14 '>
                         <p className='text-4xl text-center' style={{ color: 'rgb(1, 146, 144)'}}> Dr. Surabhi Vegad : Empowering Womens Health</p>
                    

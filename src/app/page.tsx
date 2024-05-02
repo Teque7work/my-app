@@ -56,8 +56,8 @@ export default function Home() {
         <div className='w-3/5 flex justify-center  items-center'>
           <div className=''>
             <h1 className='text-4xl font-bold pb-8 text-purple-900 '>Empowering Womens Health</h1> 
-              <p className='font-medium pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200 wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
-              <p className='font-medium pb-6 text-slate-500'>As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care. </p> 
+              <p className='font-medium  pb-6 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments/for a ray-200 wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
+              <p className='font-medium  pb-6 text-slate-500'>As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care. </p> 
               <p className='text-slate-500 pb-6'>Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including high-risk pregnancy management, laparoscopic procedures, colposcopy, and menopausal care.</p>
               <a href="/About" className="border border-pink-500 text-pink-500 w-[20%] hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                 Read More 
@@ -199,7 +199,7 @@ export default function Home() {
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
                     </div>
                     <div>
-                      <h3 className='text-lg font-semibold pb-1 text-slate-500'>M. Rathore</h3>
+                      <h3 className='font-medium  font-semibold pb-1 text-slate-500'>M. Rathore</h3>
                       <div className='flex'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -237,7 +237,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
                   </div>
                   <div>
-                    <h3 className='text-lg font-semibold pb-1 text-slate-500'>V. Devi</h3>
+                    <h3 className='font-medium  font-semibold pb-1 text-slate-500'>V. Devi</h3>
                     <div className='flex'>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                       <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -275,7 +275,7 @@ export default function Home() {
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
                     </div>
                     <div>
-                      <h3 className='text-lg font-semibold pb-1 text-slate-500'>R. Rathod</h3>
+                      <h3 className='font-medium  font-semibold pb-1 text-slate-500'>R. Rathod</h3>
                       <div className='flex'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FAC515" className="w-4 h-4">
                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />

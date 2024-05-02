@@ -38,7 +38,8 @@ const Footer = () =>{
                         </span>
                         <div>
                             <p className="text-sm">Send message</p>
-                            <p>spandanhospital@gmail.com</p>
+                            <p><a href="mailto:spandanhospital@gmail.com">spandanhospital@gmail.com</a></p>
+                            
                         </div>
                     </div>
 
@@ -92,11 +93,6 @@ const Footer = () =>{
                             <Image src="/SVG/instagram-icon.svg" alt="Instagram" width={15} height={15} />
                     </span>
                     </Link>
-                    <Link href="#">
-                    <span> 
-                        <Image src="/SVG/twitter-icon.svg" alt="Instagram" width={15} height={15} />
-                         </span>
-                    </Link>
                     <Link href="https://wa.me/7228862236">
                     <span> 
                         <Image src="/SVG/whatsapp-x-icon.svg" alt="Instagram" width={15} height={15} /> 
@@ -111,7 +107,7 @@ const Footer = () =>{
             <div className="max-w-[1280px] mx-auto">
             <div className="border-t border-white"></div>
             </div>
-            <div className="max-w-[1280px] mx-auto flex justify-between text-white pb-6 pt-6">
+            <div className="max-w-[1280px] mx-auto flex justify-between text-white pb-2 pt-2">
                 <div>2024 © Spandan Maternity Home. All rights reserved. </div>
                 <div className="flex items-center text-white">
                     <p className="mr-2">Proudly Powered By:</p>

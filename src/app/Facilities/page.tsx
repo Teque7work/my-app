@@ -32,52 +32,23 @@ export default function Facilities() {
                     <p className='text-4xl text-[#581C87] font-bold'>Our Facilities</p>
                 </div>
             </div>
-            <div className='pb-20 relative'>
-                    <div style={{
-                        position: 'relative',
-                        width: '1010px',
-                        height: '450px',
-                        zIndex: '1',
-                        display: 'block',
-                        overflow: 'hidden' 
-                    }}>
-                        <div style={{
-                            position: 'absolute',
-                            top: 0,
-                            left: 0,
-                            width: '100%',
-                            height: '100%',
-                            // backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #F5F5F5 200%)',
-                            zIndex: '1',
-                        }} />
-                        <Image
-                            src="/Images/facilities7.jpg"
-                            width={1010}
-                            height={550}
-                            alt="Main Image"
-                          
-                            style={{
-                                position: 'absolute',
-                                left: 0,
-                                top: 0,
-                                width: '100%',
-                                height: '100%',
-                                objectFit: 'cover',
-                                zIndex: '0',
-                                overflow: 'hidden' 
-                            }}
-                        />
-                    </div>
-                    <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <div style={{ position: 'absolute', right: '0', bottom: '20%', transform: 'translateY(-320%)', marginRight: '10px' }}>
-                        <p className="text-black text-lg text-center text-[#581C87]">
-                            If You Need Urgent Care,<br></br> Simply Contact Our 24 Hour Emergency Hotline.<br></br>
-                            <span className='text-xl text-[#EC4899]'>Your Health is Our Priority.</span>
-                        </p>
-                    </div>
+        <div className='pb-20'>
+            <div className="flex items-center justify-center">
+                <img
+                    src="/Images/facilities7.jpg"
+                    width={1000}
+                    height={550}
+                    alt="Main Image"
+                    className="w-[70%] h-[600px]"
+                />
+                <div className="w-[30%]">
+                    <p className="text-black text-sm text-center text-[#581C87] container max-w-[1280px] mx-auto">
+                        If You Need Urgent Care,<br></br> Simply Contact Our 24 Hour Emergency Hotline.<br></br>
+                        <span className="text-xl text-[#EC4899]">Your Health is Our Priority.</span>
+                    </p>
                 </div>
-                    
-                <div style={{ marginTop: '80px', marginLeft: '120px', position: 'relative' }}>
+            </div>
+            <div style={{ marginTop: '80px', marginLeft: '120px', position: 'relative' }}>
                 <div className="navigation-buttons p-20 " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999 }}>
                     <div className="swiper-button-prev">
                         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,135 +56,107 @@ export default function Facilities() {
                         </svg>
                     </div>
                     <p className='text-4xl text-[#581C87]' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
-                        <div className="swiper-button-next">
-                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
-                            </svg>
-                        </div>
-            </div>
-            <div className='pb-36 relative' style={{ marginTop: '100px' }}>
-                <div style={{ position: 'absolute', overflow: 'hidden', width: '60%', bottom:0, right: 0 }}>
-                    <Swiper
-                        autoplay={true}
-                        loop={true}
-                        modules={[Autoplay, Navigation]}
-                        slidesPerView={3}
-                        spaceBetween={25}
-                        navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
-                    >
-                        <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/facilities2.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                               </SwiperSlide>
+                    <div className="swiper-button-next">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div className='pb-36 relative' style={{ marginTop: '100px' }}>
+                    <div style={{ position: 'absolute', overflow: 'hidden', width: '60%', bottom:0, right: 0 }}>
+                        <Swiper
+                            autoplay={true}
+                            loop={true}
+                            modules={[Autoplay, Navigation]}
+                            slidesPerView={3}
+                            spaceBetween={25}
+                            navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+                        >
                             <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/facilities3.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/facilities5.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/facilities6.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/facilities8.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/fac1.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                            <Image
-                                src="/Images/facilities9.jpg"
-                                layout="fill" 
-                                objectFit="cover" 
-                                alt="First Image"
-                                className='rounded-2xl'
-                            />
-                        </SwiperSlide>
-                    </Swiper>
+                                <Image
+                                    src="/Images/facilities2.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                                </SwiperSlide>
+                                <SwiperSlide style={{ width: '350px', height: '350px' }}>
+                                <Image
+                                    src="/Images/facilities3.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
+                                <Image
+                                    src="/Images/facilities5.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
+                                <Image
+                                    src="/Images/facilities6.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
+                                <Image
+                                    src="/Images/facilities8.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
+                                <Image
+                                    src="/Images/fac1.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
+                                <Image
+                                    src="/Images/facilities9.jpg"
+                                    layout="fill" 
+                                    objectFit="cover" 
+                                    alt="First Image"
+                                    className='rounded-2xl'
+                                />
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
             </div>
         </div>
-
-                    {/* Second faciliti */}
-                    
-                    <div className='mt-28'>
-                        <div style={{
-                            position: 'relative',
-                            width: '1010px',
-                            height: '450px',
-                            zIndex: '1',
-                            display: 'block',
-                            overflow: 'hidden' 
-                        }}>
-                        <div style={{
-                            position: 'absolute',
-                            top: 0,
-                            left: 0,
-                            width: '100%',
-                            height: '100%',
-                          
-                            zIndex: '1',
-                        }} />
-                        <Image
-                            src="/Images/facilities4.jpg"
-                            width={640}
-                            height={550}
-                            alt="Main Image"
-                            style={{
-                                position: 'absolute',
-                                left: 0,
-                                top: 0,
-                                width: '100%',
-                                height: '100%',
-                                objectFit: 'cover',
-                                zIndex: '0',
-                                overflow: 'hidden' 
-                            }}
-                        />
-                    </div>
-                    <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <div style={{ position: 'absolute', right: '0', bottom: '20%', transform: 'translateY(-320%)', marginRight: '10px' }}>
-                        <p className="text-black text-lg text-center text-[#581C87]">
+        {/* Second faciliti */}
+        <div className='pb-20'>
+            <div className="flex items-center justify-center">
+                <img
+                    src="/Images/facilities4.jpg"
+                    width={1000}
+                    height={550}
+                    alt="Main Image"
+                    className="w-[70%] h-[600px]"
+                />
+                <div className="w-[30%]">
+                <p className="text-black text-lg text-center text-[#581C87]">
                              Specializing in advanced infertility solutions, <br></br>
                             <span className='text-xl text-[#EC4899]'>our IVF centre in Bhuj.</span>
                         </p>
-                    </div>
-                    </div>
+                </div>
+            </div>
                     <div className='container max-w-[1280px] mx-auto relative z-10 pt-14 mb-14'>
                         <div className='flex justify-center'>
                             <p className='text-4xl text-[#581C87] font-bold'>IVF Center</p>
@@ -275,7 +218,7 @@ export default function Facilities() {
                     </div>
                     </div>
 
-                </div>
+          
 
         </div>
     );

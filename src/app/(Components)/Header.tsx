@@ -55,7 +55,7 @@ const AboutDropdown: React.FC = () => {
               <div className="overflow-hidden rounded-lg rounded-t-none border-t-4 border-pink-500 shadow-lg ring-1 ring-black ring-opacity-5">
                 {/* Popover Content */}
                 <div className="p-4 bg-white text-black">
-                  <ul className="space-y-4 text-sm">
+                  <ul className="space-y-4 text-base">
                   <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
                       <Link href="/About" className="text-purple-900" onClick={closeMenu}>
                         Dr. Surabhi Vegad
@@ -127,7 +127,7 @@ const TreatmentDropdown: React.FC = () => {
                 <div className="flex px-2 py-3 bg-white text-black">
                 {/* First part */}
                 <div className="w-1/2">
-                  <ul className="space-y-2 text-sm">
+                  <ul className="space-y-2 text-base">
                     <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
                       <Link href="/Treatments/Antenatal-Care" className="text-purple-900" onClick={closeMenu}>
                       Antenatal Care & Postnatal Care
@@ -162,7 +162,7 @@ const TreatmentDropdown: React.FC = () => {
                 </div>
                 {/* Second part */}
                 <div className="w-1/2">
-                  <ul className="space-y-2 text-sm">
+                  <ul className="space-y-2 text-base">
                     <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
                       <Link href="/Treatments/Infertility-Work-up" className="text-purple-900" onClick={closeMenu}>
                       Infertility Work-up
@@ -315,7 +315,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center">
             <div className="text-pink-500 !z-[999]">
               <Link href="/">
-                <Image  src="SVG/Spandan-Logo-Text-Side.svg"  alt="Spandan Maternity123" width={250} height={64} />
+                <Image  src="/SVG/Spandan-Logo-Text-Side.svg"  alt="Spandan Maternity123" width={250} height={64} />
               </Link>
             </div>
             <div className="flex text-black !z-[999]">
