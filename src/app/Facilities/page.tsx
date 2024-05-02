@@ -70,7 +70,7 @@ export default function Facilities() {
                     </div>
                     <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <div style={{ position: 'absolute', right: '0', bottom: '20%', transform: 'translateY(-320%)', marginRight: '10px' }}>
-                        <p className="text-black text-sm text-center text-[#581C87]">
+                        <p className="text-black text-lg text-center text-[#581C87]">
                             If You Need Urgent Care,<br></br> Simply Contact Our 24 Hour Emergency Hotline.<br></br>
                             <span className='text-xl text-[#EC4899]'>Your Health is Our Priority.</span>
                         </p>
@@ -191,7 +191,7 @@ export default function Facilities() {
                         }} />
                         <Image
                             src="/Images/facilities4.jpg"
-                            width={1010}
+                            width={640}
                             height={550}
                             alt="Main Image"
                             style={{
@@ -208,7 +208,7 @@ export default function Facilities() {
                     </div>
                     <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <div style={{ position: 'absolute', right: '0', bottom: '20%', transform: 'translateY(-320%)', marginRight: '10px' }}>
-                        <p className="text-black text-sm text-center text-[#581C87]">
+                        <p className="text-black text-lg text-center text-[#581C87]">
                              Specializing in advanced infertility solutions, <br></br>
                             <span className='text-xl text-[#EC4899]'>our IVF centre in Bhuj.</span>
                         </p>
