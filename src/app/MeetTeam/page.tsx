@@ -30,7 +30,7 @@ export default function Contact() {
                     </div>
                     <div className='w-full lg:w-1/2'>
                         {/* Replace the image with your actual image */}
-                        <Image src="/Images/staff.jpg" width={500} height={500}alt="Image" className="w-full h-[500px] rounded" />
+                        <Image src="/Images/Spandan image.jpg" width={500} height={500}alt="Image" className="w-full h-[500px] rounded" />
                     </div>
                 </div>
                 <h1 className='text-left mt-16 text-4xl font-bold text-purple-900'>Our Team Of Doctors</h1>

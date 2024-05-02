@@ -85,11 +85,11 @@ export default function Facilities() {
                         </svg>
                     </div>
                     <p className='text-4xl text-[#581C87]' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
-                    <div className="swiper-button-next">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                    </div>
+                        <div className="swiper-button-next">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                        </div>
             </div>
             <div className='pb-36 relative' style={{ marginTop: '100px' }}>
                 <div style={{ position: 'absolute', overflow: 'hidden', width: '60%', bottom:0, right: 0 }}>

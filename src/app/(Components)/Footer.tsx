@@ -19,8 +19,13 @@ const Footer = () =>{
                         </span>
                         <div className="pl-4 pr-4">
                             <p className="text-sm">Give us a call</p>
-                            <p>99792 32346</p>
-                            <p>72288 62236</p>
+                            <a href="tel:+919979232346">
+                                <p>99792 32346</p>
+                            </a>
+                            <a href="tel:+9172288 62236">
+                                <p>72288 62236</p>
+                            </a>
+                           
                         </div>
                     </div>
 
