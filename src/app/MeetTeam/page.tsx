@@ -22,7 +22,7 @@ export default function Contact() {
                     <h1 className='text-4xl font-bold text-purple-900'>Our Team</h1>
                         <div className='text-gray-500 text-lg  mr-8 text-justify mt-6 leading-8'>
                             <h1>At Spandan Maternity Home, our team of dedicated doctors and staff are committed to providing exceptional care to expecting mothers and their babies. With a wealth of experience and expertise in obstetrics and gynecology, our doctors bring compassion and skill to every patient interaction. From prenatal care to delivery and postpartum support, we prioritize the health and well-being of both mother and child.<br></br>
-                                Our staff members are not just professionals; they are caregivers who understand the importance of personalized attention during this special time in your life. Whether it's answering questions, easing concerns, or providing guidance, we are here for you every step of the way. At Spandan, we strive to create a supportive and nurturing environment where families can feel comfortable and confident in their journey to parenthood.
+                                Our staff members are not just professionals; they are caregivers who understand the importance of personalized attention during this special time in your life. Whether it is answering questions, easing concerns, or providing guidance, we are here for you every step of the way. At Spandan, we strive to create a supportive and nurturing environment where families can feel comfortable and confident in their journey to parenthood.
                             </h1>
                         </div>
                        
