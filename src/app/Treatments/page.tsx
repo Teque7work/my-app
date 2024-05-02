@@ -15,7 +15,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-20 mb-24'>
+            <div className='container max-w-[1280px] mx-auto mt-20 mb-28'>
                 <div>
                     <p className='pl-8 pr-8 text-center text-gray-500 text-lg '>
                     Clinical laboratory services are tests provided by a medical lab that aid in diagnosis and treatment of patients. There are many types of clinical laboratory services, including:
@@ -24,7 +24,7 @@ export default function About() {
                 {/* first section */}
                 <div className="flex gap-8 mt-8">
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8 h-[500px]">
+                        <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Antenatal-Care">
                             <Image
                                 src="/Images/Rectangle1.png"
@@ -39,7 +39,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Preconception-Counselling">
                             <Image
                                src="/Images/Rectangle2.png"
@@ -55,7 +55,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Cancer-Screening">
                             <Image
                                  src="/Images/Rectangle4.png"
@@ -75,7 +75,7 @@ export default function About() {
              {/* second section */}
             <div className="flex gap-8 mt-8">
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Sexually-Transmitted-Disease">
                             <Image
                                  src="/Images/Rectangle6.png"
@@ -91,7 +91,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Laparoscopic">
                             <Image
                                src="/Images/Rectangle5.png"
@@ -107,7 +107,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Adolescent-Health">
                             <Image
                                 src="/Images/Rectangle7.png"
@@ -127,7 +127,7 @@ export default function About() {
                 {/* third section */}
                 <div className="flex gap-8 mt-8">
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/IVF-Speciality">
                             <Image
                                  src="/Images/Rectangle9.png"
@@ -143,7 +143,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Menstrual-Issues">
                             <Image
                                  src="/Images/Rectangle10.png"
@@ -159,7 +159,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-1/3 bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                    <div className="flex flex-col items-left pb-8 h-[500px]">
+                    <div className="flex flex-col items-left pb-8 h-[440px]">
                         <a href="/Treatments/Infertility-Work-up">
                             <Image
                                src="/Images/Rectangle11.png"
@@ -181,7 +181,7 @@ export default function About() {
                 <div className="flex gap-8 mt-8">
                     <div className="w-1/3 flex justify-center items-center">
                         <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8 h-[500px]">
+                        <div className="flex flex-col items-left pb-8 h-[440px]">
                             <a href="/Treatments/Uro">
                                 <Image
                                     src="/Images/Rectangle3.png"
@@ -197,7 +197,7 @@ export default function About() {
                     </div>
                     <div className="w-1/3 flex justify-center items-center">
                         <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8 h-[500px]">
+                        <div className="flex flex-col items-left pb-8 h-[440px]">
                             <a href="/Treatments/Menopausal-Problems">
                                 <Image
                                     src="/Images/Rectangle8.png"
@@ -213,7 +213,7 @@ export default function About() {
                     </div>
                     <div className="w-1/3 flex justify-center items-center">
                         <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl">
-                        <div className="flex flex-col items-left pb-8 h-[500px]">
+                        <div className="flex flex-col items-left pb-8 h-[440px]">
                             <a href="/Treatments/Family-Planning">
                                 <Image
                                     src="/Images/Rectangle12.png"

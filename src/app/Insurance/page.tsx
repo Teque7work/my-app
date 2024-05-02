@@ -29,7 +29,7 @@ export default function Insurance() {
                     <div>
                         <Image
                             src="/Images/insurance1.png"
-                            width={200} 
+                            width={300} 
                             height={200} 
                             alt="Picture of the author"
                         />
@@ -40,7 +40,7 @@ export default function Insurance() {
                         <div>
                             <Image
                                 src="/Images/insurance2.png"
-                                width={200} 
+                                width={300} 
                                 height={200} 
                                 alt="Picture of the author"
                             />
@@ -51,7 +51,7 @@ export default function Insurance() {
                         <div>
                             <Image
                                 src="/Images/insurance3.png"
-                                width={200} 
+                                width={300} 
                                 height={200} 
                                 alt="Picture of the author"
                             />
@@ -62,7 +62,7 @@ export default function Insurance() {
                     <div>
                         <Image
                             src="/Images/insurance4.png"
-                            width={200} 
+                            width={300} 
                             height={200} 
                             alt="Picture of the author"
                         />
@@ -74,7 +74,7 @@ export default function Insurance() {
                         <div>
                             <Image
                                 src="/Images/insurance5.png"
-                                width={250} 
+                                width={400} 
                                 height={250} 
                                 alt="Picture of the author"
                             />
@@ -85,7 +85,7 @@ export default function Insurance() {
                         <div>
                             <Image
                                 src="/Images/insurance6.png"
-                                width={250} 
+                                width={300} 
                                 height={250} 
                                 alt="Picture of the author"
                             />
@@ -95,8 +95,8 @@ export default function Insurance() {
                     <div className="box-border rounded-2xl h-auto p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300">
                         <div>
                             <Image
-                                src="/Images/insurance7.png"
-                                width={250} 
+                                src="/Images/universal sampoo.jpg"
+                                width={300} 
                                 height={250} 
                                 alt="Picture of the author"
                         
