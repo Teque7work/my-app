@@ -295,7 +295,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='text-left text-slate-500'>
-                      <p>Dr. Surbhi madam is the best, she personally taking care for the every patients. Spandan's team is the best, well trained and care takers.
+                      <p>Dr. Surbhi madam is the best, she personally taking care for the every patients. Spandans team is the best, well trained and care takers.
 Thank you very much team.</p>
                   </div>
                   <div className='mt-5'>
