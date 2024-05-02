@@ -16,8 +16,70 @@ export default function Contact() {
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-14 mb-24'>
-            <div className="flex justify-center">
+            <div className='container max-w-[1280px] mx-auto mt-16 mb-36'>
+                <div className='flex flex-wrap'>
+                    <div className='w-full lg:w-1/2 mb-8 gap-4 mt-4'>
+                    <h1 className='text-4xl font-bold text-purple-900'>Our Team</h1>
+                        <div className='text-gray-500 text-lg  mr-8 text-justify mt-6 leading-8'>
+                            <h1>At Spandan Maternity Home, our team of dedicated doctors and staff are committed to providing exceptional care to expecting mothers and their babies. With a wealth of experience and expertise in obstetrics and gynecology, our doctors bring compassion and skill to every patient interaction. From prenatal care to delivery and postpartum support, we prioritize the health and well-being of both mother and child.<br></br>
+                                Our staff members are not just professionals; they are caregivers who understand the importance of personalized attention during this special time in your life. Whether it's answering questions, easing concerns, or providing guidance, we are here for you every step of the way. At Spandan, we strive to create a supportive and nurturing environment where families can feel comfortable and confident in their journey to parenthood.
+                            </h1>
+                        </div>
+                       
+                       
+                    </div>
+                    <div className='w-full lg:w-1/2'>
+                        {/* Replace the image with your actual image */}
+                        <Image src="/Images/staff.jpg" width={500} height={500}alt="Image" className="w-full h-[500px] rounded" />
+                    </div>
+                </div>
+                <h1 className='text-left mt-16 text-4xl font-bold text-purple-900'>Our Team Of Doctors</h1>
+                <div className="flex justify-center mt-16">
+                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image"/>
+                    <div className="w-1/2 flex flex-col justify-center gap-2">
+                        <span className="text-lg text-gray-600 font-bold">Member1</span>
+                        <span className="text-lg text-gray-600">Obstetrician-Gynecologist</span>
+                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image"  />
+                    <div className="w-1/2 flex flex-col justify-center gap-2">
+                        <span className="text-lg text-gray-600 font-bold">Member2</span>
+                        <span className="text-lg text-gray-600">Obstetrician-Gynecologist</span>
+                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>   
+                </div>
+                <div className="flex justify-center mt-16">
+                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image" />
+                    <div className="w-1/2 flex flex-col justify-center gap-2">
+                        <span className="text-lg text-gray-600 font-bold">Member3</span>
+                        <span className="text-lg text-gray-600">Obstetrician-Gynecologist</span>
+                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image" />
+                    <div className="w-1/2 flex flex-col justify-center gap-2">
+                        <span className="text-lg text-gray-600 font-bold">Member4</span>
+                        <span className="text-lg text-gray-600">Obstetrician-Gynecologist</span>
+                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+                
+                <div className="flex justify-center mt-16">
+                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image"/>
+                        <div className="w-1/2 flex flex-col justify-center gap-2">
+                            <span className="text-lg text-gray-600 font-bold">Member5</span>
+                            <span className="text-lg text-gray-600">Obstetrician-Gynecologist</span>
+                            <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image"  />
+                    <div className="w-1/2 flex flex-col justify-center gap-2">
+                        <span className="text-lg text-gray-600 font-bold">Member6</span>
+                        <span className="text-lg text-gray-600">Obstetrician-Gynecologist</span>
+                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>     
+                </div>
+         
+        
+            {/*<div className="flex justify-center">
                 <div className="grid grid-cols-3 mx-0 mt-6 gap-4" >
                     <div >
                         <Image
@@ -74,8 +136,8 @@ export default function Contact() {
                        
                         </div>
                     </div></div>
-                </div>
-            </div> 
+                </div>*/}
+            </div>  
         </div>
     )
 }
