@@ -311,7 +311,7 @@ const Header: React.FC = () => {
     <header className="fixed w-full top-4 z-50 transition duration-300 ease-in-out">
       {/* <div className="absolute inset-0 z-2 h-170 bg-gradient-to-b from-[#00000080] to-transparent"></div> */}
       <nav className="p-0">
-        <div className="max-w-[1280px] mx-auto bg-white px-5 py-3 rounded-2xl drop-shadow-sm">
+        <div className="max-w-[1280px] mx-auto bg-white px-5 py-3 rounded-2xl drop-shadow-2xl">
           <div className="flex justify-between items-center">
             <div className="text-pink-500 !z-[999]">
               <Link href="/">
