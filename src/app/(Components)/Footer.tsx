@@ -50,22 +50,22 @@ const Footer = () =>{
                 <div className="w-1/3">
                     <h3 className="text-[#ffffff80] text-xl font-bold mb-6">Treatments</h3>
                     <ul className="text-sm space-y-4">
-                        <li><a href="/Antenatal-Care">Antenatal Care & Postnatal Care</a></li>
-                        <li><a href="/Preconception-Counselling">Preconception Counselling</a></li>
-                        <li><a href="/Cancer-Screening">Cancer Screening, Diagnosis & Preventive Vaccination</a></li>
-                        <li><a href="/Menstrual-Issues">Menstrual Issues</a></li>
-                        <li><a href="/Uro">Uro - Gynecological Problems</a></li>
-                        <li><a href="/Sexually-Transmitted-Disease">Sexually Transmitted Disease</a></li>
+                        <li><a href="/Treatments/Antenatal-Care">Antenatal Care & Postnatal Care</a></li>
+                        <li><a href="/Treatments/Preconception-Counselling">Preconception Counselling</a></li>
+                        <li><a href="/Treatments/Cancer-Screening">Cancer Screening, Diagnosis & Preventive Vaccination</a></li>
+                        <li><a href="/Treatments/Menstrual-Issues">Menstrual Issues</a></li>
+                        <li><a href="/Treatments/Uro">Uro - Gynecological Problems</a></li>
+                        <li><a href="/Treatments/Sexually-Transmitted-Disease">Sexually Transmitted Disease</a></li>
                     </ul>
                 </div>
                 <div className="w-1/3">
                     <ul className="text-sm mt-12 space-y-4">
-                        <li><a href="/Infertility-Work-up">Infertility Work-up</a></li>
-                        <li><a href="/Family-Planning">Family Planning</a></li>
-                        <li><a href="/Laparoscopic">Laparoscopic & Hysteroscopic Surgeries</a></li>
-                        <li><a href="/Menopausal-Problems">Menopausal Problems</a></li>
-                        <li><a href="/Adolescent-Health">Adolescent Health Counselling</a></li>
-                        <li><a href="/IVF-Speciality">IVF Speciality</a></li>
+                        <li><a href="/Treatments/Infertility-Work-up">Infertility Work-up</a></li>
+                        <li><a href="/Treatments/Family-Planning">Family Planning</a></li>
+                        <li><a href="/Treatments/Laparoscopic">Laparoscopic & Hysteroscopic Surgeries</a></li>
+                        <li><a href="/Treatments/Menopausal-Problems">Menopausal Problems</a></li>
+                        <li><a href="/Treatments/Adolescent-Health">Adolescent Health Counselling</a></li>
+                        <li><a href="/Treatments/IVF-Speciality">IVF Speciality</a></li>
                     </ul>
                 </div>
                 <div className="w-1/3">

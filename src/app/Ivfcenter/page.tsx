@@ -23,11 +23,11 @@ export default function About() {
             <div className='container max-w-[1280px] mx-auto mt-20'>
                 <div className='flex flex-wrap'>
                     <div className='w-full lg:w-1/2 mb-8 gap-4'>
-                        <div className='text-[#009290] text-md p-4 mr-8 text-justify mt-20'>
+                        <div className='text-[#009290] font-medium p-4 mr-8 text-justify mt-20'>
                             <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.
                             </p>
                         </div>
-                        <div className='text-md p-4 text-justify mr-8 mt-6 text-gray-500'>
+                        <div className='text-md p-4 text-justify mr-8 mt-6 font-medium text-slate-500'>
                             <p>Specializing in advanced infertility solutions, our IVF centre in Bhuj excels in treatments like IVF, ICSI, and Donor Oocyte programs. Notably, male infertility treatments such as TESE, TESA, PESA, and Micro TESE are also routinely administered, showcasing our expertise in holistic reproductive care.
                             </p>
                         </div>
@@ -41,7 +41,7 @@ export default function About() {
            </div>
            <div className="flex justify-center bg-white p-20 bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed">
                     <div className="p-4 text-center  w-[75%] rounded-2xl">
-                        <p className="text-gray-600 text-xl">
+                        <p className="font-medium text-slate-500">
                             A qualified, expert and experienced team is working relentlessly to help each and every couple inhering the same philosophy policies and culture. The mother centre also provides all out and all-around support, may it be clinical management of the patients, IVF lab and related services, counselling or grievance redressal.
                         </p> 
                     </div>
@@ -58,18 +58,18 @@ export default function About() {
                 </div>
                 <div className="w-[60%] p-8 bg-white flex flex-col justify-center">
                     <p className='text-[rgb(236,72,153)] text-4xl'>Highlights of Our IVF Centre in Bhuj</p>
-                    <p className='text-gray-500 mt-8'><span className='text-slate-800 font-bold'>1. Expertise :</span>Our seasoned team comprises board-certified fertility specialists, embryologists, and reproductive endocrinologists, ensuring unparalleled care for male and female infertility, recurrent miscarriages, and genetic issues.</p>
-                    <p className='text-gray-500 mt-4'><span className='text-slate-800 font-bold'>2. Cutting-Edge Facilities : </span>Equipped with state-of-the-art laboratories and surgical suites, we harness the latest in assisted reproductive technologies, including preimplantation genetic testing (PGT) and cryopreservation.</p>
-                    <p className='text-gray-500 mt-4'><span className='text-slate-800 font-bold'>3. Holistic Services : </span>From fertility assessments and ovulation induction to IUI and minimally invasive surgeries, we offer a wide array of services tailored to individual needs.</p>
-                    <p className='text-gray-500 mt-4'><span className='text-slate-800 font-bold'>4. Personalized Approach : </span>Recognizing the uniqueness of each patient, Dr. Surabhi and her team emphasize bespoke treatment plans aligned with your medical history and reproductive aspirations.</p>
-                    <p className='text-gray-500 mt-4'><span className='text-slate-800 font-bold'>5. Emotional Support : </span>Infertility can be emotionally taxing. Hence, we prioritize a supportive environment, offering counselling and compassionate care throughout your fertility journey.</p>
-                    <p className='text-gray-500 mt-4'><span className='text-slate-800 font-bold'>6. Impressive Success Rates : </span> While outcomes can vary, our track record in aiding couples towards successful pregnancies remains commendable, underlining our commitment to excellence in IVF in Kutch.</p>
-                    <p className='text-gray-500 mt-4'><span className='text-slate-800 font-bold'>7. Confidentiality Assured : </span>Upholding the highest standards of privacy, we ensure that all patient information remains strictly confidential.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>1. Expertise :</span>Our seasoned team comprises board-certified fertility specialists, embryologists, and reproductive endocrinologists, ensuring unparalleled care for male and female infertility, recurrent miscarriages, and genetic issues.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>2. Cutting-Edge Facilities : </span>Equipped with state-of-the-art laboratories and surgical suites, we harness the latest in assisted reproductive technologies, including preimplantation genetic testing (PGT) and cryopreservation.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>3. Holistic Services : </span>From fertility assessments and ovulation induction to IUI and minimally invasive surgeries, we offer a wide array of services tailored to individual needs.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>4. Personalized Approach : </span>Recognizing the uniqueness of each patient, Dr. Surabhi and her team emphasize bespoke treatment plans aligned with your medical history and reproductive aspirations.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>5. Emotional Support : </span>Infertility can be emotionally taxing. Hence, we prioritize a supportive environment, offering counselling and compassionate care throughout your fertility journey.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>6. Impressive Success Rates : </span> While outcomes can vary, our track record in aiding couples towards successful pregnancies remains commendable, underlining our commitment to excellence in IVF in Kutch.</p>
+                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>7. Confidentiality Assured : </span>Upholding the highest standards of privacy, we ensure that all patient information remains strictly confidential.</p>
                 </div>
             </div>
             <div className='container max-w-[1280px] mx-auto mt-14'>
                 <p className='text-[rgb(236,72,153)] text-4xl text-center'>Why Choose Bavishi Fertility Institute as Your IVF Center in Bhuj?</p>
-                <p className='text-gray-500 mt-8 text-center'>We believe that every woman is unique, therefore every fertility treatment shall be too. Looking for proven track record cutting edge technology, honest opinions, value for money, highest success chance – All under one roof? Look no further. Your search is over. That is BFI!</p>
+                <p className='font-medium text-slate-500 mt-8 text-center'>We believe that every woman is unique, therefore every fertility treatment shall be too. Looking for proven track record cutting edge technology, honest opinions, value for money, highest success chance – All under one roof? Look no further. Your search is over. That is BFI!</p>
             </div>
             <div className='mt-8  bg-[rgb(253,239,226)] pb-4'>
                 <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
@@ -85,7 +85,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500">
+                            <div className="mt-1 text-slate-500">
                                 <p className="text-center text-s">Male Infertility</p>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500 ">
+                            <div className="mt-1 text-slate-500 ">
                                 <p className="text-center ">Female Infertility</p>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500 ">
+                            <div className="mt-1 text-slate-500 ">
                                 <p className="text-center ">Advance technique</p>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Preimplantation Genetic Testing</p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Intra Uterine Insemination - IUI</p>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">IVF</p>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Fertility Preservation</p>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Semen donation</p>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Egg donation Surrogacy</p>
                             </div>
                         </div>
@@ -202,7 +202,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Embryo Donation / Embryo freezing</p>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Fibroids - Endometriosis</p>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Ovary rejuvenation – PRP Stem cell</p>
                             </div>
                         </div>
@@ -241,7 +241,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">High-Risk Obstetrics</p>
                             </div>
                         </div>
@@ -254,7 +254,7 @@ export default function About() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <div className="mt-1 text-gray-500" >
+                            <div className="mt-1 text-slate-500" >
                                 <p className="text-center ">Maternity Services</p>
                             </div>
                         </div>
@@ -279,7 +279,7 @@ export default function About() {
                                 <p className='ml-8 mt-2 text-[rgb(1,146,144)] text-4xl'>Dr. Surabhi Vegad – The Best Fertility & IVF Doctor</p>
                                 <p className='text-lg ml-8 text-[rgb(1,146,144)]'>Leading Gynecologist in Bhuj, Kutch</p>
 
-                                <p className='text-base p-8 leading-8 text-gray-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p>
+                                <p className='font-medium text-slate-500 p-8'>Dr. Surabhi Vegad stands as a premier Obstetrician and Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p>
                             </div>
                         </div>
                     </div>

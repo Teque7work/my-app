@@ -76,7 +76,7 @@ export default function Home() {
           </div>
           <div className='mask-image mt-1'>
             <div className='mask'>
-              <Image src="/Images/women.jpg" width={550} height={550} alt="" />
+              <Image src="/Images/group.jpeg" width={550} height={550} alt="" />
             </div>
           </div>
         </div>

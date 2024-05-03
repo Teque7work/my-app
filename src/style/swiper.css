@@ -5,6 +5,16 @@
 .Testimonals .swiper-pagination-bullet-active {
   background-color: #27115f;
 }
+.swiper-button-prev{
+  color: 		#d0cccc;
+}
+.swiper-button-next{
+  color: 	#bdb8b8;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 36px !important; /* Adjust the font size to decrease button size */
+}
 
   @keyframes fade-in {
     from {

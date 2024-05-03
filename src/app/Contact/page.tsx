@@ -28,7 +28,7 @@ export default function Contact() {
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-10 mb-32'>
+            <div className='container max-w-[1280px] mx-auto mt-10'>
                 <div className="box-border h-auto w-full  flex mt-20 border-2 rounded-2xl">
                     <Image className="rounded-l-2xl" width={600} height={600}  src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
                         <div className='w-30 h-10 p-12'>
@@ -65,12 +65,71 @@ export default function Contact() {
 
                                
                         </div>         
-                </div>
-                
-
-        
-                                                    
+                </div>                                    
             </div>
+            <section className='bg-purple-50 pt-14  h-[580px]'>
+        <div className="max-w-[1280px] mx-auto">
+          <div className='text-center '>
+            <h1 className='text-4xl  font-bold text-purple-900'>Cashless Facility</h1> 
+              <p className='text-xs pt-4 pb-14 text-purple-800'>List of empaneled Insurance Company.</p>
+          </div>
+          <div className="grid grid-cols-5  gap-4">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/insurance1.png" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/insurance2.png" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/insurance3.png" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/insurance4.png" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/insurance5.png" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-5 mt-5 gap-4">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4  flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/insurance6.png" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/universal sampoo.jpg" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/megma.jpg" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/aditya birla.jpg" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+              <div>
+                <Image src="/Images/medi asist.jpg" width={300} height={300} alt="cigna" />
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
         </div>
     )
 }
