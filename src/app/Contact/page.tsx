@@ -8,11 +8,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
-
-
-
-
 import { faEnvelope,faMapMarkerAlt ,faPhone } from '../../../node_modules/@fortawesome/free-solid-svg-icons/index'
 export default function Contact() {
     return(
@@ -28,10 +23,10 @@ export default function Contact() {
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-10'>
-                <div className="box-border h-auto w-full  flex mt-20 border-2 rounded-2xl">
+            <div className='container max-w-[1280px] mx-auto'>
+                <div className="box-border h-auto w-full  flex mt-16 border-2 rounded-2xl">
                     <Image className="rounded-l-2xl" width={600} height={600}  src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
-                        <div className='w-30 h-10 p-12'>
+                        <div className='w-30 h-10 pl-8 pt-8'>
                             <p className="text-4xl text-left mb-8 font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
                            
                                 <div className='mb-8'>
