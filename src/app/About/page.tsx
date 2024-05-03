@@ -29,7 +29,7 @@ export default function About() {
                     <div className="ml-24 mt-4">
                         <h1 className="text-4xl text-left ml-4 font-bold " style={{ color: 'rgb(1, 146, 144)'}} >Dr. Surabhi Vegad</h1>
                             <div className="box-border h-auto p-4">
-                                <div className="flex items-start  leading-loose font-medium ">
+                                <div className="flex items-start  leading-loose font-medium mt-2">
                                     <p className="box-border w-20 font-bold  mr-4" style={{ color: 'rgb(1, 146, 144)'}}>Speciality</p>
                                     <ul className="flex-grow  ml-3" style={{color:'gray'}}>
                                         <li>High Risk Pregnancy Care</li>
