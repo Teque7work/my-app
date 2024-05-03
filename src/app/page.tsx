@@ -89,7 +89,7 @@ export default function Home() {
     <iframe
       width="100%"
       height="720px"
-      src="https://www.youtube.com/embed/T6002GWH8k4?rel=0&autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0"
+      src="https://www.youtube.com/embed/T6002GWH8k4?rel=0&autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0&muted=1"
       allow="autoplay; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe>
@@ -127,7 +127,7 @@ export default function Home() {
           <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
             <Image className='pb-4' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Maternity</h3>
-              <p className='text-purple-900 text-sm mb-4'>healthy pregnancies and safe deliveries.</p>
+              <p className='text-purple-900 text-sm mb-4'>Healthy pregnancies and safe deliveries.</p>
             <Link href="/Treatments/Antenatal-Care"> 
               <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                   Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
