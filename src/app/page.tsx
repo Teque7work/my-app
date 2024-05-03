@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/app/(Components)/Header';
 import MySwiper from '@/app/(Components)/MySwiper';
 import Servies from '@/app/(Components)/Services';
+import { useEffect } from 'react';
 
 import '@/style/global.css';
 
@@ -23,10 +24,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
+
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Link from 'next/link';
 export default function Home() {
+  
   return (
     <div className="full mx-auto pl-4  pr-4 lg:pl-0 lg:pr-0">
       {/* Swiper Section */}
@@ -81,26 +84,39 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <section>
+  <div className='container max-w-[1280px] mx-auto mt-16 '>
+    <iframe
+      width="100%"
+      height="720px"
+      src="https://www.youtube.com/embed/T6002GWH8k4?rel=0&autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0"
+      allow="autoplay; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</section>
+
       <div className='container max-w-[1280px] mx-auto mt-2 '>
         <div className='grid grid-rows-1 grid-flow-col gap-6 items-center pt-16 mb-16'>
           <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
             <Image className='pb-4' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50}/>
             <h3 className='text-purple-900 font-semibold mb-4'>Gynaecology</h3>
             <p className='text-purple-900 text-sm mb-4'>Gynecologists diagnose and manage various</p>
-            <Link href="/"> 
+            <Link href="/Treatments/Uro"> 
               <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                   Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                   </svg>
-
               </button>
             </Link>
+
           </div>
+           
           <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
-            <Image className='pb-4' src="./SVG/Male-Infertility-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
-            <h3 className='text-purple-900 font-semibold mb-4'>Male Infertility</h3>
-            <p className='text-purple-900 text-sm mb-4'>Diagnose and treat reproductive issues in men</p>
-              <Link href="/"> 
+            <Image className='pb-4' src="./SVG/family-planning-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
+            <h3 className='text-purple-900 font-semibold mb-4'>Family Planning</h3>
+            <p className='text-purple-900 text-sm mb-4'>Optimal reproductive and maternal health.</p>
+              <Link href="/Treatments/Family-Planning"> 
                 <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                     Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -112,7 +128,7 @@ export default function Home() {
             <Image className='pb-4' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Maternity</h3>
               <p className='text-purple-900 text-sm mb-4'>healthy pregnancies and safe deliveries.</p>
-            <Link href="/"> 
+            <Link href="/Treatments/Antenatal-Care"> 
               <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                   Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -124,7 +140,7 @@ export default function Home() {
             <Image className='pb-4' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Laparoscopy Surgery</h3>
             <p className='text-purple-900 text-sm mb-4'>Minimally invasive abdominal procedure.</p>
-            <Link href="/"> 
+            <Link href="/Treatments/Laparoscopic"> 
               <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                   Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -136,7 +152,7 @@ export default function Home() {
             <Image className='pb-4' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Women Infertility</h3>
             <p className='text-purple-900 text-sm mb-4'>  Journey of hope and perseverance.</p>
-            <Link href="/"> 
+            <Link href="/Treatments/Preconception-Counselling"> 
               <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                   Know More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -149,9 +165,10 @@ export default function Home() {
       {/* Parallex Section */}
       <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-20 h-[500px]" >
         <div className="container max-w-[1280px]  mx-auto flex items-center">
-          <div className="w-1/2 flex items-start mt-[-190px]">
-            <Image src="/Images/family.png" width={550} height={400} alt="" />
-            </div>
+        <div className="w-1/2 flex flex-col items-center ">
+          <div ><Image src="/Images/parant.png" width={425} height={100} alt="" /></div>
+      </div>
+
               <div className="w-1/2">
                 <h3 className=' flex items-center text-[#27115f] w-[580px] font-bold text-2xl mb-8'>
                   Introducing Bavishi Fertility Institute (BFI) - Premier IVF & Gynecology Care in Bhuj, Kutch
