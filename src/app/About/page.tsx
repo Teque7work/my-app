@@ -9,7 +9,13 @@ export default function About() {
         <div className="main-content" >
          <div className="relative w-full">
                 <div className="bg-[url('/Images/hospitalbanner2.jpg')] bg-cover bg-center min-h-96"></div>
+                {/* <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div> */}
+                
                 <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
+  {/* Image overlay */}
+ 
+
+
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Our Doctor</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
