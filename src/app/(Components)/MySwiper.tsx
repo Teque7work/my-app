@@ -28,7 +28,7 @@ const MySwiper: React.FC = () => {
         bulletClass: 'my-pagination-bullet',
         bulletActiveClass: 'my-pagination-bullet-active',
       }}
-      // autoplay={true}
+      autoplay={true}
       loop={true}
       modules={[Autoplay, Navigation, Pagination]}
       navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
