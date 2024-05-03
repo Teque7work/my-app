@@ -47,7 +47,7 @@ export default function About() {
 
                     <div className='w-1/2 mt-12 container bg-black'>   
                         <Image
-                        src="/Images/abc2.png"
+                        src="/Images/treat2.png"
                         width={640}
                         height={348}
                         alt="Picture of the author"
