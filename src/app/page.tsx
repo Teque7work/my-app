@@ -165,8 +165,8 @@ export default function Home() {
       {/* Parallex Section */}
       <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-20 h-[500px]" >
         <div className="container max-w-[1280px]  mx-auto flex items-center">
-        <div className="w-1/2 flex flex-col items-center ">
-          <div ><Image src="/Images/parant.png" width={425} height={100} alt="" /></div>
+        <div className="w-1/2 flex flex-col items-center mb-[-20px]">
+          <div ><Image src="/Images/parant.png" width={500} height={100} alt="" className='mt-[-85px]' /></div>
       </div>
 
               <div className="w-1/2">
