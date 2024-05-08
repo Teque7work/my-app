@@ -44,7 +44,7 @@ const MySwiper: React.FC = () => {
 
                   <div className=''>
 
-                    <h1 className='w-100 text-5xl font-bold text-slate-100 pt-40 '>Making Womanhood Wonderful.....</h1> 
+                    <h1 className='w-100 text-6xl font-bold text-pink-500 pt-40 '>Making <br></br>Womanhood<br></br> Wonderful.....</h1> 
                     {/* <p className='font-medium text-pink-500'>Promoting good health together.</p>  */}
                     {/* <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white ransition-all duration-300 mt-3 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
                       Button <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2">
@@ -66,11 +66,11 @@ const MySwiper: React.FC = () => {
                     </div>
                   </div>
                   
-                  <div className='flex items-center gap-4 absolute mt-40'>
+                  <div className='flex items-center gap-4 absolute mt-28'>
                       <div>
                         <Image src="/Images/Safety.png" width={110} height={110} alt="Safety" />
                       </div>
-                      <div className='w-96 text-slate-300'>
+                      <div className='w-96 text-slate-500'>
                         <p>National Accreditation Board for Hospitals & Healthcare Providers (NABH)</p>
                       </div>
                   </div>
