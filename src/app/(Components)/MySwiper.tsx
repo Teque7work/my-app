@@ -38,13 +38,13 @@ const MySwiper: React.FC = () => {
       className="mySwiper !h-screen !z-[1]"
     >
 
-      <SwiperSlide className="flex w-full justify-center items-center bg-[url('/Images/banner2.jpg')] bg-cover bg-no-repeat md:bg-auto">
+      <SwiperSlide className="flex w-full justify-center items-center bg-[url('/Images/banner2.jpg')] bg-cover bg-no-repeat">
         <div className='max-w-[1280px] mx-auto w-full h-full px-4 flex flex-row items-center'>
           <div className='w-full md:w-1/2 animate-fade-in'>
 
                   <div className=''>
 
-                  <h1 className='w-100 text-6xl font-bold text-pink-500 pt-40'>
+                  <h1 className='w-[600px] text-6xl font-bold pb-4 text-pink-600 pt-44'>
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', lineHeight: '1.5' }}>Making</span> <br />
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', lineHeight: '1.5' }}>Womanhood</span><br />
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', lineHeight: '1.5' }}>Wonderful.....</span>
