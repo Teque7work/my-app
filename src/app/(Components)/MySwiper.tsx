@@ -42,7 +42,7 @@ const MySwiper: React.FC = () => {
         <div className='max-w-[1280px] mx-auto w-full h-full px-4 flex flex-row items-center'>
           <div className='w-full md:w-1/2 animate-fade-in'>
 
-                  <div className=''>
+                
 
                   <h1 className='w-[600px] text-6xl font-bold pb-4 text-pink-600 pt-44'>
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', lineHeight: '1.5' }}>Making</span> <br />
@@ -69,7 +69,7 @@ const MySwiper: React.FC = () => {
                             </svg>
                           </div>
                     </div>
-                  </div>
+               
                   
                   <div className='flex items-center gap-4 absolute mt-20'>
                       <div>
