@@ -73,18 +73,19 @@ export default function Home() {
       </div>
 
       {/* Services Section */}
-      <div className='bg-purple-50 md:h-[320px]'>
-        <div className=' mb-8 mt-16 rounded flex justify-between items-end max-w-[1280px] mx-auto'>
-        <div className='md:mr-8'>
-            <h1 className='text-2xl md:text-4xl font-bold text-purple-900 mb-4 md:mb-36'>Tailored care for every <br></br>stage of life</h1> 
-          </div>
-          <div className='mt- md:mt-6'>
-            <div className='mask h-[400px]   '>
-              <Image src="/Images/bg3-big.png" width={550} height={550} alt="" />
-            </div>
+          <div className='bg-purple-50 h-[200px] md:h-[320px]'>
+      <div className='mb-8 mt-16 rounded flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto'>
+        <div className='md:mr-8 md:w-1/2'>
+          <h1 className='text-sm md:text-4xl font-bold text-purple-900 mt-8 mb-8 md:mb-0 md:mt-4' dangerouslySetInnerHTML={{__html: 'Tailored care for every <br class="hidden md:block"/>stage of life'}}></h1>
+        </div>
+        <div className='md:mt-6'>
+          <div className='mask h-[100px] md:h-[400px]'>
+            <Image src="/Images/bg3-big.png" width={550} height={550} alt="" />
           </div>
         </div>
       </div>
+    </div>
+
       {/* <section>
         <div className='container max-w-[1280px] mx-auto mt-16 '>
           <iframe
@@ -209,7 +210,7 @@ export default function Home() {
             <h1 className='text-4xl w-96 pb-6 font-bold text-purple-900'>See what our patients are saying</h1> 
             <p className='font-medium text-purple-800'>Tailored care for every stage of life</p> 
             <p className='font-medium pb-6 text-purple-800'> <span className='font-bold '>4.86 rating</span> based on 300+ reviews</p> 
-              <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" className=" w-[40%] border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
+              <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-[40%] border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
               More Testimonials 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -255,7 +256,7 @@ export default function Home() {
                   <div className='mt-5'>
                       <div>
                         <p className="text-sm font-medium text-slate-500">Posted on Google</p>
-                        <p className='text-xs font-semibold text-pink-500'>January 1, 2024</p>
+                        <p className='text-xs font-semibold text-pink-500'>January 10, 2024</p>
                       </div>
                   </div>
               </div>
@@ -293,7 +294,7 @@ export default function Home() {
                 <div className='mt-5'>
                     <div>
                       <p className="text-sm font-medium text-slate-500">Posted on Google</p>
-                      <p className='text-xs font-semibold text-pink-500'>January 1, 2024</p>
+                      <p className='text-xs font-semibold text-pink-500'>March 25, 2024</p>
                     </div>
                 </div>
               </div>
@@ -331,7 +332,7 @@ export default function Home() {
                   <div className='mt-5'>
                       <div>
                         <p className="text-sm font-medium text-slate-500">Posted on Google</p>
-                        <p className='text-xs font-semibold text-pink-500'>January 1, 2024</p>
+                        <p className='text-xs font-semibold text-pink-500'>May 4, 2024</p>
                       </div>
                   </div>
               </div>
