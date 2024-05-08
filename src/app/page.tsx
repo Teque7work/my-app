@@ -101,7 +101,6 @@ export default function Home() {
       <iframe
       className="w-full h-[500px] md:h-96 lg:h-[720px]"
       src="https://www.youtube.com/embed/T6002GWH8k4?autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0&playlist=T6002GWH8k4&mute=1"
-      
       allow="autoplay; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe>
