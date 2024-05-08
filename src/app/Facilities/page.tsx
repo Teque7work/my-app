@@ -34,7 +34,7 @@ export default function Facilities() {
             </div>
         <div className='pb-20'>
             <div className="flex items-center justify-center">
-                <img
+                <Image
                     src="/Images/facilities7.jpg"
                     width={1000}
                     height={550}
@@ -143,7 +143,7 @@ export default function Facilities() {
         {/* Second faciliti */}
         <div className='pb-20'>
             <div className="flex items-center justify-center">
-                <img
+                <Image
                     src="/Images/facilities4.jpg"
                     width={1000}
                     height={550}
