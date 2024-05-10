@@ -73,18 +73,18 @@ export default function Home() {
       </div>
 
       {/* Services Section */}
-          <div className='bg-purple-50 h-[200px] md:h-[320px]'>
-      <div className='mb-8 mt-16 rounded flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto'>
-        <div className='md:mr-8 md:w-1/2'>
-          <h1 className='text-sm md:text-4xl font-bold text-purple-900 mt-8 mb-8 md:mb-0 md:mt-4' dangerouslySetInnerHTML={{__html: 'Tailored care for every <br class="hidden md:block"/>stage of life'}}></h1>
-        </div>
-        <div className='md:mt-6'>
-          <div className='mask h-[100px] md:h-[400px]'>
-            <Image src="/Images/bg3-big.png" width={550} height={550} alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
+          <div className='bg-purple-50 h-[280px] md:h-[320px] '>
+            <div className='md:mb-8 md:mt mt-16 rounded flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto'>
+              <div className='md:mr-8 md:w-1/2'>
+                <h1 className='text-lg md:text-4xl font-bold text-purple-900 mt-8 mb-8 md:mb-0 md:mt-4' dangerouslySetInnerHTML={{__html: 'Tailored care for every <br class="hidden md:block"/>stage of life'}}></h1>
+              </div>
+              <div className='md:mt-6'>
+                <div className='mask h-[100px] md:h-[400px]'>
+                  <Image src="/Images/bg3-big.png" width={550} height={550} alt="" />
+                </div>
+              </div>
+            </div>
+         </div>
 
       {/* <section>
         <div className='container max-w-[1280px] mx-auto mt-16 '>
@@ -97,20 +97,20 @@ export default function Home() {
           ></iframe>
         </div>
       </section> */}
-      <section>
-  <div className='container max-w-[1280px] mx-auto mt-16'>
-      <iframe
-      className="w-full h-[500px] md:h-96 lg:h-[720px]"
-      src="https://www.youtube.com/embed/T6002GWH8k4?autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0&playlist=T6002GWH8k4&mute=1"
-      allow="autoplay; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</section>
+        <section>
+        <div className='container max-w-[1280px] mx-auto mt-16'>
+          <iframe
+            className="w-full h-[200px] md:h-[520px] lg:h-[720px]"
+            src="https://www.youtube.com/embed/T6002GWH8k4?autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0&playlist=T6002GWH8k4&mute=1"
+            allow="autoplay; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
 
 
       <div className='container max-w-[1280px] mx-auto mt-2 '>
-        <div className='grid grid-rows-1 grid-flow-col gap-6 items-center pt-16 mb-16'>
+        <div className='grid grid-rows-5 md:grid-rows-1 grid-flow-col gap-6 items-center pt-16 mb-16 md:mb-16'>
           <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
             <Image className='pb-4' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50}/>
             <h3 className='text-purple-900 font-semibold mb-4'>Gynaecology</h3>
@@ -173,58 +173,58 @@ export default function Home() {
               </button>
             </Link>
           </div>
+          
         </div>
-      </div>
+      </div> 
       {/* Parallex Section */}
-      <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-20 h-[500px]" >
-        <div className="container max-w-[1280px]  mx-auto flex items-center">
-        <div className="w-1/2 flex flex-col items-center mb-[-20px]">
-          <div ><Image src="/Images/parant.png" width={500} height={100} alt="" className='mt-[-85px]' /></div>
-      </div>
+      <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-0 h-[970px] sm:h-[500px] sm:mt-0">
+        <div className="container max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center">
+          <div className="w-full sm:w-1/2 flex flex-col items-center mb-[-20px]">
+            <div><Image src="/Images/parant.png" width={500} height={100} alt="" className='mt-[-85px]' /></div>
+          </div>
+          <div className="w-full sm:w-1/2">
+            <h3 className='text-[#27115f] font-bold text-2xl mb-8 mt-16 sd:mt-0 text-center sm:text-left'>
+                Introducing Bavishi Fertility Institute (BFI) - Premier IVF & Gynecology Care in Bhuj, Kutch
+            </h3>
+            <div className='space-y-8'>
+            <div className='text-slate-500 sm:mt-0 text-left leading-snug  md:p-0 md:text-left p-2 md:p-0 '>
 
-              <div className="w-1/2">
-                <h3 className=' flex items-center text-[#27115f] w-[580px] font-bold text-2xl mb-8'>
-                  Introducing Bavishi Fertility Institute (BFI) - Premier IVF & Gynecology Care in Bhuj, Kutch
-                </h3>
-                <div>
-                  <div className='space-y-8'>
-                    <div className='flex gap-8'>
-                      <div className='space-y-3 text-slate-500'>
-                        <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive womens healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
-                      </div>
-                    </div>
-                    <div className='flex gap-6'>
-                      <div className='space-y-3 text-slate-500'>
-                        <p>Specializing in advanced infertility solutions, our IVF centre in Bhuj excels in treatments like IVF, ICSI, and Donor Oocyte programs. Notably, male infertility treatments such as TESE, TESA, PESA, and Micro TESE are also routinely administered, showcasing our expertise in holistic reproductive care.</p>
-                      </div>
-                    </div>
-                  </div>
+                <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women's healthcare. Under the esteemed leadership of Dr. Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
               </div>
+              <div className='text-slate-500 mt-16 sd:mt-0  p-2 md:p-0'>
+                <p>Specializing in advanced infertility solutions, our IVF centre in Bhuj excels in treatments like IVF, ICSI, and Donor Oocyte programs. Notably, male infertility treatments such as TESE, TESA, PESA, and Micro TESE are also routinely administered, showcasing our expertise in holistic reproductive care.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+
+
       {/* Testimonials Section */}
-      <div className='container max-w-[1280px] gap-7 flex mx-auto  pb-8 mt-20  items-center'>
-        <div className='w-2/5'>
+      <div className='container max-w-[1280px] gap-7 flex flex-col md:flex-row mx-auto pb-8 mt-10 md:mt-20 items-center'>
+        {/* first section */}
+       <div className='w-full md:w-2/5'>
           <div className='text-left'>
             <h1 className='text-4xl w-96 pb-6 font-bold text-purple-900'>See what our patients are saying</h1> 
             <p className='font-medium text-purple-800'>Tailored care for every stage of life</p> 
             <p className='font-medium pb-6 text-purple-800'> <span className='font-bold '>4.86 rating</span> based on 300+ reviews</p> 
-              <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-[40%] border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
+              <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-full md:w-[40%] border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
               More Testimonials 
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 md:w-0 h-4 ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
-            </a>
+              </a>
             <div className='flex justify-end'>
               <Image className='pb-2' src="/Images/hand-drawn-arrow1.png" alt="Gynaecology" width={200} height={64} />
             </div>
           </div>
         </div>
-        <div className='w-3/5'>
+        {/* second section */}
+        <div className='w-full md:w-3/5'>
           <Swiper spaceBetween={30} pagination={{ clickable: true, }} modules={[Pagination]} className="Testimonals">
-            <SwiperSlide className='bg-purple-50 p-11 rounded'>
-            <div className='h-[250px]'>
+            <SwiperSlide className='bg-purple-50 p-10 md:p-11 rounded'>
+            <div className='h-[350px] md:h-[250px]'>
                   <div className='mb-5 flex items-center'>
                     <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
@@ -261,8 +261,8 @@ export default function Home() {
                   </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='bg-purple-50 p-11 rounded'>
-            <div className='h-[250px]'>
+            <SwiperSlide className='bg-purple-50 p-10 md:p-11  rounded'>
+            <div className='h-[350px] md:h-[250px]'>
                 <div className='mb-5 flex items-center'>
                   <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                     <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
@@ -299,8 +299,8 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='bg-purple-50 p-11 rounded '>
-              <div className='h-[250px]'>
+            <SwiperSlide className='bg-purple-50 p-10 md:p-11 rounded '>
+            <div className='h-[350px] md:h-[250px]'>
                   <div className='mb-5 flex items-center'>
                     <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
@@ -340,13 +340,13 @@ export default function Home() {
           </Swiper>
         </div>
       </div>
-      <section className='bg-purple-50 pt-14 mt-14 h-[580px]'>
+      <section className='bg-purple-50 pt-14 md:mt-14 mt-14 h-[1850px] md:h-[580px]'>
         <div className="max-w-[1280px] mx-auto">
           <div className='text-center '>
             <h1 className='text-4xl  font-bold text-purple-900'>Cashless Facility</h1> 
               <p className='text-xs pt-4 pb-14 text-purple-800'>List of empaneled Insurance Company.</p>
           </div>
-          <div className="grid grid-cols-5  gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-4 md:mb-4">
             <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
               <div>
                 <Image src="/Images/insurance1.png" width={300} height={300} alt="cigna" />
@@ -373,7 +373,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-5 mt-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-5  gap-0 md:gap-4">
             <div className="box-border rounded-2xl h-auto w-full/5 p-4  flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
               <div>
                 <Image src="/Images/insurance6.png" width={300} height={300} alt="cigna" />
