@@ -58,7 +58,7 @@ export default function Home() {
         </div>
         <div className='w-full md:w-3/5 flex justify-center items-center'>
           <div className='text-center md:text-left'>
-            <h1 className='text-3xl md:text-4xl font-bold pb-4 text-purple-900 mt-8'>Empowering Womens Health</h1> 
+            <h1 className='text-3xl md:text-4xl font-bold pb-4 text-purple-900'>Empowering Womens Health</h1> 
             <p className='font-medium pb-4 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
             <p className='font-medium pb-4 text-slate-500'>As a distinguished gynecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care.</p> 
             <p className='pb-4 text-slate-500'>Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including high-risk pregnancy management, laparoscopic procedures, colposcopy, and menopausal care.</p>
@@ -74,9 +74,9 @@ export default function Home() {
 
       {/* Services Section */}
           <div className='bg-purple-50 h-[280px] md:h-[320px] '>
-            <div className='md:mb-8 md:mt mt-16 rounded flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto'>
+            <div className='md:mb-8 md:mt mt-4 rounded flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto'>
               <div className='md:mr-8 md:w-1/2'>
-                <h1 className='text-lg md:text-4xl font-bold text-purple-900 mt-8 mb-8 md:mb-0 md:mt-4' dangerouslySetInnerHTML={{__html: 'Tailored care for every <br class="hidden md:block"/>stage of life'}}></h1>
+                <h1 className='text-lg md:text-4xl font-bold text-purple-900 mt-0 mb-8 md:mb-0 md:mt-4 pt-8' dangerouslySetInnerHTML={{__html: 'Tailored care for every <br class="hidden md:block"/>stage of life'}}></h1>
               </div>
               <div className='md:mt-6'>
                 <div className='mask h-[100px] md:h-[400px]'>
@@ -109,7 +109,7 @@ export default function Home() {
       </section>
 
 
-      <div className='container max-w-[1280px] mx-auto mt-2 '>
+      <div className='container max-w-[1280px] mx-auto'>
         <div className='grid grid-rows-5 md:grid-rows-1 grid-flow-col gap-6 items-center pt-16 mb-16 md:mb-16'>
           <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
             <Image className='pb-4' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50}/>
@@ -206,7 +206,7 @@ export default function Home() {
         {/* first section */}
        <div className='w-full md:w-2/5'>
           <div className='text-left'>
-            <h1 className='text-4xl w-96 pb-6 font-bold text-purple-900'>See what our patients are saying</h1> 
+            <h1 className='text-4xl md:w-96 w-full pb-6 font-bold text-purple-900'>See what our patients are saying</h1> 
             <p className='font-medium text-purple-800'>Tailored care for every stage of life</p> 
             <p className='font-medium pb-6 text-purple-800'> <span className='font-bold '>4.86 rating</span> based on 300+ reviews</p> 
               <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-full md:w-[40%] border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
@@ -224,7 +224,7 @@ export default function Home() {
         <div className='w-full md:w-3/5'>
           <Swiper spaceBetween={30} pagination={{ clickable: true, }} modules={[Pagination]} className="Testimonals">
             <SwiperSlide className='bg-purple-50 p-10 md:p-11 rounded'>
-            <div className='h-[350px] md:h-[250px]'>
+            <div className='h-[400px] md:h-[250px]'>
                   <div className='mb-5 flex items-center'>
                     <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
@@ -262,7 +262,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide className='bg-purple-50 p-10 md:p-11  rounded'>
-            <div className='h-[350px] md:h-[250px]'>
+            <div className='h-[400px] md:h-[250px]'>
                 <div className='mb-5 flex items-center'>
                   <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                     <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
@@ -300,7 +300,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide className='bg-purple-50 p-10 md:p-11 rounded '>
-            <div className='h-[350px] md:h-[250px]'>
+            <div className='h-[400px] md:h-[250px]'>
                   <div className='mb-5 flex items-center'>
                     <div className='bg-[#d9d6fe] rounded-full w-14 h-14 mr-4 flex items-center justify-center'>
                       <FontAwesomeIcon icon={faQuoteRight} className="absolute w-5 h-5 text-pink-500"></FontAwesomeIcon>
@@ -340,7 +340,7 @@ export default function Home() {
           </Swiper>
         </div>
       </div>
-      <section className='bg-purple-50 pt-14 md:mt-14 mt-14 h-[1850px] md:h-[580px]'>
+      <section className='bg-purple-50 pt-14 md:mt-14 mt-14 h-[1750px] md:h-[580px]'>
         <div className="max-w-[1280px] mx-auto">
           <div className='text-center '>
             <h1 className='text-4xl  font-bold text-purple-900'>Cashless Facility</h1> 

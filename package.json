@@ -27,6 +27,7 @@
     "react-modal": "^3.16.1",
     "react-modal-image": "^2.6.0",
     "react-query": "^3.39.3",
+    "react-responsive": "^10.0.0",
     "react-tabs": "^6.0.2",
     "react-transition-group": "^4.4.5",
     "swiper": "^11.0.7"

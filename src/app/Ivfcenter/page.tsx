@@ -14,20 +14,20 @@ export default function About() {
 
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>The Best IVF Center in Bhuj</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 md:text-6xl text-5xl'>The Best IVF Center in Bhuj</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
                         <Link href="/">Home</Link> &gt; <Link href="/Treatments">IVF Center</Link>
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-20'>
+            <div className='container max-w-[1280px] mx-auto md:mt-20 mt-8'>
                 <div className='flex flex-wrap'>
-                    <div className='w-full lg:w-1/2 mb-8 gap-4'>
-                        <div className='text-[#009290] font-medium p-4 mr-8 text-justify mt-20'>
+                    <div className='w-full md:w-1/2 mb-8 gap-4'>
+                        <div className='text-[#009290] font-medium md:p-4 p-4 md:mr-8 mr-0 text-justify md:mt-20 mt-0'>
                             <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.
                             </p>
                         </div>
-                        <div className='text-md p-4 text-justify mr-8 mt-6 font-medium text-slate-500'>
+                        <div className='text-md p-4 text-justify md:mr-8 mr-0 mt-6 font-medium text-slate-500'>
                             <p>Specializing in advanced infertility solutions, our IVF centre in Bhuj excels in treatments like IVF, ICSI, and Donor Oocyte programs. Notably, male infertility treatments such as TESE, TESA, PESA, and Micro TESE are also routinely administered, showcasing our expertise in holistic reproductive care.
                             </p>
                         </div>
@@ -35,19 +35,19 @@ export default function About() {
                     </div>
                     <div className='w-full lg:w-1/2'>
                         {/* Replace the image with your actual image */}
-                        <Image src="/Images/ivfimg.jpg" width={500} height={500}alt="Image" className="w-full h-[500px] rounded-2xl" />
+                        <Image src="/Images/ivfimg.jpg" width={500} height={500}alt="Image" className="relative md:w-full w-full md:h-[500px] h-[400px] md:rounded-2xl rounded-2xl md:p-0 p-4"/>
                     </div>
                 </div>
            </div>
-           <div className="flex justify-center bg-white p-20 bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed">
-                    <div className="p-4 text-center  w-[75%] rounded-2xl">
+           <div className="flex justify-center bg-white md:p-20 p-0 bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed md:mt-0 mt-4 md:mb-0 mb-8">
+                    <div className="p-4 text-center  md:w-[75%] w-full rounded-2xl">
                         <p className="font-medium text-slate-500">
                             A qualified, expert and experienced team is working relentlessly to help each and every couple inhering the same philosophy policies and culture. The mother centre also provides all out and all-around support, may it be clinical management of the patients, IVF lab and related services, counselling or grievance redressal.
                         </p> 
                     </div>
                 </div>
-           <div className="flex">
-                <div className="w-[40%]">
+           <div className="flex md:flex-row flex-col">
+                <div className="md:w-[40%] w-full">
                     <Image
                         src="/Images/ivfcenter.jpg"
                         width={500}
@@ -56,8 +56,8 @@ export default function About() {
                         className="object-cover w-full h-full rounded-br-2xl rounded-tr-2xl"
                     />
                 </div>
-                <div className="w-[60%] p-8 bg-white flex flex-col justify-center">
-                    <p className='text-[rgb(236,72,153)] text-4xl'>Highlights of Our IVF Centre in Bhuj</p>
+                <div className="md:w-[60%] w-full p-8 bg-white flex flex-col justify-center">
+                    <p className='text-[rgb(236,72,153)] md:text-4xl text-3xl md:text-left text-center'>Highlights of Our IVF Centre in Bhuj</p>
                     <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>1. Expertise :</span>Our seasoned team comprises board-certified fertility specialists, embryologists, and reproductive endocrinologists, ensuring unparalleled care for male and female infertility, recurrent miscarriages, and genetic issues.</p>
                     <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>2. Cutting-Edge Facilities : </span>Equipped with state-of-the-art laboratories and surgical suites, we harness the latest in assisted reproductive technologies, including preimplantation genetic testing (PGT) and cryopreservation.</p>
                     <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>3. Holistic Services : </span>From fertility assessments and ovulation induction to IUI and minimally invasive surgeries, we offer a wide array of services tailored to individual needs.</p>
@@ -68,14 +68,14 @@ export default function About() {
                 </div>
             </div>
             <div className='container max-w-[1280px] mx-auto mt-14'>
-                <p className='text-[rgb(236,72,153)] text-4xl text-center'>Why Choose Bavishi Fertility Institute as Your IVF Center in Bhuj?</p>
-                <p className='font-medium text-slate-500 mt-8 text-center'>We believe that every woman is unique, therefore every fertility treatment shall be too. Looking for proven track record cutting edge technology, honest opinions, value for money, highest success chance – All under one roof? Look no further. Your search is over. That is BFI!</p>
+                <p className='text-[rgb(236,72,153)] md:text-4xl text-3xl text-center'>Why Choose Bavishi Fertility Institute as Your IVF Center in Bhuj?</p>
+                <p className='font-medium text-slate-500 mt-8 md:p-0 p-4 text-center'>We believe that every woman is unique, therefore every fertility treatment shall be too. Looking for proven track record cutting edge technology, honest opinions, value for money, highest success chance – All under one roof? Look no further. Your search is over. That is BFI!</p>
             </div>
             <div className='mt-8  bg-[rgb(253,239,226)] pb-4'>
                 <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
                     <p className='text-[rgb(236,72,153)] text-4xl text-center pt-8'>Our specialisations</p>
-                    <p className='text-gray-500 mt-4 text-center'>Any problem – the best solution – Under one roof = BFI! Focused, targeted and tailored treatment for every couple.</p>
-                    <div className="grid grid-rows-2 grid-flow-col gap-4">
+                    <p className='text-gray-500 mt-4 md:p-0 p-4 text-center'>Any problem – the best solution – Under one roof = BFI! Focused, targeted and tailored treatment for every couple.</p>
+                    <div className="grid md:grid-rows-2 grid-rows-7 grid-flow-col gap-4">
                         <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
                             <div>
                                 <Image
@@ -263,28 +263,28 @@ export default function About() {
                     </div>  
                 </div>
                 <div className='bg-[#F4F6F7]'>
-                   <div className='container max-w-[1280px] mx-auto p-8'>
+                   <div className='container max-w-[1280px] mx-auto md:p-8 p-14'>
                         {/* <p className='text-[rgb(236,72,153)] text-xl text-center pt-8'>Our IVF Specialists in Bhuj</p> */}
-                        <div className="flex">
-                        <div className="flex justify-center border-2 rounded-full overflow-hidden ml-12 border-0">
-                            <Image
-                                src="/Images/surbhi-vegad-1.jpg"
-                                width={600}
-                                height={500}
-                                alt="Picture of the author"
-                            />
-                        </div>
-                        <div className="mt-6">
-                            <div className="text-left ">
-                                <p className='ml-8 mt-2 text-[rgb(1,146,144)] text-4xl'>Dr. Surabhi Vegad – The Best Fertility & IVF Doctor</p>
-                                <p className='text-lg ml-8 text-[rgb(1,146,144)]'>Leading Gynecologist in Bhuj, Kutch</p>
+                        <div className="flex md:flex-row flex-col">
+                            <div className="flex md:justify-center border-2 rounded-full overflow-hidden md:ml-12 ml-0 border-0">
+                                <Image
+                                    src="/Images/surbhi-vegad-1.jpg"
+                                    width={600}
+                                    height={500}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                            <div className="mt-6 md:mb-0 mb-8">
+                                <div className="text-left">
+                                    <p className='md:ml-8 ml-0 mt-2 text-[rgb(1,146,144)] md:text-4xl text-xl'>Dr. Surabhi Vegad – The Best Fertility & IVF Doctor</p>
+                                    <p className='md:text-lg text-md md:ml-8 ml-0 md:pl-0 pl-0 text-[rgb(1,146,144)]'>Leading Gynecologist in Bhuj, Kutch</p>
 
-                                <p className='font-medium text-slate-500 p-8'>Dr. Surabhi Vegad stands as a premier Obstetrician and Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p>
+                                    <p className='md:font-medium font-light  text-slate-500 md:p-8 p-0 md:mt-0 mt-8 md:ml-0 ml-0'>Dr. Surabhi Vegad stands as a premier Obstetrician and Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className='bg-white'>
+                <div className='bg-white  hidden md:block'>
                     <div className='container max-w-[1280px] mx-auto mb-32 '>
                         <p className='text-[rgb(236,72,153)] text-4xl text-center pt-16'>FAQ</p>
                         <div className='flex'>

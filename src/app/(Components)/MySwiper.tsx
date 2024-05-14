@@ -39,12 +39,12 @@ const MySwiper: React.FC = () => {
     >
 
       <SwiperSlide className="flex w-full justify-center items-center bg-[url('/Images/banner2.jpg')] bg-cover bg-no-repeat">
-        <div className='max-w-[1280px] mx-auto w-full h-full px-4 flex flex-row items-center'>
+        <div className='max-w-[1280px] mx-auto w-full md:h-full h-[50%] px-4 flex flex-row items-center'>
           <div className='w-full md:w-1/2 animate-fade-in'>
 
                 
 
-                  <h1 className='w-[600px] text-6xl font-bold pb-4 text-pink-600 pt-44'>
+                  <h1 className='md:w-[600px] w-full md:text-6xl text-4xl font-bold pb-4 text-pink-600 pt-44'>
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Making</span> <br />
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Womanhood</span><br />
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Wonderful.....</span>
@@ -75,20 +75,20 @@ const MySwiper: React.FC = () => {
                       <div>
                         <Image src="/Images/Safety.png" width={110} height={110} alt="Safety" />
                       </div>
-                      <div className='w-96 text-slate-600'>
+                      <div className='md:w-96 w-full text-slate-600'>
                         <p>National Accreditation Board for  <br></br> Hospitals& Healthcare Providers (NABH)</p>
                       </div>
                   </div>
 
                 </div>
-                <div className='w-1/2'></div>
+                {/* <div className='w-1/2'></div> */}
             </div>
           </SwiperSlide>
 
           <SwiperSlide className="flex w-full justify-center items-center bg-[url('/Images/Main-Banner-Website-Banner.jpg')] bg-cover bg-no-repeat"> 
             <div className='max-w-[1280px] mx-auto w-full h-full px-4 flex flex-row items-center'>
             <div className='w-full md:w-1/2 animate-fade-in'>
-            <h1 className='w-[600px] text-6xl font-bold pb-4 text-slate-600 pt-44'>
+            <h1 className='md:w-[600px] w-full md:text-6xl text-4xl font-bold pb-4 text-slate-600 pt-44'>
               <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>We are committed </span><br />
               <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}> to  your health</span> <br />
               <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>and well-being</span>

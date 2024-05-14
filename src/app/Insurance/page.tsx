@@ -21,62 +21,60 @@ export default function Insurance() {
                 </div>
             </div>
             {/* main grid content */}
-            <div className='container max-w-[1280px] mx-auto mt-20 mb-24'>
-               
-                
-                <div className="grid grid-cols-5 mt-5 gap-10">
-                    <div className="box-border rounded-2xl h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className='container max-w-[1280px] mx-auto mt-12 md:mt-20 mb-24'>
+                <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mt-5 md:mr-0 mr-4 md:ml-0 ml-4">
+                    <div className="box-border rounded-2xl h-auto p-4 border-2 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
                                 src="/Images/insurance1.png"
                                 width={350} 
                                 height={200} 
-                                alt="Picture of the author"
+                                alt="Insurance Company 1"
                             />
                         </div>
                     </div>
-                    <div className="text-xl rounded-2xl box-border h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+                    <div className="box-border rounded-2xl h-auto p-4 border-2 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
                                 src="/Images/insurance2.png"
                                 width={350} 
                                 height={200} 
-                                alt="Picture of the author"
+                                alt="Insurance Company 2"
                             />
                         </div>
                     </div>
-                    <div className="box-border rounded-2xl h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+                    <div className="box-border rounded-2xl h-auto p-4 border-2 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
                                 src="/Images/insurance3.png"
                                 width={350} 
                                 height={200} 
-                                alt="Picture of the author"
+                                alt="Insurance Company 3"
                             />
                         </div>
                     </div>
-                    <div className="box-border rounded-2xl h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+                    <div className="box-border rounded-2xl h-auto p-4 border-2 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
                                 src="/Images/insurance4.png"
                                 width={350} 
                                 height={200} 
-                                alt="Picture of the author"
+                                alt="Insurance Company 4"
                             />
                         </div>
                     </div>
-                    <div className="box-border rounded-2xl h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+                    <div className="box-border rounded-2xl h-auto p-4 border-2 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
                                 src="/Images/insurance5.png"
                                 width={350} 
                                 height={200} 
-                                alt="Picture of the author"
+                                alt="Insurance Company 5"
                             />
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-5 mt-5 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mt-5 md:mr-0 mr-4 md:ml-0 ml-4">
                     <div className="box-border rounded-2xl h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image

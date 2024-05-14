@@ -6,7 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import { useMediaQuery } from 'react-responsive';
+import '@/style/global.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight, faPhoneVolume, faAlignRight, faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,6 +15,9 @@ import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight, faPhoneV
 import 'swiper/css';
 import 'swiper/css/pagination';
 export default function Facilities() {
+ const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
+const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
+
     return (
         <div className="main-content">
             <div className="relative w-full">
@@ -33,124 +37,141 @@ export default function Facilities() {
                 </div>
             </div>
         <div className='pb-20'>
-            <div className="flex items-center justify-center">
-                <Image
-                    src="/Images/facilities7.jpg"
-                    width={1000}
-                    height={550}
-                    alt="Main Image"
-                    className="w-[70%] h-[600px]"
-                />
-                <div className="w-[30%]">
-                    <p className="text-black text-sm text-center text-[#581C87] container max-w-[1280px] mx-auto">
-                        If You Need Urgent Care,<br></br> Simply Contact Our 24 Hour Emergency Hotline.<br></br>
-                        <span className="text-xl text-[#EC4899]">Your Health is Our Priority.</span>
-                    </p>
-                </div>
+        <div className="flex flex-col items-center justify-center md:flex-row">
+    {/* Main Image */}
+    <div className="w-full md:w-[70%]">
+        <Image
+            src="/Images/facilities7.jpg"
+            width={1000}
+            height={550}
+            alt="Main Image"
+            className="w-full h-[300px] md:h-[600px]"
+        />
+    </div>
+    {/* Text Content */}
+    <div className="w-full md:w-[30%] mt-8 md:mt-0 ">
+        <p className="text-black text-sm text-center text-[#581C87] container mx-auto">
+            If You Need Urgent Care,<br /> Simply Contact Our 24 Hour Emergency Hotline.<br />
+            <span className="text-xl text-[#EC4899]">Your Health is Our Priority.</span>
+        </p>
+    </div>
+</div>
+                {/* <div className="navigation-buttons p-20 " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999 }}></div> */}
+
+    <div className="md:ml-[120px] md-mt-0 mt-[-100px]" style={{ marginTop: '80px', position: 'relative' }}>
+        <div className="navigation-buttons p-20 hidden md:block " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999 }}>
+            <div className="swiper-button-prev">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
             </div>
-            <div style={{ marginTop: '80px', marginLeft: '120px', position: 'relative' }}>
-                <div className="navigation-buttons p-20 " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999 }}>
-                    <div className="swiper-button-prev">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                    </div>
-                    <p className='text-4xl text-[#581C87]' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
-                    <div className="swiper-button-next">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                    </div>
-                </div>
-                <div className='pb-36 relative' style={{ marginTop: '100px' }}>
-                    <div style={{ position: 'absolute', overflow: 'hidden', width: '60%', bottom:0, right: 0 }}>
-                        <Swiper
-                            autoplay={true}
-                            loop={true}
-                            modules={[Autoplay, Navigation]}
-                            slidesPerView={3}
-                            spaceBetween={25}
-                            navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
-                        >
-                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/facilities2.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                                </SwiperSlide>
-                                <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/facilities3.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/facilities5.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/facilities6.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/facilities8.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/fac1.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide style={{ width: '350px', height: '350px' }}>
-                                <Image
-                                    src="/Images/facilities9.jpg"
-                                    layout="fill" 
-                                    objectFit="cover" 
-                                    alt="First Image"
-                                    className='rounded-2xl'
-                                />
-                            </SwiperSlide>
-                        </Swiper>
-                    </div>
-                </div>
+            <p className='text-4xl text-[#581C87] ' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
+            <div className="swiper-button-next">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
             </div>
         </div>
+        <div className='md:pb-36 p-0 relative md:pt-0 pt-36 ' style={{ marginTop: '100px' }}>
+            <div className="navigation-buttons p-20 block md:hidden md:mt-0 mt-48 md:ml-0 ml-6" style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999, }}>
+                <div className="swiper-button-prev">
+                    <svg width="0" height="0" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                </div>
+                {/* <p className='text-4xl text-[#581C87] ' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p> */}
+                <div className="swiper-button-next md:mr-0 mr-14">
+                    <svg width="0" height="0" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+       
+
+        <div className='md:w-[60%] w-[100%] md:p-0 p-4' style={{ position: 'absolute', overflow: 'hidden', bottom: 0, right: 0 }}>
+        <Swiper
+                autoplay={true}
+                loop={true}
+                modules={[Autoplay, Navigation]}
+                slidesPerView={1.5}
+                spaceBetween={20} // Default spaceBetween for mobile
+                navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+                breakpoints={{
+                    1024: { 
+                    slidesPerView: 3,
+                    spaceBetween: 30, 
+                    },
+                }}
+                >
+                <SwiperSlide>
+                    <div className='relative md:w-[350px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-06'>
+                    <Image
+                        src="/Images/facilities3.jpg"
+                        layout="fill"
+                        objectFit="cover"
+                        alt="First Image"
+                    />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='relative md:w-[350px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-06'>
+                    <Image
+                        src="/Images/facilities5.jpg"
+                        layout="fill"
+                        objectFit="cover"
+                        alt="Second Image"
+                    />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='relative md:w-[350px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-06'>
+                    <Image
+                    src="/Images/facilities6.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    alt="First Image"
+                    />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='relative md:w-[350px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-06'>
+                    <Image
+                    src="/Images/facilities8.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    alt="First Image"
+                    />
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='relative md:w-[350px] md:h-[350px] h-[200px] rounded-2xl overflow-hidden flex justify-between md:ml-0 '>
+                    <Image
+                    src="/Images/facilities9.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    alt="First Image"
+                    />
+                </div>
+                </SwiperSlide>
+               
+            </Swiper>
+    </div>
+
+    </div>
+</div>
+
+        </div>
         {/* Second faciliti */}
-        <div className='pb-20'>
-            <div className="flex items-center justify-center">
+        <div className='pb-4 md:pb-20 md:mt-0 mt-12'>
+        <div className="flex flex-col items-center justify-center md:flex-row">
                 <Image
                     src="/Images/facilities4.jpg"
                     width={1000}
                     height={550}
                     alt="Main Image"
-                    className="w-[70%] h-[600px]"
+                    className="w-full h-[300px] md:w-[70%] md:h-[600px]"
                 />
-                <div className="w-[30%]">
+                <div className="w-full md:w-[30%] md:mt-0 mt-8">
                 <p className="text-black text-lg text-center text-[#581C87]">
                              Specializing in advanced infertility solutions, <br></br>
                             <span className='text-xl text-[#EC4899]'>our IVF centre in Bhuj.</span>
@@ -161,8 +182,8 @@ export default function Facilities() {
                         <div className='flex justify-center'>
                             <p className='text-4xl text-[#581C87] font-bold'>IVF Center</p>
                         </div>
-                        <div className="grid grid-cols-4 gap-8 mt-16">
-                            <div className=" h-auto rounded-2xl  w-screen/4 flex flex-col">
+                        <div className="grid md:grid-cols-4 grid-cols-1 gap-8 mt-16">
+                        <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter1.jpg"
@@ -175,7 +196,7 @@ export default function Facilities() {
                                 
                             </div>
                         
-                            <div className="text-xl h-auto w-screen/4 flex flex-col justify-center ">
+                            <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
                                 <div>
                                     <Image
                                         src="/Images/ivfcenter6.jpg"
@@ -188,7 +209,7 @@ export default function Facilities() {
                                 
                                 
                             </div>
-                            <div className=" h-auto w-screen/4 flex flex-col justify-center">
+                            <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter3.jpg"
@@ -201,7 +222,7 @@ export default function Facilities() {
                                
                                 
                             </div>
-                            <div className="h-auto w-screen/4 flex flex-col justify-center">
+                            <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0 pb-8">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter5.jpg"
