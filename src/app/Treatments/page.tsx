@@ -15,14 +15,14 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-8 md:mt-20 mb-28'>
+            <div className='container max-w-[1280px] mx-auto mt-4 md:mt-20 md:mb-28 mb-8 md:p-0 p-4'>
                 <div>
-                    <p className='md:pl-8 md:pr-8 pl-4 pr-4 md:text-center md:text-left text-gray-500 text-lg '>
+                    <p className='md:pl-8 md:pr-8 pl-4 pr-4 md:text-center text-center text-gray-500 text-lg md:mb-0 mb-8'>
                     Clinical laboratory services are tests provided by a medical lab that aid in diagnosis and treatment of patients. There are many types of clinical laboratory services, including:
                     </p>
                 </div>
                 {/* first section */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-0 md:mt-8 mt-0 md:p-0 p-4 ">
                     <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
                         <div className="flex flex-col items-left pb-8 md:h-[440px]">
                             <a href="/Treatments/Antenatal-Care">
@@ -53,7 +53,7 @@ export default function About() {
                             </a>
                         </div>
                     </div>
-                    <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
+                    <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-0">
                         <div className="flex flex-col items-left pb-8 md:h-[440px]">
                             <a href="/Treatments/Cancer-Screening">
                                 <Image
@@ -62,7 +62,7 @@ export default function About() {
                                     height={200}
                                     alt="Cancer Screening, Preventive Vaccination"
                                 />
-                                <p className="text-xl mt-4 text-purple-900 md:pl-6 pl-6 font-bold">Cancer Screening, Preventive Vaccination</p>
+                                <p className="text-xl mt-4 text-purple-900 md:pl-6 md:pl-6 pl-4 font-bold">Cancer Screening, Preventive Vaccination</p>
                                 <div className="w-28 ml-6 border-b-2 border-teal-500 mt-4"></div>
                                 <p className="text-md mt-4 text-gray-500 px-6">Cancer screening aims to detect signs of cancer early, often through tests like mammograms.</p>
                             </a>
@@ -71,7 +71,7 @@ export default function About() {
                 </div>
 
              {/* second section */}
-             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-0 md:mt-8 mt-0 md:p-0 p-4 ">
                 <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
                     <div className="flex flex-col items-left pb-8 md:h-[440px]">
                         <a href="/Treatments/Sexually-Transmitted-Disease">
@@ -102,7 +102,7 @@ export default function About() {
                         </a>
                     </div>
                 </div>
-                <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
+                <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-0">
                     <div className="flex flex-col items-left pb-8 md:h-[440px]">
                         <a href="/Treatments/Adolescent-Health">
                             <Image
@@ -120,7 +120,7 @@ export default function About() {
             </div>
 
                 {/* third section */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-0 md:mt-8 mt-0 md:p-0 p-4 ">
                 <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
                     <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/IVF-Speciality">
@@ -151,7 +151,7 @@ export default function About() {
                         </a>
                     </div>
                 </div>
-                <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
+                <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-0">
                     <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Infertility-Work-up">
                             <Image
@@ -169,7 +169,7 @@ export default function About() {
                 </div>
 
                 {/* forth section */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-0 md:mt-8 mt-0 md:p-0 p-4 ">
                 <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
                     <div className="flex flex-col items-left pb-8">
                         <a href="/Treatments/Uro">

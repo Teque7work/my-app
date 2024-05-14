@@ -37,9 +37,9 @@ export default function Home() {
         <MySwiper />
       </section>
       {/* About Section */}
-      <div className='text-center pt-11 pb-4 w-full'>
-        <h1 className='text-5xl font-bold text-purple-900'>Dr. Surabhi Vegad</h1> 
-          <p className='mb-6 text-sm text-pink-500 pt-2'>Leading Gynecologist in Bhuj, Kutch</p>
+      <div className='text-center md:pt-11  pb-4 w-full'>
+        <h1 className='md:text-5xl text-4xl font-bold text-purple-900'>Dr. Surabhi Vegad</h1> 
+          <p className='md:mb-6 mb-0 text-sm text-pink-500 pt-2'>Leading Gynecologist in Bhuj, Kutch</p>
             <div className='flex justify-center heading-title'>
               <span>
                 <Image className='mx-auto' src="/Images/Group-98.png" alt="" width={40} height={40} />
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
       </div>
       <div className='md:flex flex-col-reverse container max-w-[1280px] mx-auto pb-8 gap-8 md:flex-row md:gap-20'>
-        <div className='w-full md:w-2/5 flex justify-center'>
+        <div className='w-full md:w-2/5 flex justify-center md:p-0 p-2'>
           <Image
             src="/Images/surbhi vegad.jpg"
             width={700}
@@ -58,11 +58,11 @@ export default function Home() {
         </div>
         <div className='w-full md:w-3/5 flex justify-center items-center'>
           <div className='text-center md:text-left'>
-            <h1 className='text-3xl md:text-4xl font-bold pb-4 text-purple-900'>Empowering Womens Health</h1> 
+            <h1 className='md:text-3xl text-2xl md:mt-0 mt-8 md:text-4xl font-bold pb-4 text-purple-900'>Empowering Womens Health</h1> 
             <p className='font-medium pb-4 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
             <p className='font-medium pb-4 text-slate-500'>As a distinguished gynecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care.</p> 
             <p className='pb-4 text-slate-500'>Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including high-risk pregnancy management, laparoscopic procedures, colposcopy, and menopausal care.</p>
-            <a href="/About" className="md:w-[20%] inline-block border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
+            <a href="/About" className="md:w-[20%] w-[40%] md:ml-0 ml-28 justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
               Read More 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -110,8 +110,8 @@ export default function Home() {
 
 
       <div className='container max-w-[1280px] mx-auto'>
-        <div className='grid grid-rows-5 md:grid-rows-1 grid-flow-col gap-6 items-center pt-16 mb-16 md:mb-16'>
-          <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
+        <div className='grid grid-rows-5 md:grid-rows-1 grid-flow-col gap-6 items-center md:pt-16 mt-12 mb-16 md:mb-16'>
+          <div className='bg-purple-50 rounded flex flex-col md:p-6 p-6'>
             <Image className='pb-4' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50}/>
             <h3 className='text-purple-900 font-semibold mb-4'>Gynaecology</h3>
             <p className='text-purple-900 text-sm mb-4'>Gynecologists diagnose and manage various</p>
@@ -125,7 +125,7 @@ export default function Home() {
 
           </div>
            
-          <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
+          <div className='bg-purple-50 rounded flex flex-col  p-6 '>
             <Image className='pb-4' src="./SVG/family-planning-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Family Planning</h3>
             <p className='text-purple-900 text-sm mb-4'>Optimal reproductive and maternal health.</p>
@@ -137,7 +137,7 @@ export default function Home() {
                 </button>
               </Link>
           </div>
-          <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
+          <div className='bg-purple-50 rounded flex flex-col  p-6 '>
             <Image className='pb-4' src="./SVG/Maternity-baby-icon.svg" alt="Maternity" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Maternity</h3>
               <p className='text-purple-900 text-sm mb-4'>Healthy pregnancies and safe deliveries.</p>
@@ -149,7 +149,7 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6 '>
+          <div className='bg-purple-50 rounded flex flex-col  p-6 '>
             <Image className='pb-4' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Laparoscopy Surgery</h3>
             <p className='text-purple-900 text-sm mb-4'>Minimally invasive abdominal procedure.</p>
@@ -161,7 +161,7 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className='bg-purple-50 rounded flex flex-col hover:shadow-md transition-all duration-300 p-6'>
+          <div className='bg-purple-50 rounded flex flex-col p-6'>
             <Image className='pb-4' src="./SVG/infertility-icon.svg" alt="Women Infertility" width={50} height={50} />
             <h3 className='text-purple-900 font-semibold mb-4'>Women Infertility</h3>
             <p className='text-purple-900 text-sm mb-4'>  Journey of hope and perseverance.</p>
@@ -177,7 +177,7 @@ export default function Home() {
         </div>
       </div> 
       {/* Parallex Section */}
-      <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed mt-0 h-[970px] sm:h-[500px] sm:mt-0">
+      <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed bg-cover bg-center h-[970px] sm:h-[500px] mt-0 sm:mt-0">
         <div className="container max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center">
           <div className="w-full sm:w-1/2 flex flex-col items-center mb-[-20px]">
             <div><Image src="/Images/parant.png" width={500} height={100} alt="" className='mt-[-85px]' /></div>
@@ -209,20 +209,21 @@ export default function Home() {
             <h1 className='text-4xl md:w-96 w-full pb-6 font-bold text-purple-900'>See what our patients are saying</h1> 
             <p className='font-medium text-purple-800'>Tailored care for every stage of life</p> 
             <p className='font-medium pb-6 text-purple-800'> <span className='font-bold '>4.86 rating</span> based on 300+ reviews</p> 
-              <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-full md:w-[40%] border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
+              <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-[60%] md:w-[40%] justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
               More Testimonials 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 md:w-0 h-4 ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
               </a>
             <div className='flex justify-end'>
-              <Image className='pb-2' src="/Images/hand-drawn-arrow1.png" alt="Gynaecology" width={200} height={64} />
+            <Image className='pb-2 hidden md:block' src="/Images/hand-drawn-arrow2.png" alt="Gynaecology" width={200} height={64} />
+              <Image className='pb-2 block md:hidden' src="/Images/hand-drawn-arrow1.png" alt="Gynaecology" width={200} height={64} />
             </div>
           </div>
         </div>
         {/* second section */}
         <div className='w-full md:w-3/5'>
-          <Swiper spaceBetween={30} pagination={{ clickable: true, }} modules={[Pagination]} className="Testimonals">
+          <Swiper spaceBetween={30} pagination={{ clickable: true, }} modules={[Pagination]} className="Testimonals mg:mt-0 mt-[-20px]">
             <SwiperSlide className='bg-purple-50 p-10 md:p-11 rounded'>
             <div className='h-[400px] md:h-[250px]'>
                   <div className='mb-5 flex items-center'>
@@ -340,61 +341,59 @@ export default function Home() {
           </Swiper>
         </div>
       </div>
-      <section className='bg-purple-50 pt-14 md:mt-14 mt-14 h-[1750px] md:h-[580px]'>
+      <section className='bg-purple-50 md:pt-14 pt-12 md:mt-14 mt-8 md:mb-0 mb-16 md:pb-0 pb-12 md:h-[580px]'>
         <div className="max-w-[1280px] mx-auto">
           <div className='text-center '>
             <h1 className='text-4xl  font-bold text-purple-900'>Cashless Facility</h1> 
               <p className='text-xs pt-4 pb-14 text-purple-800'>List of empaneled Insurance Company.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-4 md:mb-4">
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-0 md:gap-4 md:mb-4">
+            <div className="box-border rounded-2xl h-auto md:w-full/5 w-full/2 p-4 flex flex-col justify-center items-center  relative">
               <div>
                 <Image src="/Images/insurance1.png" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto md:w-full/5 w-full/2 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/insurance2.png" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto md:w-full/5 w-full/2 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/insurance3.png" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/insurance4.png" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/insurance5.png" width={300} height={300} alt="cigna" />
               </div>
             </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-5  gap-0 md:gap-4">
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4  flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/insurance6.png" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/universal sampoo.jpg" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/megma.jpg" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/aditya birla.jpg" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
+            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/medi asist.jpg" width={300} height={300} alt="cigna" />
               </div>
