@@ -178,16 +178,16 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                         </p>
                 </div>
             </div>
-                    <div className='container max-w-[1280px] mx-auto relative z-10 pt-14 mb-14'>
+                    <div className='container max-w-[1280px] mx-auto relative z-10 md:pt-14 pt-8 md:mb-14 mb-8'>
                         <div className='flex justify-center'>
                             <p className='text-4xl text-[#581C87] font-bold'>IVF Center</p>
                         </div>
-                        <div className="grid md:grid-cols-4 grid-cols-1 gap-8 mt-16">
+                        <div className="grid md:grid-cols-4 grid-cols-1 gap-8 md:mt-16 mt-8">
                         <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter1.jpg"
-                                        width={450} 
+                                        width={400} 
                                         height={200} 
                                         alt="Picture of the author"
                                         className='rounded-2xl'
