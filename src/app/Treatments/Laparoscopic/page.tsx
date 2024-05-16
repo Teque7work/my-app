@@ -11,7 +11,7 @@ export default function About() {
 
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-5xl'>Laparoscopic & Hysteroscopic Surgeries</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 md:text-5xl text-4xl'>Laparoscopic & Hysteroscopic Surgeries</p>
                     <p className=" absolute bottom-8 text-white px-8 py-2">
                     <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Laparoscopic & Hysteroscopic Surgeries</Link>
                 </p>
