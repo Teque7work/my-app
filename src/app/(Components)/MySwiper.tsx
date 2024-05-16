@@ -89,9 +89,9 @@ const MySwiper: React.FC = () => {
               <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>and well-being</span>
             </h1>
             <h1 className='md:w-[600px] w-full md:text-6xl text-xl font-bold pb-4 text-pink-600 md:pt-44 md:hidden block'>
-                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Making</span> <br />
-                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Womanhood</span><br />
-                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Wonderful.....</span>
+                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)', lineHeight: '1.5' }}>Making</span> <br />
+                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)', lineHeight: '1.5' }}>Womanhood</span><br />
+                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)', lineHeight: '1.5' }}>Wonderful.....</span>
                   </h1>
 
  

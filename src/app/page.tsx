@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
       {/* Services Section */}
-          <div className='bg-purple-50 h-[280px] md:h-[320px] '>
+          <div className='bg-purple-50 h-[280px] md:h-[320px] md:block hidden '>
             <div className='md:mb-8 md:mt mt-4 rounded flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto'>
               <div className='md:mr-8 md:w-1/2'>
                 <h1 className='text-lg md:text-4xl font-bold text-purple-900 mt-0 mb-8 md:mb-0 md:mt-4 pt-8' dangerouslySetInnerHTML={{__html: 'Tailored care for every <br class="hidden md:block"/>stage of life'}}></h1>
@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       </section> */}
         <section>
-        <div className='container max-w-[1280px] mx-auto mt-16'>
+        <div className='container max-w-[1280px] mx-auto md:mt-16 mt-4'>
           <iframe
             className="w-full h-[200px] md:h-[520px] lg:h-[720px]"
             src="https://www.youtube.com/embed/T6002GWH8k4?autoplay=1&controls=0&loop=1&modestbranding=1&showinfo=0&playlist=T6002GWH8k4&mute=1"
@@ -206,7 +206,7 @@ export default function Home() {
       {/* Testimonials Section */}
       <div className='container max-w-[1280px] gap-7 flex flex-col md:flex-row mx-auto pb-8 mt-10 md:mt-20 items-center'>
         {/* first section */}
-       <div className='w-full md:w-2/5'>
+       <div className='w-full md:w-2/5 '>
           <div className='text-left'>
             <h1 className='text-4xl md:w-96 w-full pb-6 font-bold text-purple-900'>See what our patients are saying</h1> 
             <p className='font-medium text-purple-800'>Tailored care for every stage of life</p> 

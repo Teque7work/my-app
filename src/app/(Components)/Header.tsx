@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Fragment, useState, useEffect  } from 'react';
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import About from "../About/page";
 
 
 const AboutDropdown: React.FC = () => {
@@ -33,8 +34,8 @@ const AboutDropdown: React.FC = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <span>About</span>
-            <ChevronDownIcon className="w-5 h-5 ml-1" />
+            <Link href="/About" className="text-purple-900" onClick={closeMenu}><span>About</span></Link>
+            <ChevronDownIcon className="w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
           </Popover.Button>
 
           <Transition
@@ -104,7 +105,7 @@ const TreatmentDropdown: React.FC = () => {
             onMouseLeave={handleMouseLeave}
           >
             <Link href="/Treatments" className="text-purple-900" onClick={closeMenu}><span>Treatments</span></Link>
-            <ChevronDownIcon className="w-5 h-5 ml-1" />
+            <ChevronDownIcon className="w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
           </Popover.Button>
 
           <Transition
@@ -122,7 +123,7 @@ const TreatmentDropdown: React.FC = () => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <div className="overflow-hidden rounded-lg rounded-t-none border-t-4 border-pink-500 shadow-lg ring-1 ring-black ring-opacity-5">
+              <div className="overflow-hidden rounded-lg rounded-t-none border-t-4 border-pink-500 shadow-lg ring-1 md:mr-0 mr-4 ring-black ring-opacity-5">
                 {/* Popover Content */}
                 <div className="flex px-2 py-3 bg-white text-black">
                 {/* First part */}
@@ -206,82 +207,6 @@ const TreatmentDropdown: React.FC = () => {
     </Popover>
   );
 };
-
-// About Dropdown
-// const AboutDropdown: React.FC = () => {
-//   const [isHovered, setIsHovered] = useState(false);
-
-//   const handleMouseEnter = () => {
-//     setIsHovered(true);
-//   };
-
-//   const handleMouseLeave = () => {
-//     setIsHovered(false);
-//   };
-
-//   const closeMenu = () => {
-//     setIsHovered(false);
-//     // Add any additional close logic if needed
-//   };
-
-//   return (
-//     <Popover>
-//       {({ open }) => (
-//         <>
-//           <Popover.Button
-//             className="focus:outline-none cursor-pointer flex items-center"
-//             onMouseEnter={handleMouseEnter}
-//             onMouseLeave={handleMouseLeave}
-//           >
-//             <Link href="/About" className="text-purple-900" onClick={closeMenu}><span>About</span></Link>
-//             <ChevronDownIcon className="w-5 h-5 ml-1" />
-//           </Popover.Button>
-
-//           <Transition
-//             show={open || isHovered}
-//             as={Fragment}
-//             enter="transition ease-out duration-200"
-//             enterFrom="opacity-0 translate-y-1"
-//             enterTo="opacity-100 translate-y-0"
-//             leave="transition ease-in duration-150"
-//             leaveFrom="opacity-100 translate-y-0"
-//             leaveTo="opacity-0 translate-y-1"
-//           >
-//             <Popover.Panel static
-//               className="absolute mt-[35px] space-y-2"
-//               onMouseEnter={handleMouseEnter}
-//               onMouseLeave={handleMouseLeave}
-//             >
-//               <div className="overflow-hidden rounded-lg rounded-t-none border-t-4 border-pink-500 shadow-lg ring-1 ring-black ring-opacity-5">
-//                 {/* Popover Content */}
-//                 <div className="flex px-2 py-3 bg-white text-black">
-//                 <div>
-//                   <ul className="space-y-2 text-sm">
-//                     <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
-//                       <Link href="/About" className="text-purple-900" onClick={closeMenu}>
-//                       Dr.Surabhi Vegad
-//                       </Link>
-//                     </li>
-//                     <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
-//                       <Link href="/MeetTeam" className="text-purple-900" onClick={closeMenu}>
-//                       Meet Our Team
-//                       </Link>
-//                     </li>
-//                   </ul>
-//                 </div>
-//               </div>
-
-//               </div>
-//             </Popover.Panel>
-//           </Transition>
-//         </>
-//       )}
-//     </Popover>
-//   );
-// };
-
-
-
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -346,24 +271,17 @@ const Header: React.FC = () => {
                     </svg>
                   </div>
                 </li>
-                <li className="border-2 md:border-none md:p-0 p-4 block md:hidden border-y-0 md:mt-0 mt-8">
+                <li className="border-2 md:border-none md:p-0 p-4 block md:hidden border-y-0 md:mt-0 mt-8 border-b-2">
                   <Link href="/" className="text-purple-900 text-xl" onClick={closeMenu}>
                   <p>Home</p>
                   </Link>
                 </li>
-                <li className="border-2 md:border-none md:p-0 p-4">
-                  <Link href="/About" className="text-purple-900 text-xl" onClick={closeMenu}>
-                    <AboutDropdown />
-                  </Link>
-                </li>
-                {/* <li className="border-2 md:border-none md:p-0 p-4">
-                  <Link href="/Treatments" className="text-purple-900 text-xl" onClick={closeMenu}>
-                  <TreatmentDropdown />
-                  </Link>
-                </li> */}
-                <li className="text-purple-900 text-xl border-1 md:border-none md:p-0 p-4">
-                  <TreatmentDropdown/>
-                </li>
+                <li className="text-purple-900 text-xl border-1 border-b-2 md:border-none md:p-0 p-4" href="/About" onClick={closeMenu}>
+                <AboutDropdown/>
+              </li>
+                <li className="text-purple-900 text-xl border-1 md:border-none md:p-0 p-4" href="/Treatments" onClick={closeMenu}>
+                <TreatmentDropdown />
+              </li>
                  <li className="border-2 md:border-none md:p-0 p-4 ">
                   <Link href="/Facilities" className="text-purple-900 text-xl"  onClick={closeMenu}>
                     Facilities
