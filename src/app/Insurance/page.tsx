@@ -14,7 +14,7 @@ export default function Insurance() {
                 <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Insurance</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 text-5xl'>Insurance</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
                         <Link href="/">Home</Link> &gt; <Link href="/Insurance">Insurance</Link>
                     </p>
