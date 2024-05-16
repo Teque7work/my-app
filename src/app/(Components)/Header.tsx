@@ -54,14 +54,14 @@ const AboutDropdown: React.FC = () => {
             >
               <div className="overflow-hidden rounded-lg rounded-t-none border-t-4 border-pink-500 shadow-lg ring-1 ring-black ring-opacity-5">
                 {/* Popover Content */}
-                <div className="p-4 bg-white text-black">
+                <div className="p-4 bg-white text-black ">
                   <ul className="space-y-4 text-base">
                   <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
                       <Link href="/About" className="text-purple-900" onClick={closeMenu}>
                         Dr. Surabhi Vegad
                       </Link>
                     </li>
-                    <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
+                    <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300 md:block hidden">
                       <Link href="/MeetTeam" className="text-purple-900" onClick={closeMenu}>
                         Meet Our Team
                       </Link>
