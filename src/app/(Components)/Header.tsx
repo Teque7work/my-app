@@ -35,7 +35,7 @@ const AboutDropdown: React.FC = () => {
             onMouseLeave={handleMouseLeave}
           >
             <Link href="/About" className="text-purple-900" onClick={closeMenu}><span>About</span></Link>
-            <ChevronDownIcon className="w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
+            <ChevronDownIcon className="md:w-4 md:ml-1 w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
           </Popover.Button>
 
           <Transition
@@ -105,7 +105,7 @@ const TreatmentDropdown: React.FC = () => {
             onMouseLeave={handleMouseLeave}
           >
             <Link href="/Treatments" className="text-purple-900" onClick={closeMenu}><span>Treatments</span></Link>
-            <ChevronDownIcon className="w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
+            <ChevronDownIcon className="md:w-4 md:ml-1 w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
           </Popover.Button>
 
           <Transition
@@ -276,10 +276,10 @@ const Header: React.FC = () => {
                   <p>Home</p>
                   </Link>
                 </li>
-                <li className="text-purple-900 text-xl border-1 border-b-2 md:border-none md:p-0 p-4" href="/About" onClick={closeMenu}>
+                <li className="text-purple-900 text-xl border-1 border-b-2 md:border-none md:p-0 p-4" onClick={closeMenu}>
                 <AboutDropdown/>
               </li>
-                <li className="text-purple-900 text-xl border-1 md:border-none md:p-0 p-4" href="/Treatments" onClick={closeMenu}>
+                <li className="text-purple-900 text-xl border-1 md:border-none md:p-0 p-4" onClick={closeMenu}>
                 <TreatmentDropdown />
               </li>
                  <li className="border-2 md:border-none md:p-0 p-4 ">
