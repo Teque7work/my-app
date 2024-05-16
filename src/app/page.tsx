@@ -64,7 +64,7 @@ export default function Home() {
             <p className='font-medium pb-4 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
             <p className='font-medium pb-4 text-slate-500'>As a distinguished gynecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care.</p> 
             <p className='pb-4 text-slate-500'>Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including high-risk pregnancy management, laparoscopic procedures, colposcopy, and menopausal care.</p>
-            <a href="/About" className="md:w-[20%] w-[40%] md:ml-0 ml-28 justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
+            <a href="/About" className="md:w-[20%] w-[40%] md:ml-0 ml-24 justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
               Read More 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
 
-      <div className='container max-w-[1280px] mx-auto'>
+      <div className='container max-w-[1280px] mx-auto md:p-0 p-4'>
         <div className='grid grid-rows-5 md:grid-rows-1 grid-flow-col gap-6 items-center md:pt-16 mt-12 mb-16 md:mb-16'>
           <div className='bg-purple-50 rounded flex flex-col md:p-6 p-6'>
             <Image className='pb-4' src="./SVG/pregnant-icon.svg" alt="Gynaecology" width={50} height={50}/>
