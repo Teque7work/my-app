@@ -12,13 +12,13 @@ export default function About() {
             {/* <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div> */} 
             <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Our Doctor</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 text-5xl'>Our Doctor</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
                         <Link href="/">Home</Link> &gt; <Link href="/About">Our Doctor</Link>
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto mt-14 mb-0 md:mb-24'>
+            <div className='container max-w-[1280px] mx-auto md:mt-14 mt-8 mb-0 md:mb-24'>
     <div className="box-border h-auto w-full p-4 flex flex-col md:flex-row items-center md:items-start">
         <div className="mb-4 md:mb-0 md:mr-8">
             <Image
@@ -62,7 +62,7 @@ export default function About() {
 
 <div className="font-medium text-center mt-10 md:pb-24 pb-10 pt-10 bg-slate-100 text-slate-500">
     <div className='container max-w-[1280px] mx-auto pb-8'>
-        <p className='text-2xl md:text-4xl md:text-center text-left md:pl-0 pl-4 ' style={{ color: 'rgb(1, 146, 144)'}}> Dr. Surabhi Vegad : Empowering Womens Health</p>
+        <p className='text-2xl md:text-4xl md:text-center text-center text-left md:pl-0 pl-4 ' style={{ color: 'rgb(1, 146, 144)'}}> Dr. Surabhi Vegad : Empowering Womens Health</p>
         <div className='mt-8 md:mt-10 md:pl-0 pl-4 md:text-center text-left md:pr-0 pr-4'>
             <p>
                 Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing

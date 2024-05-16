@@ -22,7 +22,7 @@ export default function Insurance() {
             </div>
             {/* main grid content */}
             <div className='container max-w-[1280px] mx-auto mt-12 md:mt-20 mb-24'>
-                <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mt-5 md:mr-0 mr-4 md:ml-0 ml-4">
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-5 md:mr-0 mr-4 md:ml-0 ml-4">
                     <div className="box-border rounded-2xl h-auto p-4 border-2 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image
@@ -73,8 +73,7 @@ export default function Insurance() {
                             />
                         </div>
                     </div>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mt-5 md:mr-0 mr-4 md:ml-0 ml-4">
+               
                     <div className="box-border rounded-2xl h-auto w-screen/5 p-4 border-2 flex flex-col justify-center items-center hover:shadow-md transition-all duration-300 relative">
                         <div>
                             <Image

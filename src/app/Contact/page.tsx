@@ -17,15 +17,15 @@ export default function Contact() {
                 <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-6xl'>Contact Us</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 text-5xl'>Contact Us</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
                         <Link href="/">Home</Link> &gt; <Link href="/Contact">Contact Us</Link>
                     </p>
                 </div>
             </div>
-            <div className='container max-w-[1280px] mx-auto'>
-    <div className="box-border h-auto w-full flex flex-col md:flex-row mt-16 border-2 rounded-2xl">
-        <Image className="rounded-l-2xl md:rounded-t-2xl md:rounded-l-none" width={600} height={600} src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
+            <div className='container md:max-w-[1280px] w-full mx-auto'>
+    <div className="md:box-border h-auto w-full flex flex-col md:flex-row md:mt-16 mt-8 border-2 rounded-2xl md:p-0 p-4 border-none">
+        <Image className="md:rounded-l-2xl md:rounded-t-2xl md:rounded-l-none md:rounded-none rounded-2xl" width={600} height={600} src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
         <div className='p-4 md:p-8'>
             <p className="text-4xl text-left mb-8 font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
             <div className='mb-8'>
@@ -65,7 +65,7 @@ export default function Contact() {
       <h1 className='text-4xl md:text-5xl font-bold text-purple-900'>Cashless Facility</h1> 
       <p className='text-sm md:text-base pt-4 pb-8 md:pb-14 text-purple-800'>List of empaneled Insurance Companies.</p>
     </div>
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-5 md:gap-4 gap-0">
       <div className="box-border rounded-2xl h-auto p-4 flex justify-center items-center hover:shadow-md transition-all duration-300 relative">
         <div>
           <Image src="/Images/insurance1.png" width={300} height={300} alt="cigna" />

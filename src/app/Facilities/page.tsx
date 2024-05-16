@@ -73,7 +73,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
             </div>
         </div>
         <div className='md:pb-36 p-0 relative md:pt-0 pt-36 ' style={{ marginTop: '100px' }}>
-            <div className="navigation-buttons p-20 block md:hidden md:mt-0 mt-48 md:ml-0 ml-6" style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999, }}>
+            <div className="navigation-buttons p-20 block md:hidden md:mt-0 mt-40 md:ml-0 ml-6" style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999, }}>
                 <div className="swiper-button-prev">
                     <svg width="0" height="0" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>

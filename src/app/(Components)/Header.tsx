@@ -308,19 +308,22 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className="fixed w-full top-4 z-50 transition duration-300 ease-in-out">
-      {/* <div className="absolute inset-0 z-2 h-170 bg-gradient-to-b from-[#00000080] to-transparent"></div> */}
-      <nav className="p-0">
-        <div className="max-w-[1280px] mx-auto bg-white px-5 py-3 rounded-2xl drop-shadow-2xl">
-          <div className="flex justify-between items-center">
-            <div className="text-pink-500 !z-[999]">
+    <header className="fixed w-full md:top-4 md:z-50 z-50 transition duration-300 ease-in-out">
+    <nav className="md:p-0 top-0">
+      <div className="max-w-[1280px] mx-auto px-5 py-3 md:rounded-2xl shadow-2xl bg-white">
+        <div className="flex justify-between items-center">
+          <div className="text-pink-500 z-10">
+            <Link href="/">
+                <Image src="/SVG/Spandan-Logo-Text-Side.svg" alt="Spandan Maternity123" className="md:block hidden" width={250} height={64} />
+              </Link>
               <Link href="/">
-                <Image  src="/SVG/Spandan-Logo-Text-Side.svg"  alt="Spandan Maternity123" width={250} height={64} />
+                <Image src="/SVG/Spandan-Logo-Text-Side.svg" alt="Spandan Maternity123" className="md:hidden block" width={200} height={64} />
               </Link>
             </div>
-            <div className="flex text-black !z-[999]">
-              <div className="sm:hidden text-pink-500 cursor-pointer" onClick={toggleMenu}>
-                <svg
+            <div className="flex text-black z-10">
+              <div className="md:hidden text-pink-500 cursor-pointer" onClick={toggleMenu}>
+              <Image src="/Images/Spandan Button.svg" alt="" width={25} height={25} />
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -333,9 +336,9 @@ const Header: React.FC = () => {
                     strokeLinejoin="round"
                     d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M3.75 9h16.5m-16.5 6.75h16.5"}
                   />
-                </svg>
+                </svg> */}
               </div>
-              <ul className={`sm:flex p-4 space-x-10 items-center ${isMenuOpen ? "block fixed top-0 pt-4 z-10 right-0 w-full h-full bg-black" : "hidden"}`}>
+              <ul className={`fixed md:items-center md:pt-4 pt-16 w-full p-0 m-0 list-none top-0 bottom-0 left-0 w-full bg-[#E2F6F4] md:pl-0 pl-0 transition-transform duration-300 ease-in-out ${isMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'} md:p-4 p-0 md:space-y-0 text-left sm:flex sm:justify-center sm:space-y-0 sm:space-x-10 sm:relative sm:bg-transparent sm:transform-none sm:flex-row`}>
                 <li className="sm:hidden absolute top-4 right-4">
                   <div className="text-pink-500 cursor-pointer" onClick={closeMenu}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -343,45 +346,54 @@ const Header: React.FC = () => {
                     </svg>
                   </div>
                 </li>
-                <li>
-                  <Link href="/About" className="text-purple-900 text-xl" onClick={closeMenu}>
-                  <AboutDropdown />
+                <li className="border-2 md:border-none md:p-0 p-4 block md:hidden border-y-0 md:mt-0 mt-8">
+                  <Link href="/" className="text-purple-900 text-xl" onClick={closeMenu}>
+                  <p>Home</p>
                   </Link>
                 </li>
-                <li className="text-purple-900 text-xl">
-                  <TreatmentDropdown />
+                <li className="border-2 md:border-none md:p-0 p-4">
+                  <Link href="/About" className="text-purple-900 text-xl" onClick={closeMenu}>
+                    <AboutDropdown />
+                  </Link>
                 </li>
-                <li>
-                  <Link href="/Facilities" className="text-purple-900 text-xl" onClick={closeMenu}>
+                {/* <li className="border-2 md:border-none md:p-0 p-4">
+                  <Link href="/Treatments" className="text-purple-900 text-xl" onClick={closeMenu}>
+                  <TreatmentDropdown />
+                  </Link>
+                </li> */}
+                <li className="text-purple-900 text-xl border-1 md:border-none md:p-0 p-4">
+                  <TreatmentDropdown/>
+                </li>
+                 <li className="border-2 md:border-none md:p-0 p-4 ">
+                  <Link href="/Facilities" className="text-purple-900 text-xl"  onClick={closeMenu}>
                     Facilities
                   </Link>
                 </li>
-                <li>
+                <li className="border-2 md:border-none md:p-0 p-4 border-y-0">
                   <Link href="/Insurance" className="text-purple-900 text-xl" onClick={closeMenu}>
                     Insurance
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="/MeetTeam" className="text-purple-900" onClick={closeMenu}>
-                    Meet Team
-                  </Link>
-                </li> */}
-                <li>
+                <li className="border-2 md:border-none md:p-0 p-4">
                   <Link href="/Contact" className="text-purple-900 text-xl" onClick={closeMenu}>
-                     Contact 
+                    Contact
                   </Link>
                 </li>
-                <li>
+                 <li className="border-2 md:border-none md:p-0 p-4 border-y-0 border-b-2">
                   <Link href="/Ivfcenter" className="text-purple-900" onClick={closeMenu}>
-                    <button className="mt-0 pt-2 pb-2 pl-4 pr-4 rounded-3xl text-white bg-pink-500 flex items-center text-lg">
+                    <button className="mt-0 md:pt-2 md:pb-2 md:pl-4 pl-0 pr-4 rounded-3xl md:text-white md:bg-pink-500 text-purple-900 flex items-center md:text-lg text-xl">
                       IVF Center
                     </button>
-
-                    {/* <Image src="/Images/bavishi-logo.png" alt="Bavishi Clinic" width={200} height={200} />  */}
                   </Link>
                 </li>
+                <li className="md:hidden block">
+                <div className=" md:hidden block flex justify-center md:mt-0 mt-20">
+                  <Image src="/Images/headet-img.svg" width={120} height={120} alt="Description of SVG" />
                 
+                </div>
+                </li>
               </ul>
+              
             </div>
           </div>
         </div>

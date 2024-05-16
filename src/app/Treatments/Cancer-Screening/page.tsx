@@ -20,7 +20,7 @@ export default function About() {
             </div>
             <div className='container max-w-[1280px] mx-auto mt-8 md:mt-14 mb-14'>
                
-            <p className='md:text-base text-sm md:pl-0 pl-4 md:pr-0 pr-4 text-justify text-[#5C5C5C]'>
+            <p className='md:text-base text-base md:pl-0 pl-4 md:pr-0 pr-4 text-justify text-[#5C5C5C]'>
                 Discover complete Cancer Screening, Diagnosis, & Preventive Vaccination services at Spandan Maternity Home. Our committed 
                 healthcare team emphasizes early detection and prevention, providing customized screening tests and advanced diagnostics. From 
                 regular screenings to personalized preventive vaccination programs, we offer proactive care to protect your well-being. Rely on 
@@ -67,9 +67,9 @@ export default function About() {
                 </div>
 
                  {/* footer-section */}
-                 <div className="flex flex-col md:flex-row gap-10 mt-8 md:mt-24 text-center">
+                 <div className="flex flex-col md:flex-row gap-10 mt-0 md:mt-24 text-center md:p-0 p-8">
                  <div className="bg-white-700 md:w-1/3 flex flex-col items-center shadow-xl">
-                            <div className="flex flex-col items-left">
+                 <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Sexually-Transmitted-Disease">
                             <Image
                                  src="/Images/Rectangle6.png"
@@ -78,7 +78,7 @@ export default function About() {
                                 alt="Picture of the author"
                       
                             />
-                            <p className="text-lg mt-4 text-purple-900  pl-6 font-bold">Sexually Transmitted Disease</p></a>
+                            <p className="text-lg mt-4 text-purple-900 font-bold">Sexually Transmitted Disease</p></a>
                             </div>
                         </div>
                         <div className="bg-white-700 md:w-1/3 flex flex-col items-center shadow-xl">
@@ -91,7 +91,7 @@ export default function About() {
                                 alt="Picture of the author"
                                 
                             />
-                            <p className="text-lg mt-4 text-purple-900  pl-6 font-bold">Laparoscopic & Hysteroscopic Surgeries</p></a>
+                            <p className="text-lg mt-4 text-purple-900  font-bold">Laparoscopic & Hysteroscopic Surgeries</p></a>
                             </div>
                         </div>
                         <div className="bg-white-700 md:w-1/3 flex flex-col items-center shadow-xl">
@@ -104,12 +104,12 @@ export default function About() {
                                 alt="Picture of the author"
                                
                             />
-                            <p className="text-lg mt-4 text-purple-900  pl-6 font-bold">Adolescent Health Counselling</p></a>
+                            <p className="text-lg mt-4 text-purple-900 font-bold">Adolescent Health Counselling</p></a>
                             </div>
                         </div>
                     </div>
                     <div>
-                    <a href="/Treatments" className="block mt-16 mb-8 md:mb-28 pt-2 pb-2 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
+                    <a href="/Treatments" className="block mt-4 md:mb-28  text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
                         View All Treatments
                     </a>
                 </div>
