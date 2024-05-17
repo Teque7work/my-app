@@ -32,7 +32,7 @@ export default function About() {
             <h1 className="text-4xl text-center md:text-left font-bold  text-[#019290] mb-4">Dr. Surabhi Vegad</h1>
             <div className="box-border h-auto p-4">
                 <div className="flex items-start leading-loose font-medium">
-                    <p className="box-border w-20 font-bold mr-4  text-[#019290]">Speciality</p>
+                    <p className="box-border w-20 font-bold mr-4  text-[#019290]">Speciality:</p>
                     <ul className="flex-grow ml-3 text-gray-500">
                         <li>High Risk Pregnancy Care</li>
                         <li>Advanced Gynological Laparoscopy</li>
@@ -43,7 +43,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className="flex items-start mt-2 leading-loose font-medium">
-                    <p className="box-border w-20 font-bold mr-4  text-[#019290]">Education</p>
+                    <p className="box-border w-20 font-bold mr-4  text-[#019290]">Education:</p>
                     <ul className="flex-grow ml-3 text-gray-500">
                         <li>M.B.B.S (U-Gujarat) 2002</li>
                         <li>Bechelor of medicine (U-Gujarat) 2004</li>
@@ -52,7 +52,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className="flex items-start mt-2 leading-loose font-medium">
-                    <p className="box-border w-20 font-bold mr-4  text-[#019290]">Experience</p>
+                    <p className="box-border w-20 font-bold mr-4  text-[#019290]">Experience:</p>
                     <p className="w-20 flex-grow ml-3 text-gray-500">20 years</p>
                 </div> 
             </div>
