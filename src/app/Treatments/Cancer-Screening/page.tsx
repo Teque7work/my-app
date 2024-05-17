@@ -20,7 +20,7 @@ export default function About() {
             </div>
             <div className='container max-w-[1280px] mx-auto mt-8 md:mt-14 mb-14'>
                
-            <p className='md:text-base text-base md:pl-0 pl-4 md:pr-0 pr-4 text-justify text-[#5C5C5C]'>
+            <p className='md:text-base text-base md:pl-0  pl-6 md:pr-0 pr-6 text-justify text-[#5C5C5C]'>
                 Discover complete Cancer Screening, Diagnosis, & Preventive Vaccination services at Spandan Maternity Home. Our committed 
                 healthcare team emphasizes early detection and prevention, providing customized screening tests and advanced diagnostics. From 
                 regular screenings to personalized preventive vaccination programs, we offer proactive care to protect your well-being. Rely on 
