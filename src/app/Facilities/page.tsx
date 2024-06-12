@@ -104,7 +104,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                 }}
                 >
                 <SwiperSlide>
-                    <div className='relative md:w-[300px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
+                    <div className='relative md:w-[250px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
                     <Image
                         src="/Images/facilities3.jpg"
                         layout="fill"
@@ -114,7 +114,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className='relative md:w-[300px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
+                <div className='relative md:w-[250px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
                     <Image
                         src="/Images/facilities5.jpg"
                         layout="fill"
@@ -124,7 +124,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className='relative md:w-[300px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
+                <div className='relative md:w-[250px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
                     <Image
                     src="/Images/facilities6.jpg"
                     layout="fill"
@@ -134,7 +134,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                 </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className='relative md:w-[300px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
+                <div className='relative md:w-[250px] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
                     <Image
                     src="/Images/facilities8.jpg"
                     layout="fill"
@@ -144,7 +144,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                 </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className='relative md:w-[300px] md:h-[350px] h-[200px] rounded-2xl overflow-hidden flex justify-between md:ml-0 '>
+                <div className='relative md:w-[250px] md:h-[350px] h-[200px] rounded-2xl overflow-hidden flex justify-between md:ml-0 '>
                     <Image
                     src="/Images/facilities9.jpg"
                     layout="fill"
