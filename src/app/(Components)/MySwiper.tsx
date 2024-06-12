@@ -38,7 +38,7 @@ const MySwiper: React.FC = () => {
       className="mySwiper h-[250px] md:!h-screen !z-[1]"
     >
 
-      <SwiperSlide className="flex md:w-full w-full justify-center items-center bg-[url('/Images/banner2.jpg')] md:bg-top bg-right bg-cover bg-no-repeat mt-4">
+      <SwiperSlide className="flex md:w-full w-full justify-center items-center bg-[url('/Images/banner2.jpg')] md:bg-top bg-right bg-cover bg-no-repeat mt-8">
         <div className='md:max-w-[1280px] mx-auto w-full h-full h-[50%] px-4 flex flex-row items-center'>
           <div className='w-full md:w-1/2 animate-fade-in'>
                   <h1 className='md:w-[600px] w-full md:text-6xl text-lg font-bold pb-4 text-pink-600 md:pt-44 md:block hidden'>
