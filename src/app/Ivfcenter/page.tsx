@@ -263,7 +263,7 @@ export default function About() {
                     </div>  
                 </div>
                 <div className='bg-[#F4F6F7]'>
-                   <div className='container max-w-[1280px] mx-auto md:p-8 p-14'>
+                   <div className='container max-w-[1280px] mx-auto md:pt-12 md:pb-28 p-14 '>
                         {/* <p className='text-[rgb(236,72,153)] text-xl text-center pt-8'>Our IVF Specialists in Bhuj</p> */}
                         <div className="flex md:flex-row flex-col">
                             <div className="flex md:justify-center border-2 rounded-full overflow-hidden md:ml-12 ml-0 border-0">
@@ -284,8 +284,8 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                <div className='bg-white  hidden md:block'>
-                    <div className='container max-w-[1280px] mx-auto mb-32 '>
+                <div className='bg-white  hidden md:hidden'>
+                    <div className='container max-w-[1280px] mx-auto mb-32'>
                         <p className='text-[rgb(236,72,153)] text-4xl text-center pt-16'>FAQ</p>
                         <div className='flex'>
                         <Accordion className="grid grid-cols-1 gap-8 mt-8 border-0">
