@@ -65,7 +65,7 @@ const MySwiper: React.FC = () => {
                             </svg>
                           </div>
                     </div>
-                  <div className='flex items-center gap-4 absolute mt-[-20px] md:bg-black mb-0'>
+                  <div className='flex items-center gap-4 absolute mt-[-20px] mb-0'>
                       <div className='md:block hidden'>
                         <Image src="/Images/Safety.png" width={110} height={110} alt="Safety" />
                       </div>
