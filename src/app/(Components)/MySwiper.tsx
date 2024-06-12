@@ -42,7 +42,7 @@ const MySwiper: React.FC = () => {
         <div className='md:max-w-[1280px] mx-auto w-full h-full h-[50%] px-4 flex flex-row items-center'>
           <div className='w-full md:w-1/2 animate-fade-in'>
                   <h1 className='md:w-[600px] w-full md:text-6xl text-lg font-bold pb-4 text-pink-600 md:pt-44 md:block hidden'>
-                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Making1</span> <br />
+                    <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Making</span> <br />
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Womanhood</span><br />
                     <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', lineHeight: '1.5' }}>Wonderful.....</span>
                   </h1>
@@ -65,7 +65,7 @@ const MySwiper: React.FC = () => {
                             </svg>
                           </div>
                     </div>
-                  <div className='flex items-center gap-4 absolute mt-[-42px] mb-0'>
+                  <div className='flex items-center gap-4 absolute mt-[-62px] mb-0'>
                       <div className='md:block hidden'>
                         <Image src="/Images/Safety.png" width={110} height={110} alt="Safety" />
                       </div>
