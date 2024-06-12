@@ -404,7 +404,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='text-left text-slate-500'>
-                      <p>Thank you to Dr. Surbhi and her whole team for my surgery and speedy recovery. It was one of the best experiences I've had with any hospitals. I felt so at home with all the kind and polite staff. Definitely would recommend it to anyone who feels they can't be helped like I did for nearly 5 years. I am so grateful. Thank you again.</p>
+                      <p>Thank you to Dr. Surbhi and her whole team for my surgery and speedy recovery. It was one of the best experiences I have had with any hospitals. I felt so at home with all the kind and polite staff. Definitely would recommend it to anyone who feels they can not be helped like I did for nearly 5 years. I am so grateful. Thank you again.</p>
                   </div>
                   <div className='mt-5'>
                       <div>
