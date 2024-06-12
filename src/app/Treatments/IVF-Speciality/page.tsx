@@ -114,7 +114,7 @@ export default function About() {
                         </div>
                     </div>
                     <div>
-                    <a href="/Treatments" className="block mt-4 md:mb-28  text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
+                    <a href="/Treatments" className="block md:mt-12 mt-0 md:mb-24  text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center mx-auto">
                         View All Treatments
                     </a>
 
