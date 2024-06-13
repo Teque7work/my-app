@@ -35,24 +35,31 @@ export default function Contact() {
                 </div>
                 <h1 className='text-left mt-16 text-4xl font-bold text-purple-900'>Our Team Of Doctors</h1>
                 <div className="flex justify-center mt-16">
-                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image"/>
-                    <div className="w-1/2 flex flex-col justify-center gap-2">
-                        <span className="font-medium  text-gray-600 font-bold">Member1</span>
-                        <span className="font-medium  text-gray-600">Obstetrician-Gynecologist</span>
-                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    <Image src="/Images/member1.png" width={150} height={150}alt="Image"/>
+                    <div className="w-1/3 flex flex-col justify-center gap-2">
+                        <span className="font-medium  text-gray-600 font-bold ml-4">Dr. Devanshi Gor</span>
+                        <span className="font-medium  text-gray-600 ml-4">BHMS (Medical Officer)</span>
+                        {/* <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> */}
                       
                     </div>
-                    <Image src="/Images/member3.jpg" width={150} height={150}alt="Image"  />
-                    <div className="w-1/2 flex flex-col justify-center gap-2">
-                        <span className="font-medium  text-gray-600 font-bold">Member2</span>
-                        <span className="font-medium  text-gray-600">Obstetrician-Gynecologist</span>
-                        <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    <Image src="/Images/member2.png" width={150} height={150}alt="Image"  />
+                    <div className="w-1/3 flex flex-col justify-center gap-2">
+                        <span className="font-medium  text-gray-600 font-bold  ml-4">Dr. Maliha Khatri</span>
+                        <span className="font-medium  text-gray-600  ml-4">BHMS (Medical Officer)</span>
+                        {/* <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> */}
                      
-                    </div>   
+                    </div>  
+                    <Image src="/Images/member3.png" width={150} height={150}alt="Image" />
+                    <div className="w-1/3 flex flex-col justify-center gap-2">
+                        <span className="font-medium  text-gray-600 font-bold  ml-4">Dr. Pratiksha Mavani</span>
+                        <span className="font-medium  text-gray-600  ml-4">BHMS (Medical Officer)</span>
+                        {/* <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> */}
+                       
+                    </div> 
                 </div>
-                <div className='flex justify-between'>
-                <div className="w-[26%]  ml-36 border-b-2 border-gray-400 mt-12"></div>
-                <div className="w-[26%] mr-40  border-b-2 border-gray-400 mt-4"></div>    
+                {/* <div className='flex justify-between'>
+                    <div className="w-[26%]  ml-36 border-b-2 border-gray-400 mt-12"></div>
+                    <div className="w-[26%] mr-40  border-b-2 border-gray-400 mt-4"></div>    
                 </div>
                 <div className="flex justify-center mt-14">
                     <Image src="/Images/member3.jpg" width={150} height={150}alt="Image" />
@@ -69,8 +76,8 @@ export default function Contact() {
                         <span className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
                       
                     </div>
-                </div>
-                <div className='flex justify-between'>
+                </div> */}
+                {/* <div className='flex justify-between'>
                 <div className="w-[26%]  ml-36 border-b-2 border-gray-400 mt-12"></div>
                 <div className="w-[26%] mr-40  border-b-2 border-gray-400 mt-4"></div>    
                 </div>
@@ -91,7 +98,7 @@ export default function Contact() {
                      
                     </div>     
                 </div>
-         
+          */}
         
             {/*<div className="flex justify-center">
                 <div className="grid grid-cols-3 mx-0 mt-6 gap-4" >

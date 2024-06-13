@@ -37,8 +37,8 @@ export default function About() {
                         <li>High Risk Pregnancy Care</li>
                         <li>Advanced Gynological Laparoscopy</li>
                         <li>Hysteroscopy Procedures</li>
-                        <li>In-vitro fertilization(IVF)</li>
-                        <li>Intrauterine Insemination(IUI)</li>
+                        <li>In-vitro fertilization (IVF)</li>
+                        <li>Intrauterine Insemination (IUI)</li>
                         <li>Comprehensive Infertility Solutions</li>
                     </ul>
                 </div>
@@ -46,7 +46,7 @@ export default function About() {
                     <p className="box-border w-20 font-bold mr-4  text-[#019290]">Education:</p>
                     <ul className="flex-grow ml-3 text-gray-500">
                         <li>M.B.B.S (U-Gujarat) 2002</li>
-                        <li>Bechelor of medicine (U-Gujarat) 2004</li>
+                        <li>Bechelor of Medicine (U-Gujarat) 2004</li>
                         <li>Bechelor of Surgery (U-Gujarat) 2004</li>
                         <li>M.D (Obstrectrics & Gynecology) U-Gujarat-2005</li>
                     </ul>

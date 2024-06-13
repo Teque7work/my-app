@@ -174,7 +174,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                 <div className="w-full md:w-[30%] md:mt-0 mt-8">
                 <p className="text-black text-lg text-center text-[#581C87]">
                              Specializing in advanced infertility solutions, <br></br>
-                            <span className='text-xl text-[#EC4899]'>our IVF centre in Bhuj.</span>
+                            <span className='text-xl text-[#EC4899]'><a href="/Ivfcenter" className="text-[#EC4899] underline-offset-1"> <u>our IVF centre in Bhuj.</u></a></span>
                         </p>
                 </div>
             </div>

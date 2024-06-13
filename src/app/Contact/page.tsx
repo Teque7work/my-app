@@ -30,10 +30,10 @@ export default function Contact() {
             <p className="text-4xl text-left mb-8 font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
             <div className='mb-8'>
                 <p className='text-xl mt-6 text-[rgb(236,80,167)] mb-2'>For Appointment</p>
-                <a href="tel:+919979232346" className="text-slate-500 block">
+                <a href="tel:+919979232346" className="text-slate-500 block text-xl">
                     99792 32346
                 </a>
-                <a href="tel:+917228862236" className="text-slate-500 block mt-2">
+                <a href="tel:+917228862236" className="text-slate-500 block mt-2 text-xl">
                     72288 62236
                 </a>
             </div>

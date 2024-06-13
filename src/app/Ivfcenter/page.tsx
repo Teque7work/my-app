@@ -23,11 +23,14 @@ export default function About() {
             <div className='container max-w-[1280px] mx-auto md:mt-20 mt-8'>
                 <div className='flex flex-wrap'>
                     <div className='w-full md:w-1/2 mb-8 gap-4'>
-                        <div className='text-[#009290] font-medium md:p-4 p-4 md:mr-8 mr-0 text-justify md:mt-20 mt-0'>
+                    <div>
+                        <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='md:ml-4 md:mt-4' />
+                    </div>
+                        <div className='text-[#009290] font-medium md:p-4 p-4 md:mr-8 mr-0 text-justify md:mt-8 mt-0'>
                             <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.
                             </p>
                         </div>
-                        <div className='text-md p-4 text-justify md:mr-8 mr-0 mt-6 font-medium text-slate-500'>
+                        <div className='text-md p-4 text-justify md:mr-8 mr-0 mt-6 md:mt-4 font-medium text-slate-500'>
                             <p>Specializing in advanced infertility solutions, our IVF centre in Bhuj excels in treatments like IVF, ICSI, and Donor Oocyte programs. Notably, male infertility treatments such as TESE, TESA, PESA, and Micro TESE are also routinely administered, showcasing our expertise in holistic reproductive care.
                             </p>
                         </div>
@@ -35,25 +38,25 @@ export default function About() {
                     </div>
                     <div className='w-full lg:w-1/2'>
                         {/* Replace the image with your actual image */}
-                        <Image src="/Images/ivfimg.jpg" width={500} height={500}alt="Image" className="relative md:w-full w-full md:h-[500px] h-[400px] md:rounded-2xl rounded-2xl md:p-0 p-4"/>
+                        <Image src="/Images/ivf-baby2.jpg" width={500} height={500}alt="Image" className="relative md:w-full w-full md:h-[500px] h-[400px] md:rounded-2xl rounded-2xl md:p-0 p-4"/>
                     </div>
                 </div>
            </div>
            <div className="flex justify-center bg-white md:p-20 p-0 bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed md:mt-0 mt-4 md:mb-0 mb-8">
                     <div className="p-4 text-center  md:w-[75%] w-full rounded-2xl">
-                        <p className="font-medium text-slate-500">
+                        <p className="font-bold text-slate-500">
                             A qualified, expert and experienced team is working relentlessly to help each and every couple inhering the same philosophy policies and culture. The mother centre also provides all out and all-around support, may it be clinical management of the patients, IVF lab and related services, counselling or grievance redressal.
                         </p> 
                     </div>
                 </div>
            <div className="flex md:flex-row flex-col">
-                <div className="md:w-[40%] w-full">
+                <div className="md:w-[40%] w-full  ">
                     <Image
                         src="/Images/ivfcenter.jpg"
                         width={500}
                         height={200}
                         alt="Picture of the author"
-                        className="object-cover w-full h-full rounded-br-2xl rounded-tr-2xl"
+                        className="object-center w-full h-full rounded-br-2xl "
                     />
                 </div>
                 <div className="md:w-[60%] w-full p-8 bg-white flex flex-col justify-center">
@@ -76,7 +79,7 @@ export default function About() {
                     <p className='text-[rgb(236,72,153)] text-4xl text-center pt-8'>Our specialisations</p>
                     <p className='text-gray-500 mt-4 md:p-0 p-4 text-center'>Any problem – the best solution – Under one roof = BFI! Focused, targeted and tailored treatment for every couple.</p>
                     <div className="grid md:grid-rows-2 grid-rows-7 grid-flow-col gap-4">
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf1.png"
@@ -89,7 +92,7 @@ export default function About() {
                                 <p className="text-center text-s">Male Infertility</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf2.png"
@@ -102,7 +105,7 @@ export default function About() {
                                 <p className="text-center ">Female Infertility</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf3.png"
@@ -115,7 +118,7 @@ export default function About() {
                                 <p className="text-center ">Advance technique</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf4.png"
@@ -128,7 +131,7 @@ export default function About() {
                                 <p className="text-center ">Preimplantation Genetic Testing</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf5.png"
@@ -141,7 +144,7 @@ export default function About() {
                                 <p className="text-center ">Intra Uterine Insemination - IUI</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf6.png"
@@ -154,7 +157,7 @@ export default function About() {
                                 <p className="text-center ">IVF</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf7.png"
@@ -167,7 +170,7 @@ export default function About() {
                                 <p className="text-center ">Fertility Preservation</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf8.png"
@@ -180,7 +183,7 @@ export default function About() {
                                 <p className="text-center ">Semen donation</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf9.png"
@@ -193,7 +196,7 @@ export default function About() {
                                 <p className="text-center ">Egg donation Surrogacy</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf10.png"
@@ -206,7 +209,7 @@ export default function About() {
                                 <p className="text-center ">Embryo Donation / Embryo freezing</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf11.png"
@@ -219,7 +222,7 @@ export default function About() {
                                 <p className="text-center ">Fibroids - Endometriosis</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf12.png"
@@ -232,7 +235,7 @@ export default function About() {
                                 <p className="text-center ">Ovary rejuvenation – PRP Stem cell</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf13.png"
@@ -245,7 +248,7 @@ export default function About() {
                                 <p className="text-center ">High-Risk Obstetrics</p>
                             </div>
                         </div>
-                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col justify-center items-center">
+                        <div className="rounded-lg h-auto w-screen/7 p-4 flex flex-col  items-center">
                             <div>
                                 <Image
                                     src="/Images/ivf14.png"
