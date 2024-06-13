@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className='container md:max-w-[1280px] w-full mx-auto'>
-    <div className="md:box-border h-auto w-full flex flex-col md:flex-row md:mt-16 mt-8 border-2 rounded-2xl md:p-0 p-4 border-none">
+    <div className="md:box-border h-auto w-full flex flex-col md:flex-row md:mt-16 mt-4 border-2 rounded-2xl md:p-0 p-4 border-none">
         <Image className="md:rounded-l-2xl md:rounded-t-2xl md:rounded-l-none md:rounded-none rounded-2xl md:block hidden" width={600} height={600} src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
         <div className='p-4 md:p-8'>
             <p className="text-4xl text-left mb-8 font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
