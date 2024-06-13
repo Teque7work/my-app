@@ -13,7 +13,7 @@ export default function Contact() {
     return(
         <div className="main-content" >
                 <div className="relative w-full">
-                <div className="bg-[url('/Images/hospitalbanner2.jpg')] bg-cover bg-center min-h-96 md:block hidden"></div>
+                <div className="bg-[url('/Images/hospitalbanner2.jpg')] bg-cover bg-center min-h-96 "></div>
                 <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
@@ -25,7 +25,7 @@ export default function Contact() {
             </div>
             <div className='container md:max-w-[1280px] w-full mx-auto'>
     <div className="md:box-border h-auto w-full flex flex-col md:flex-row md:mt-16 mt-8 border-2 rounded-2xl md:p-0 p-4 border-none">
-        <Image className="md:rounded-l-2xl md:rounded-t-2xl md:rounded-l-none md:rounded-none rounded-2xl" width={600} height={600} src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
+        <Image className="md:rounded-l-2xl md:rounded-t-2xl md:rounded-l-none md:rounded-none rounded-2xl md:block hidden" width={600} height={600} src="/Images/reception.jpg" alt="Dr. Surabhi Vegad"/>
         <div className='p-4 md:p-8'>
             <p className="text-4xl text-left mb-8 font-bold text-green-500" style={{ color: 'rgb(1, 146, 144)'}}>Contact us</p>
             <div className='mb-8'>
