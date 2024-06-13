@@ -13,7 +13,7 @@ export default function Contact() {
     return(
         <div className="main-content" >
                 <div className="relative w-full">
-                <div className="bg-[url('/Images/hospitalbanner2.jpg')] bg-cover bg-center min-h-96"></div>
+                <div className="bg-[url('/Images/hospitalbanner2.jpg')] bg-cover bg-center min-h-96 md:block hidden"></div>
                 <div className="absolute bottom-0 left-0 right-0" style={{ zIndex: '1', backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1), #241B19 200%)', height: '100%' }}></div>
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
@@ -39,7 +39,7 @@ export default function Contact() {
             </div>
             <div className='mb-8'>
                 <p className='text-xl mt-6 text-[rgb(236,80,167)] mb-2'>Address</p>
-                <p className='text-slate-500'>Shivam Nagar, Near Uma Nagar, Highway, Near Kutch Orthopedic Hospital, Mirjapar, Bhuj, Gujarat 370040</p>
+                <p className='text-slate-500'>Shivam Nagar, Near Uma Nagar, Highway, Near Kutch Orthopaedic Hospital, Mirjapar, Bhuj, Gujarat 370040</p>
             </div>
             <div className='mb-8'>
                 <p className='text-xl mt-6 text-[rgb(236,80,167)] mb-2'>Email</p>

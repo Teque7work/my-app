@@ -30,14 +30,14 @@ export default function About() {
                 <div className='md:w-1/2 w-full mt-12'>
                 <div className='container bg-black md:hidden'> 
                         <Image
-                        src="/Images/treat5.png"
+                        src="/Images/treat5.jpg"
                         width={640}
                         height={348}
                         alt="Picture of the author"
                         
                         />
                     </div>
-                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under Family Planning</h1>
+                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under Laparoscopic & Hysteroscopic Surgeries</h1>
                     <ul className="list-disc text-base md:pl-6 pl-12 text-[#5C5C5C]">
                     <li>Preoperative evaluation</li>
                     <li>Surgical consultation</li>
@@ -55,7 +55,7 @@ export default function About() {
                     <div className='md:w-1/2 w-full mt-12'>
                         <div className='container bg-black hidden md:block'> 
                         <Image
-                        src="/Images/treat5.png"
+                        src="/Images/treat5.jpg"
                         width={640}
                         height={348}
                         alt="Picture of the author"

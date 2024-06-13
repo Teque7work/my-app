@@ -11,7 +11,7 @@ export default function About() {
 
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-5xl'>IVF Speciality</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 text-4xl md:text-5xl'>IVF Speciality</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
                     <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">IVF Speciality</Link>
                     </p>
@@ -38,7 +38,7 @@ export default function About() {
                  
                         />
                     </div>
-                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under Family Planning</h1>
+                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under <a href="/Ivfcenter" className="font-bold text-[#27115f] underline-offset-1"> <u>IVF Speciality</u></a></h1>
                     <ul className="list-disc text-base md:pl-6 pl-12 text-[#5C5C5C]">
                     <li>Initial consultation and fertility assessment</li>
                     <li>Ovarian stimulation protocols</li>

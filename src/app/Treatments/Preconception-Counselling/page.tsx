@@ -38,7 +38,7 @@ export default function About() {
                     
                         />
                     </div>
-                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under Family Planning</h1>
+                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under Preconception Counselling</h1>
                     <ul className="list-disc text-base md:pl-6 pl-12 text-[#5C5C5C]">
                     <li>Health assessment</li>
                     <li>Genetic counseling</li>

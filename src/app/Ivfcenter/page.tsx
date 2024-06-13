@@ -24,13 +24,13 @@ export default function About() {
                 <div className='flex flex-wrap'>
                     <div className='w-full md:w-1/2 mb-8 gap-4'>
                     <div>
-                        <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='md:ml-4 md:mt-4' />
+                        <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='md:ml-4 ml-4 md:mt-4' />
                     </div>
                         <div className='text-[#009290] font-medium md:p-4 p-4 md:mr-8 mr-0 text-justify md:mt-8 mt-0'>
                             <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.
                             </p>
                         </div>
-                        <div className='text-md p-4 text-justify md:mr-8 mr-0 mt-6 md:mt-4 font-medium text-slate-500'>
+                        <div className='text-md p-4 text-justify md:mr-8 mr-0 mt-2 md:mt-4 font-medium text-slate-500'>
                             <p>Specializing in advanced infertility solutions, our IVF centre in Bhuj excels in treatments like IVF, ICSI, and Donor Oocyte programs. Notably, male infertility treatments such as TESE, TESA, PESA, and Micro TESE are also routinely administered, showcasing our expertise in holistic reproductive care.
                             </p>
                         </div>
@@ -61,7 +61,7 @@ export default function About() {
                 </div>
                 <div className="md:w-[60%] w-full p-8 bg-white flex flex-col justify-center">
                     <p className='text-[rgb(236,72,153)] md:text-4xl text-3xl md:text-left text-center'>Highlights of Our IVF Centre in Bhuj</p>
-                    <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>1. Expertise :</span>Our seasoned team comprises board-certified fertility specialists, embryologists, and reproductive endocrinologists, ensuring unparalleled care for male and female infertility, recurrent miscarriages, and genetic issues.</p>
+                    <p className='font-medium text-slate-500 mt-8 '><span className='text-slate-600 font-bold'>1. Expertise :</span>Our seasoned team comprises board-certified fertility specialists, embryologists, and reproductive endocrinologists, ensuring unparalleled care for male and female infertility, recurrent miscarriages, and genetic issues.</p>
                     <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>2. Cutting-Edge Facilities : </span>Equipped with state-of-the-art laboratories and surgical suites, we harness the latest in assisted reproductive technologies, including preimplantation genetic testing (PGT) and cryopreservation.</p>
                     <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>3. Holistic Services : </span>From fertility assessments and ovulation induction to IUI and minimally invasive surgeries, we offer a wide array of services tailored to individual needs.</p>
                     <p className='font-medium text-slate-500 mt-8'><span className='text-slate-600 font-bold'>4. Personalized Approach : </span>Recognizing the uniqueness of each patient, Dr. Surabhi and her team emphasize bespoke treatment plans aligned with your medical history and reproductive aspirations.</p>
@@ -283,6 +283,7 @@ export default function About() {
                                     <p className='md:text-lg text-md md:ml-8 ml-0 md:pl-0 pl-0 text-[rgb(1,146,144)]'>Leading Gynecologist in Bhuj, Kutch</p>
 
                                     <p className='md:font-medium font-light  text-slate-500 md:p-8 p-0 md:mt-0 mt-8 md:ml-0 ml-0'>Dr. Surabhi Vegad stands as a premier Obstetrician and Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in women&apos;s healthcare, consistently advancing research and patient care.</p>
+                                    <p className='md:font-medium font-light  text-slate-500 md:ml-8 md:mt-0 mt-4'>As a distinguished gynecologist, IVF expert, and laparoscopic surgeon</p>
                                 </div>
                             </div>
                         </div>

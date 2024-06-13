@@ -11,7 +11,7 @@ export default function About() {
 
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 text-2xl md:text-5xl'>Cancer Screening, Diagnosis & Preventive Vaccination</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 text-4xl md:text-5xl'>Cancer Screening, Diagnosis & Preventive Vaccination</p>
                     <p className="absolute bottom-10 text-white px-8 py-2 text-sm md:text-base">
                     <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Cancer Screening, Diagnosis & Preventive Vaccination</Link>
                 </p>
@@ -85,7 +85,7 @@ export default function About() {
                             <div className="flex flex-col items-left pb-8">
                             <a href="/Treatments/Laparoscopic">
                             <Image
-                               src="/Images/Rectangle5.png"
+                               src="/Images/Rectangle5.jpg"
                                 width={500}
                                 height={200}
                                 alt="Picture of the author"

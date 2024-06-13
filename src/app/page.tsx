@@ -186,7 +186,7 @@ export default function Home() {
           </div>
           <div className="w-full sm:w-1/2">
           <div>
-          <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='mt-4' />
+          <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='md:mt-4 mt-8 md:ml-0 ml-2' />
           </div>
             <h3 className='text-[#27115f] font-bold text-2xl mb-8 mt-8 sd:mt-0 text-center sm:text-left'>
                 Introducing Bavishi Fertility Institute (BFI) - Premier IVF & Gynecology Care in Bhuj, Kutch

@@ -17,12 +17,12 @@ export default function About() {
             </div>
             <div className='container max-w-[1280px] mx-auto mt-4 md:mt-20 md:mb-28 mb-8 md:p-0 p-4'>
                 <div>
-                    <p className='md:pl-8 md:pr-8 pl-4 pr-4 md:text-center text-center text-gray-500 text-lg md:mb-0 mb-8'>
+                    <p className='md:pl-8 md:pr-8 pl-4 pr-4 md:text-center text-center text-gray-500 text-lg md:mb-0 mb-8 '>
                     Clinical laboratory services are tests provided by a medical lab that aid in diagnosis and treatment of patients. There are many types of clinical laboratory services, including:
                     </p>
                 </div>
                 {/* first section */}
-                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-0 md:mt-8 mt-0 md:p-0 p-4 ">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-0 md:mt-16 mt-0 md:p-0 p-4 ">
                     <div className="bg-white-700 flex flex-col justify-center items-center shadow-xl md:mb-0 mb-8">
                         <div className="flex flex-col items-left pb-8 md:h-[440px]">
                             <a href="/Treatments/Antenatal-Care">
@@ -91,7 +91,7 @@ export default function About() {
                     <div className="flex flex-col items-left pb-8 md:h-[440px]">
                         <a href="/Treatments/Laparoscopic">
                             <Image
-                                src="/Images/Rectangle5.png"
+                                src="/Images/Rectangle5.jpg"
                                 width={500}
                                 height={200}
                                 alt="Laparoscopic & Hysteroscopic Surgeries"

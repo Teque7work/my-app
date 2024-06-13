@@ -29,7 +29,7 @@ const MySwiper: React.FC = () => {
         bulletActiveClass: 'my-pagination-bullet-active',
       }}
       autoplay={{
-        delay: 112113000,
+        delay: 4000,
         disableOnInteraction: false, 
       }}
       loop={true}

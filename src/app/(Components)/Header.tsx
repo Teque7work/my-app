@@ -62,7 +62,7 @@ const AboutDropdown: React.FC = () => {
                         Dr. Surabhi Vegad
                       </Link>
                     </li>
-                    <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300 md:block hidden">
+                    <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300 ">
                       <Link href="/MeetTeam" className="text-purple-900" onClick={closeMenu}>
                         Meet Our Team
                       </Link>
