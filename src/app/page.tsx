@@ -208,7 +208,7 @@ export default function Home() {
 
 
       {/* Testimonials Section */}
-      <div className='container max-w-[1280px] gap-7 flex flex-col md:flex-row mx-auto pb-8 mt-16 md:mt-24 items-center'>
+      <div className='container max-w-[1280px] gap-7 flex flex-col md:flex-row mx-auto pb-8 mt-24 md:mt-24 items-center'>
         {/* first section */}
        <div className='w-full md:w-2/5 '>
           <div className='text-left'>
