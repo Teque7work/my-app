@@ -208,11 +208,11 @@ export default function Home() {
 
 
       {/* Testimonials Section */}
-      <div className='container max-w-[1280px] gap-7 flex flex-col md:flex-row mx-auto pb-8 mt-10 md:mt-24 items-center'>
+      <div className='container max-w-[1280px] gap-7 flex flex-col md:flex-row mx-auto pb-8 mt-16 md:mt-24 items-center'>
         {/* first section */}
        <div className='w-full md:w-2/5 '>
           <div className='text-left'>
-            <h1 className='text-4xl md:w-96 w-full pb-6 font-bold text-purple-900 md:mt-0 mt-16'>See what our patients are saying</h1> 
+            <h1 className='text-4xl md:w-96 w-full pb-6 font-bold text-purple-900 '>See what our patients are saying</h1> 
             <p className='font-medium text-purple-800'>Tailored care for every stage of life with</p> 
             <p className='font-medium pb-6 text-purple-800'> <span className='font-bold '>4.9 rating</span> based on 500+ reviews</p> 
               <a href="https://www.google.com/search?q=spandan+maternity+home&oq=spanda&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAjGCcYgAQYigUyDQgDEAAYgwEYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x39511e6c1d3e138b:0xf221a21dee952a86,1" target="_blank" className=" w-[50%] md:w-[40%] justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-all duration-300 mt-4 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
