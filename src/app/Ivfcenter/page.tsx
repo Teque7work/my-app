@@ -71,7 +71,7 @@ export default function About() {
                 </div>
             </div>
             <div className='container max-w-[1280px] mx-auto mt-14'>
-                <p className='text-[rgb(236,72,153)] md:text-4xl text-3xl text-center'>Why Choose Bavishi Fertility Institute as Your IVF Center in Bhuj?</p>
+                <p className='text-[rgb(236,72,153)] md:text-4xl text-3xl text-center md:p-0 p-4'>Why Choose Bavishi Fertility Institute as Your IVF Center in Bhuj?</p>
                 <p className='font-medium text-slate-500 mt-8 md:p-0 p-4 text-center'>We believe that every woman is unique, therefore every fertility treatment shall be too. Looking for proven track record cutting edge technology, honest opinions, value for money, highest success chance – All under one roof? Look no further. Your search is over. That is BFI!</p>
             </div>
             <div className='mt-8  bg-[rgb(253,239,226)] pb-4'>
