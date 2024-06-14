@@ -62,7 +62,7 @@ export default function Contact() {
             <div className="md:w-full w-[100%] md:mb-28 mb-16 md:pr-0 md:block hidden">
                 <div className="relative w-full h-[300px] md:h-[600px]">
                     <Image
-                        src="/Images/steam.jpg"
+                        src="/Images/steam.JPG"
                         layout="fill"
                         objectFit="cover"
                         alt="Image"
@@ -73,7 +73,7 @@ export default function Contact() {
             <div className="md:w-full w-[100%] md:mb-28 mb-16 md:pr-0 md:hidden block">
                 <div className="relative w-full h-[300px] md:h-[600px]">
                     <Image
-                        src="/Images/steam.jpg"
+                        src="/Images/steam.JPG"
                         layout="fill"
                         
                         alt="Image"
