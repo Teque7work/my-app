@@ -208,16 +208,7 @@ const TreatmentDropdown: React.FC = () => {
   );
 };
 const Header: React.FC = () => {
-  <Head>
-  {/* Google Analytics Tag */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174476784-1"></script>
-  <script dangerouslySetInnerHTML={{ __html: `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-174476784-1');
-  `}} />
-</Head>
+ 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 

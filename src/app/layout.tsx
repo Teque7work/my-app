@@ -5,6 +5,7 @@ import Header from '@/app/(Components)/Header';
 import Footer from '@/app/(Components)/Footer';
 
 import localFont from 'next/font/local'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 // Font files can be colocated inside of `pages`
 const SpandanFont = localFont({ src: '../font/FertigoPro-Regular2.otf' })
@@ -51,6 +52,8 @@ export default function RootLayout({
    
       <body className={SpandanFont.className}>
 
+    
+       
 
         <Header />
 
@@ -59,6 +62,7 @@ export default function RootLayout({
         <Footer />
         
         </body>
+        <GoogleAnalytics gaId="G-LJWN5XSLM3" />
     </html>
   )
 }
