@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/app/(Components)/Header';
 import Footer from '@/app/(Components)/Footer';
-import Head from 'next/head'
+
 import localFont from 'next/font/local'
 
 // Font files can be colocated inside of `pages`
@@ -51,16 +51,7 @@ export default function RootLayout({
    
       <body className={SpandanFont.className}>
 
-      <Head>
-        {/* Google Analytics Tag */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174476784-1"></script>
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-174476784-1');
-        `}} />
-      </Head>
+
         <Header />
 
         {children}
