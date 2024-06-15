@@ -23,15 +23,28 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+// Metadata
+import type { Metadata } from 'next'
 
 
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: ' Home | Spandan Maternity',
+  description: 'Obstetrician and Leading Gynecologist in Bhuj',
+  keywords:'Gynec in Bhuj,Best Gynec in Bhuj Kutch,Gynecologist Bhuj'
+  
+}
+
 export default function Home() {
+
   
   return (
+    
     <div className="full mx-auto pl-4 pr-4 lg:pl-0 lg:pr-0">
+      
       {/* Swiper Section */}
       <section className='justify-center pl-0 mx-auto pt-[25%] md:pt-0 md:mt-0 md:h-auto pb-4 mb-8 md:!z-[99999]'>
         <MySwiper />
