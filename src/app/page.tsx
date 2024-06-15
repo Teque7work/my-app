@@ -24,21 +24,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // Metadata
-import type { Metadata } from 'next'
+
 
 
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Link from 'next/link';
 
-export const metadata: Metadata = {
-  title: ' Home | Spandan Maternity',
-  description: 'Obstetrician and Leading Gynecologist in Bhuj',
-  keywords:'Gynec in Bhuj,Best Gynec in Bhuj Kutch,Gynecologist Bhuj'
-  
-}
 
-export default function Home() {
+
+ 
+export default function Page(){
 
   
   return (
