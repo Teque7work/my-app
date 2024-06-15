@@ -3,6 +3,15 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone} from '@fortawesome/free-solid-svg-icons'
 import { faPaintBrush } from '../../../node_modules/@fortawesome/free-solid-svg-icons/index'
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+    title: 'Meet Team',
+    keywords: 'Gynecology services Bhuj, Infertility treatment Bhuj, IVF Kutch',
+    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+    openGraph:{
+      images:"https://www.spandanhospital.net/Images/headet-img.svg"
+    }
+  }
 export default function Contact() {
     return(
         <div className="main-content">

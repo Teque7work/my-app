@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 import Image from 'next/image'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,9 +7,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import type { Metadata } from 'next'
 import { faEnvelope,faMapMarkerAlt ,faPhone } from '../../../node_modules/@fortawesome/free-solid-svg-icons/index'
+export const metadata: Metadata = {
+  title: 'Contact',
+  keywords: 'Gynecologist Bhuj, Dr Vegad, IVF in Kutch',
+  description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+  openGraph:{
+   images:"https://www.spandanhospital.net/Images/headet-img.svg"
+  }
+}
 export default function Contact() {
+  
     return(
         <div className="main-content" >
                 <div className="relative w-full">

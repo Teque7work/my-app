@@ -1,6 +1,15 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import '@/style/global.css';
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+    title: 'Treatments',
+    keywords: 'Womens health checkup Bhuj, Gynecology services Bhuj, IVF clinic Bhuj',
+    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+    openGraph:{
+    images:"https://www.spandanhospital.net/Images/headet-img.svg"
+    }
+  }
 export default function About() {
     return(
             <div className="main-content">

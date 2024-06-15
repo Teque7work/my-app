@@ -22,23 +22,24 @@ const roboto = localFont({
   ],
 })
 
-export const metadata: Metadata = {
-  title: 'Spandan Maternity Home',
-  keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
-  description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
-  openGraph: {
-    title: 'Spandan Maternity Home',
-    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
-    images: [
-      {
-        url: '/group.jpeg',
-        width: 800,
-        height: 600,
-        alt: 'Spandan Maternity Home',
-      },
-    ],
-  },
-}
+// export const metadata: Metadata = {
+//   title: 'Spandan Maternity Home',
+//   keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
+//   description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+// }
+  // openGraph: {
+  //   title: 'Spandan Maternity Home',
+  //   description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+  //   images: [
+  //     {
+  //       url: './Spandan-Logo.svg',
+  //       width: 800,
+  //       height: 600,
+  //       alt: 'Spandan Maternity Home',
+  //     },
+  //   ],
+  // },
+
 
 export default function RootLayout({
   children,

@@ -1,8 +1,16 @@
-'use client';
+// 'use client';
 import Image from 'next/image'
 import Link from 'next/link'
 import { Accordion, AccordionItem } from "@nextui-org/react";
-
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+    title: 'Insurance',
+    keywords: 'IVF centre Bhuj, Gynecologist Kutch, Best Gynec in Bhuj Kutch',
+    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+    openGraph:{
+     images:"https://www.spandanhospital.net/Images/headet-img.svg"
+    }
+  }
 export default function Insurance() {
     const defaultContent =
     "This is a surprisingly common question. The treatment of pain requires a dedication to the patient that surpasses that in many medical fields, that is because often patients do not get better with one injection or a single medication. At Kansas Pain management we are committed to sticking with you throughout your treatment with us. We believe a balanced approach is the only way to treat pain, and will do our best to help you regardless of the origin of your pain.";

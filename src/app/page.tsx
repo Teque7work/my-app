@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Header from '@/app/(Components)/Header';
 import MySwiper from '@/app/(Components)/MySwiper';
 import Servies from '@/app/(Components)/Services';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 import '@/style/global.css';
 
@@ -13,7 +13,7 @@ import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
-import React, { useRef, useState } from 'react';
+// import React, { useRef, useState } from 'react';
 
 
 // Import Swiper React components
@@ -24,7 +24,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // Metadata
-
+// import type { Metadata } from 'next'
 
 
 // import required modules
@@ -32,7 +32,14 @@ import { Pagination } from 'swiper/modules';
 import Link from 'next/link';
 
 
-
+// export const metadata: Metadata = {
+//   title: 'Spandan Maternity Home',
+//   keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
+//   description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+//   openGraph:{
+//     images:"https://www.spandanhospital.net/SVG/Spandan-Logo-Text-Side.svg"
+//   }
+// }
  
 export default function Page(){
 

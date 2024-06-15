@@ -14,6 +14,16 @@ import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight, faPhoneV
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+// Metadata
+// import type { Metadata } from 'next'
+// export const metadata: Metadata = {
+//     title: 'Facility',
+//     keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
+//     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+//     openGraph:{
+//       images:"https://www.spandanhospital.net/SVG/Spandan-Logo-Text-Side.svg"
+//     }
+//   }
 export default function Facilities() {
  const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
 const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
