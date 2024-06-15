@@ -30,6 +30,12 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Link from 'next/link';
+// import ReactGA from "react-ga4";
+
+// ReactGA.initialize("G-LJWN5XSLM3");
+
+// ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
+
 
 
 // export const metadata: Metadata = {

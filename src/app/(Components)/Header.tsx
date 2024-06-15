@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-
+import Head from 'next/head'
 import { Fragment, useState, useEffect  } from 'react';
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
@@ -208,6 +208,16 @@ const TreatmentDropdown: React.FC = () => {
   );
 };
 const Header: React.FC = () => {
+  <Head>
+  {/* Google Analytics Tag */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174476784-1"></script>
+  <script dangerouslySetInnerHTML={{ __html: `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-174476784-1');
+  `}} />
+</Head>
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -234,6 +244,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="fixed w-full md:top-4 md:z-50 z-50 transition duration-300 ease-in-out">
+      
     <nav className="md:p-0 top-0">
       <div className="max-w-[1280px] mx-auto px-5 py-3 md:rounded-2xl shadow-2xl bg-white">
         <div className="flex justify-between items-center">
@@ -316,6 +327,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </nav>
+
     </header>
   );
 };
