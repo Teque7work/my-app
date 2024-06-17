@@ -1,17 +1,17 @@
-'use client';
+// 'use client';
 import Image from 'next/image'
 import Link from 'next/link'
 import {Accordion, AccordionItem} from "@nextui-org/react";
-// import type { Metadata } from 'next'
+import type { Metadata } from 'next'
 
-// export const metadata: Metadata = {
-//     title: 'Ivf center',
-//     keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
-//     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
-//     openGraph:{
-//       images:"https://www.spandanhospital.net/SVG/Spandan-Logo-Text-Side.svg"
-//     }
-//   }
+export const metadata: Metadata = {
+    title: 'Ivf center',
+    keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
+    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+    openGraph:{
+      images:"https://www.spandanhospital.net/SVG/Spandan-Logo-Text-Side.svg"
+    }
+  }
 export default function About() {
     const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
@@ -298,7 +298,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                <div className='bg-white  hidden md:hidden'>
+                {/* <div className='bg-white  hidden md:hidden'>
                     <div className='container max-w-[1280px] mx-auto mb-32'>
                         <p className='text-[rgb(236,72,153)] text-4xl text-center pt-16'>FAQ</p>
                         <div className='flex'>
@@ -360,12 +360,12 @@ export default function About() {
                             </AccordionItem>
                         </Accordion>
                     </div>
-                </div>
+                </div> */}
             </div>
                 </div>
                         
 
-            </div>
+            // </div>
 
     )
 }
