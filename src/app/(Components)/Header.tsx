@@ -308,7 +308,7 @@ const Header: React.FC = () => {
                 </li>
                 <li className="md:hidden block">
                 <div className=" md:hidden block flex justify-center md:mt-0 mt-20">
-                  <Image src="/Images/headet-img.svg" width={120} height={120} alt="Description of SVG" />
+                  <Image src="/Images/headet-img-1.svg" width={120} height={120} alt="Description of SVG" />
                 
                 </div>
                 </li>
