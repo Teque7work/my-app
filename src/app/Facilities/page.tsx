@@ -248,15 +248,13 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                             <div className="md:h-auto rounded-2xl  md:w-screen/5 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0 pb-8">
                                 <div>
                                     <Image
-                                    src="/Images/ivfcenter7.jpg"
+                                    src="/Images/ivfcenter7.JPG"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"
                                         className='rounded-2xl'
                                     />
-                                </div>
-                               
-                                
+                                </div> 
                             </div>
                     </div>
                     </div>
