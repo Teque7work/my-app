@@ -2,15 +2,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ModalImage from "react-modal-image";
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
+
 export const metadata: Metadata = {
+  title: 'Surabhi Vegad',
+  keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
+  description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+  openGraph: {
     title: 'Surabhi Vegad',
-    keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
-    openGraph:{
-      images:"https://www.spandanhospital.net/Images/headet-img.svg"
-    }
-  }
+    images: [
+      {
+        url: 'https://www.spandanhospital.net/Images/headet-img.svg',
+        width: 800,
+        height: 600,
+        alt: 'Surabhi Vegad Image',
+      }
+    ],
+  },
+};
+
 export default function About() {
     return (
      
