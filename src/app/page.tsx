@@ -44,8 +44,13 @@ export const metadata: Metadata = {
   title: 'Spandan Maternity Home',
   keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
   description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
-  openGraph:{
-    images:"https://www.spandanhospital.net/SVG/Spandan-Logo-Text-Side.svg"
+  openGraph: {
+    images: [
+      {
+        url: 'https://www.spandanhospital.net/Images/headet-img.svg',
+        alt: 'Header Image'
+      }
+    ]
   }
 }
  
