@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
   description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
   openGraph: {
-    title: 'Surabhi Vegad',
+    title: 'Dr.Surabhi Vegad ',
     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
     images: [
       {
         url: 'https://www.spandanhospital.net/Images/headet-img.svg',
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: 'Surabhi Vegad Image',
       }
     ],
