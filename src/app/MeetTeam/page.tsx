@@ -45,21 +45,21 @@ export default function Contact() {
                 <h1 className='text-left mt-16 text-4xl font-bold text-purple-900'>Our Team Of Doctors</h1>
                 <div className="flex flex-col items-center md:mt-16 mt-4 md:flex-row md:justify-center md:space-x-8 md:mb-32 mb-8">
                 <div className="flex flex-col md:flex-row items-center mt-8 md:mt-0 md:w-1/3 p-4">
-                    <Image src="/Images/member1.png" width={150} height={150} alt="Image" />
+                    <Image src="/Images/Dr maliha khatri.png" width={150} height={150} alt="Image" />
                     <div className="flex flex-col justify-center gap-2 mt-4 md:mt-0 md:ml-4">
                         <span className="font-medium text-gray-600 font-bold text-center md:text-left">Dr. Maliha Khatri</span>
                         <span className="font-medium text-gray-600 text-center md:text-left">BHMS (Medical Officer)</span>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center mt-8 md:mt-0 md:w-1/3 p-4">
-                    <Image src="/Images/member2.png" width={150} height={150} alt="Image" />
+                    <Image src="/Images/Dr pratiksha mavani.png" width={150} height={150} alt="Image" />
                     <div className="flex flex-col justify-center gap-2 mt-4 md:mt-0 md:ml-4">
                         <span className="font-medium text-gray-600 font-bold text-center md:text-left">Dr. Pratiksha Mavani</span>
                         <span className="font-medium text-gray-600 text-center md:text-left">BHMS (Medical Officer)</span>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center mt-8 md:mt-0 md:w-1/3 p-4">
-                    <Image src="/Images/member3.png" width={150} height={150} alt="Image" />
+                    <Image src="/Images/Dr. Devanshi Gor.png" width={150} height={150} alt="Image" />
                     <div className="flex flex-col justify-center gap-2 mt-4 md:mt-0 md:ml-4">
                         <span className="font-medium text-gray-600 font-bold text-center md:text-left">Dr. Devanshi Gor</span>
                         <span className="font-medium text-gray-600 text-center md:text-left">BHMS (Medical Officer)</span>

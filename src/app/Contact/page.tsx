@@ -48,12 +48,12 @@ export default function Contact() {
             </div>
             <div className='mb-8'>
                 <p className='text-xl mt-6 text-[rgb(236,80,167)] mb-2'>Address</p>
-                <p className='text-slate-500'>Shivam Nagar, Near Uma Nagar, Highway, Near Kutch Orthopaedic Hospital, Mirjapar, Bhuj, Gujarat 370040</p>
+                <p className='text-slate-500'>Shivam Nagar, Near Uma Nagar, Near Kutch Orthopaedic Hospital,<br></br> Mirjapar Highway, Bhuj, Gujarat 370040</p>
             </div>
             <div className='mb-8'>
                 <p className='text-xl mt-6 text-[rgb(236,80,167)] mb-2'>Email</p>
                 <p className='text-slate-500'>
-                    <a href="mailto:spandanhospital@gmail.com">spandanhospital@gmail.com</a>
+                    <a href="mailto:spandan232346@gmail.com">spandan232346@gmail.com</a>
                 </p>
             </div>
             <div className="flex items-center text-purple-800 mt-8">

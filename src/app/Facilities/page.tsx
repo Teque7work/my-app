@@ -69,7 +69,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                 {/* <div className="navigation-buttons p-20 " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999 }}></div> */}
 
     <div className="md:ml-[120px] md-mt-0 mt-[-100px]" style={{ marginTop: '80px', position: 'relative' }}>
-        <div className="navigation-buttons p-20 hidden md:block " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999 }}>
+        <div className="navigation-buttons p-20 hidden md:block " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 1 }}>
             <div className="swiper-button-prev">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
@@ -175,7 +175,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
         <div className='pb-4 md:pb-20 md:mt-0 mt-12'>
         <div className="flex flex-col items-center justify-center md:flex-row">
                 <Image
-                    src="/Images/facilities4.jpg"
+                    src="/Images/front image@3x.jpg"
                     width={1000}
                     height={550}
                     alt="Main Image"
@@ -184,7 +184,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                 <div className="w-full md:w-[30%] md:mt-0 mt-8">
                 <p className="text-black text-lg text-center text-[#581C87]">
                              Specializing in advanced infertility solutions, <br></br>
-                            <span className='text-xl text-[#EC4899]'><a href="/Ivfcenter" className="text-[#EC4899] underline-offset-1"> <u>our IVF centre in Bhuj.</u></a></span>
+                            <span className='text-xl text-[#EC4899]'><a href="/SurabhiVegad" className="text-[#EC4899] underline-offset-1"> <u>our Maternity Home in Bhuj.</u></a></span>
                         </p>
                 </div>
             </div>
@@ -192,8 +192,8 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                         <div className='flex justify-center'>
                             <p className='text-4xl text-[#581C87] font-bold'>IVF Center</p>
                         </div>
-                        <div className="grid md:grid-cols-4 grid-cols-1 gap-8 md:mt-16 mt-8">
-                        <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0">
+                        <div className="grid md:grid-cols-5 grid-cols-1 gap-8 md:mt-16 mt-8">
+                        <div className="md:h-auto rounded-2xl  md:w-screen/5 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter1.jpg"
@@ -206,10 +206,10 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                                 
                             </div>
                         
-                            <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
+                            <div className="md:h-auto rounded-2xl  md:w-screen/5 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
                                 <div>
                                     <Image
-                                        src="/Images/ivfcenter6.jpg"
+                                        src="/Images/facilities4.jpg"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"
@@ -219,7 +219,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                                 
                                 
                             </div>
-                            <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
+                            <div className="md:h-auto rounded-2xl  md:w-screen/5 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter3.jpg"
@@ -232,10 +232,23 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
                                
                                 
                             </div>
-                            <div className="md:h-auto rounded-2xl  md:w-screen/4 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0 pb-8">
+                            <div className="md:h-auto rounded-2xl  md:w-screen/5 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0 pb-8">
                                 <div>
                                     <Image
                                     src="/Images/ivfcenter5.jpg"
+                                        width={450} 
+                                        height={200} 
+                                        alt="Picture of the author"
+                                        className='rounded-2xl'
+                                    />
+                                </div>
+                               
+                                
+                            </div>
+                            <div className="md:h-auto rounded-2xl  md:w-screen/5 flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0 pb-8">
+                                <div>
+                                    <Image
+                                    src="/Images/ivfcenter7.jpg"
                                         width={450} 
                                         height={200} 
                                         alt="Picture of the author"

@@ -36,7 +36,7 @@ const Footer = () =>{
                         <div>
                             <p className="md:text-sm text-xs">Send message</p>
                             <p className="md:text-sm text-xs">
-                                <a href="mailto:spandanhospital@gmail.com">spandanhospital@gmail.com</a>
+                                <a href="mailto:spandan232346@gmail.com" >spandan232346@gmail.com</a>
                             </p>
                         </div>
                     </div>
@@ -52,10 +52,10 @@ const Footer = () =>{
                         </span>
                         <div>
                         <p className="text-lg text-slate-400">Give us a call</p>
-                        <a href="tel:+919979232346">
+                        <a href="tel:+919979232346" target="_blank">
                             <p className="text-xl text-slate-100">99792 32346</p>
                         </a>
-                        <a href="tel:+917228862236">
+                        <a href="tel:+917228862236" target="_blank">
                             <p className="text-xl text-slate-100">72288 62236</p>
                         </a>
                         </div>
@@ -70,7 +70,7 @@ const Footer = () =>{
                         <div>
                         <p className="text-lg text-slate-400">Send message</p>
                         <p className="text-xl text-slate-100">
-                            <a href="mailto:spandanhospital@gmail.com">spandanhospital@gmail.com</a>
+                            <a href="mailto:spandan232346@gmail.com" target="_blank">spandan232346@gmail.com</a>
                         </p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const Footer = () =>{
     </div>
     <div className="w-full md:w-1/3 pl-4 md:pl-0">
         <h3 className="text-[#ffffff80] text-xl font-bold mb-6">Our Location</h3>
-        <p className="leading-6 text-sm">Shivam Nagar, Near Uma Nagar, Highway, Near Kutch Orthopaedic Hospital, Mirjapar, Bhuj, Gujarat 370040</p>
+        <p className="leading-6 text-sm">Shivam Nagar, Near Uma Nagar, Near Kutch Orthopaedic Hospital, Mirjapar Highway, Bhuj, Gujarat 370040</p>
         <div className="flex items-center space-x-2 mt-6 md:mt-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
                 <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/>
@@ -112,13 +112,13 @@ const Footer = () =>{
         </div>
         <h3 className="text-[#ffffff80] text-xl font-bold mt-6 mb-[-20px] md:mt-6 md:mb-[-20]">Follow Us</h3>
         <div className="flex items-center space-x-6 mt-8 md:mt-8">
-            <a href="https://www.facebook.com/spandanmaternityhome" className="text-white">
+            <a href="https://www.facebook.com/spandanmaternityhome" target="_blank" className="text-white">
                 <Image src="/SVG/facebook-app-symbol.svg" alt="Facebook" width="15" height="15"/>
             </a>
-            <a href="https://www.instagram.com/spandanmaternityhome/" className="text-white">
+            <a href="https://www.instagram.com/spandanmaternityhome/" target="_blank" className="text-white">
                 <Image src="/SVG/instagram-icon.svg" alt="Instagram" width="15" height="15"/>
             </a>
-            <a href="https://wa.me/7228862236" className="text-white">
+            <a href="https://wa.me/7228862236" target="_blank" className="text-white">
                 <Image src="/SVG/whatsapp-x-icon.svg" alt="WhatsApp" width="15" height="15"/>
             </a>
         </div>

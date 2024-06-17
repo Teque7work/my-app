@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import '@/style/global.css';
+
 export default function About() {
     return(
         <div className="main-content">

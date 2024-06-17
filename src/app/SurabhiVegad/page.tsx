@@ -4,7 +4,7 @@ import Link from 'next/link';
 import ModalImage from "react-modal-image";
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
-    title: 'About Us',
+    title: 'Surabhi Vegad',
     keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
     openGraph:{
@@ -22,7 +22,7 @@ export default function About() {
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
                     <p className='absolute bottom-20 text-white px-8 py-2 text-5xl'>Our Doctor</p>
                     <p className="absolute bottom-10 text-white px-8 py-2">
-                        <Link href="/">Home</Link> &gt; <Link href="/About">Our Doctor</Link>
+                        <Link href="/">Home</Link> &gt; <Link href="/SurabhiVegad">Our Doctor</Link>
                     </p>
                 </div>
             </div>

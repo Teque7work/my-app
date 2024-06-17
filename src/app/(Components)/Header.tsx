@@ -6,7 +6,7 @@ import Head from 'next/head'
 import { Fragment, useState, useEffect  } from 'react';
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
-import About from "../About/page";
+import About from "../SurabhiVegad/page";
 
 
 const AboutDropdown: React.FC = () => {
@@ -34,7 +34,7 @@ const AboutDropdown: React.FC = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Link href="/About" className="text-purple-900" onClick={closeMenu}><span>About</span></Link>
+            <Link href="/SurabhiVegad" className="text-purple-900" onClick={closeMenu}><span>About</span></Link>
             <ChevronDownIcon className="md:w-4 md:ml-1 w-16 h-5 ml-[-10px] " onClick={closeMenu}/>
           </Popover.Button>
 
@@ -58,7 +58,7 @@ const AboutDropdown: React.FC = () => {
                 <div className="p-4 bg-white text-black ">
                   <ul className="space-y-4 text-base">
                   <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
-                      <Link href="/About" className="text-purple-900" onClick={closeMenu}>
+                      <Link href="SurabhiVegad" className="text-purple-900" onClick={closeMenu}>
                         Dr. Surabhi Vegad
                       </Link>
                     </li>
