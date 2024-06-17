@@ -1,6 +1,8 @@
 'use client';
 import Image from 'next/image'
 import Link from 'next/link'
+import React from 'react';
+
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -14,7 +16,7 @@ import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight, faPhoneV
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-// Metadata
+
 // import type { Metadata } from 'next'
 // export const metadata: Metadata = {
 //     title: 'Facility',

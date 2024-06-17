@@ -4,7 +4,7 @@ import Header from '@/app/(Components)/Header';
 import MySwiper from '@/app/(Components)/MySwiper';
 import Servies from '@/app/(Components)/Services';
 // import { useEffect } from 'react';
-
+import React from 'react';
 import '@/style/global.css';
 
 //import React from "react";
