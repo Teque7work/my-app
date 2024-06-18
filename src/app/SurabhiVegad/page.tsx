@@ -89,15 +89,56 @@ export default function About() {
                 over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.
             </p>
             <br />
-            <p >
+            <p>
                 As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home,
                 a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility
-                treatments combined with compassionate patient care. Beyond her core expertise in Obstetrics and Gynecology,
+                treatments combined with compassionate patient care. Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including <span className=' font-bold text-[#009290]'><a href='/Treatments/Laparoscopic'>High-risk pregnancy management and Laparoscopic procedures.</a> </span>
             </p>
+
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-8 md:mt-12 mt-8 md:mb-4 mb-0">
+                    <div className="md:h-auto rounded-2xl flex flex-col md:pl-0 pl-8 md:pr-0 pr-8 md:pb-0">
+                        <div className="w-full h-full">
+                            <Image
+                                src="/Images/1.jpg"
+                                layout="responsive"
+                                width={100}
+                                height={100}
+                                alt="Picture of the author"
+                                className="rounded-2xl"
+                            />
+                        </div>
+                    </div>
+                    
+                    <div className="md:h-auto rounded-2xl flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
+                        <div className="w-full h-full">
+                            <Image
+                                src="/Images/2.jpg"
+                                layout="responsive"
+                                width={100}
+                                height={100}
+                                alt="Picture of the author"
+                                className="rounded-2xl"
+                            />
+                        </div>
+                    </div>
+                    
+                    <div className="md:h-auto rounded-2xl flex flex-col md:pl-0 pl-8 md:pr-0 pr-8">
+                        <div className="w-full h-full">
+                            <Image
+                                src="/Images/3.jpg"
+                                layout="responsive"
+                                width={100}
+                                height={100}
+                                alt="Picture of the author"
+                                className="rounded-2xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+
             <br />
             <p>
-                Dr. Vegad has honed her skills in specialized areas, including high-risk pregnancy management, laparoscopic procedures,
-                colposcopy, and menopausal care. With a track record of successful IUI and laparoscopic surgeries over 20 years,
+                With a track record of successful IUI and laparoscopic surgeries over 20 years,
                 Dr. Vegad has transformed countless lives, delivering optimal outcomes for her patients. She is also a proactive
                 educator, regularly hosting IVF awareness seminars, adolescent health seminars and fitness seminars.
             </p>

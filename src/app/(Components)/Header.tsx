@@ -58,7 +58,7 @@ const AboutDropdown: React.FC = () => {
                 <div className="p-4 bg-white text-black ">
                   <ul className="space-y-4 text-base">
                   <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
-                      <Link href="SurabhiVegad" className="text-purple-900" onClick={closeMenu}>
+                      <Link href="/SurabhiVegad" className="text-purple-900" onClick={closeMenu}>
                         Dr. Surabhi Vegad
                       </Link>
                     </li>
@@ -273,7 +273,7 @@ const Header: React.FC = () => {
                     </svg>
                   </div>
                 </li>
-                <li className="border-2 md:border-none md:p-0 p-4 block md:hidden border-y-0 md:mt-0 mt-8 border-b-2">
+                <li className="border-2 md:border-none md:p-0 p-4  border-y-0 md:mt-0 mt-8 border-b-2">
                   <Link href="/" className="text-purple-900 text-xl" onClick={closeMenu}>
                   <p>Home</p>
                   </Link>
