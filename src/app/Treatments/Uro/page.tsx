@@ -1,6 +1,16 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import '@/style/global.css';
+
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+    title: 'Uro - Gynecological Problems',
+    keywords: 'Gynecologist Bhuj, Dr Vegad, IVF in Kutch',
+    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+    openGraph:{
+      images:"../Images/logo-og-color.png"
+    }
+  }
 export default function About() {
     return(
         <div className="main-content">

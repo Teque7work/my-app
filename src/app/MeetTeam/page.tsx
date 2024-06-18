@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     keywords: 'Gynecology services Bhuj, Infertility treatment Bhuj, IVF Kutch',
     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
     openGraph:{
-      images:"https://www.spandanhospital.net/Images/headet-img.svg"
+          images:"../Images/logo-og-color.png"
     }
   }
 export default function Contact() {
