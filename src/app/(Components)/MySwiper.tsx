@@ -81,7 +81,7 @@ const MySwiper: React.FC = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="flex w-full justify-center items-center bg-[url('/Images/Main-Banner-Website-Banner.jpg')] md:bg-top bg-center bg-cover bg-no-repeat"> 
+          <SwiperSlide className="flex w-full justify-center items-center bg-secondbg md:bg-top bg-center bg-cover bg-no-repeat"> 
             <div className='max-w-[1280px] mx-auto w-full h-full px-4 flex flex-row items-center'>
             <div className='w-full md:w-1/2 animate-fade-in'>
             <h1 className='md:w-[600px] w-full md:text-6xl text-2xl font-bold pb-4 text-slate-600 md:pt-44 md:block hidden'>
