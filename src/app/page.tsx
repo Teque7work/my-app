@@ -68,7 +68,7 @@ export default function Page(){
           <p className='md:mb-6 mb-0 text-sm text-pink-500 pt-2'>Leading Gynecologist in Bhuj, Kutch</p>
             <div className='flex justify-center heading-title'>
               <span>
-                <Image className='mx-auto' src="/Images/Group-98.png" alt="" width={40} height={40} />
+                <Image className='mx-auto' src="/Images/Group-98.png" alt="" width={40} height={40} loading='lazy'/>
 
               </span>
             </div>
@@ -81,6 +81,7 @@ export default function Page(){
             height={600}
             alt="Meet the Team"
             className='rounded-2xl '
+            loading='lazy'
           />
         </div>
         <div className='w-full md:w-3/5 flex justify-center items-center'>
