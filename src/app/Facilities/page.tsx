@@ -80,13 +80,13 @@ export default function Facilities() {
         <div className="navigation-buttons p-20 hidden md:block " style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 1 }}>
             <div className="swiper-button-prev">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M25 5L5 25L25 45" stroke="#581C87"  strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </div>
             <p className='text-4xl text-[#581C87] ' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p>
             <div className="swiper-button-next">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M25 45L45 25L25 5" stroke="#581C87"  strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </div>
         </div>
@@ -94,13 +94,13 @@ export default function Facilities() {
             <div className="navigation-buttons p-20 block md:hidden md:mt-0 mt-40 md:ml-0 ml-6" style={{ position: 'absolute', top: '10%', left: '15%', transform: 'translate(-50%, -50%)', zIndex: 999, }}>
                 <div className="swiper-button-prev">
                     <svg width="0" height="0" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25 5L5 25L25 45" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M25 5L5 25L25 45" stroke="#581C87"  strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                 </div>
                 {/* <p className='text-4xl text-[#581C87] ' style={{ display: 'inline-block', margin: '0 20px' }}> View facilities </p> */}
                 <div className="swiper-button-next md:mr-0 mr-14">
                     <svg width="0" height="0" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25 45L45 25L25 5" stroke="#581C87" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M25 45L45 25L25 5" stroke="#581C87"  strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                 </div>
             </div>
