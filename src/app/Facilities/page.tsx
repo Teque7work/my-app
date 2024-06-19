@@ -1,34 +1,37 @@
-'use client';
+// 'use client';
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react';
 
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// import { Autoplay, Navigation, Pagination } from "swiper/modules";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 import { useMediaQuery } from 'react-responsive';
 import '@/style/global.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight, faPhoneVolume, faAlignRight, faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLeaf, faStethoscope, faAmbulance, faQuoteLeft, faQuoteRight, faPhoneVolume, faAlignRight, faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
+import Facilities_Slider from '@/app/(Components)/Facilities-Slider';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// import type { Metadata } from 'next'
-// export const metadata: Metadata = {
-//     title: 'Facility',
-//     keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
-//     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
-//     openGraph:{
-//       images:"https://www.spandanhospital.net/SVG/Spandan-Logo-Text-Side.svg"
-//     }
-//   }
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+    title: 'Facility',
+    keywords: 'Dr.Surbhi Vegad, Gynecologist Bhuj, Best Gynec in Bhuj Kutch',
+    description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
+    openGraph:{
+        images:"../Images/logo-og-color.png"
+       }
+}
+
 export default function Facilities() {
- const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
-const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
+// const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
+// const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
 
     return (
         <div className="main-content">
@@ -103,74 +106,9 @@ const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
             </div>
        
 
-        <div className='md:w-[60%] w-[100%] md:p-0 p-4' style={{ position: 'absolute', overflow: 'hidden', bottom: 0, right: 0 }}>
-        <Swiper
-                autoplay={true}
-                loop={true}
-                modules={[Autoplay, Navigation]}
-                slidesPerView={1.5}
-                spaceBetween={20} // Default spaceBetween for mobile
-                navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
-                breakpoints={{
-                    1024: { 
-                    slidesPerView: 3,
-                    spaceBetween: 30, 
-                    },
-                }}
-                >
-                <SwiperSlide>
-                    <div className='relative md:w-[100%] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
-                    <Image
-                        src="/Images/facilities3.jpg"
-                        layout="fill"
-                        objectFit="cover"
-                        alt="First Image"
-                    />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='relative md:w-[100%] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
-                    <Image
-                        src="/Images/facilities5.jpg"
-                        layout="fill"
-                        objectFit="cover"
-                        alt="Second Image"
-                    />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='relative md:w-[100%] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
-                    <Image
-                    src="/Images/facilities4.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                    alt="First Image"
-                    />
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='relative md:w-[100%] md:h-[350px] h-[200px]  rounded-2xl overflow-hidden flex justify-between md:ml-0'>
-                    <Image
-                    src="/Images/facilities8.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                    alt="First Image"
-                    />
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='relative md:w-[100%] md:h-[350px] h-[200px] rounded-2xl overflow-hidden flex justify-between md:ml-0 '>
-                    <Image
-                    src="/Images/facilities9.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                    alt="First Image"
-                    />
-                </div>
-                </SwiperSlide>
-               
-            </Swiper>
-    </div>
+            <div className='md:w-[60%] w-[100%] md:p-0 p-4' style={{ position: 'absolute', overflow: 'hidden', bottom: 0, right: 0 }}>
+                <Facilities_Slider />
+            </div>
 
     </div>
 </div>
