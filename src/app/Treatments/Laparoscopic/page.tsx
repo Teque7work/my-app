@@ -20,16 +20,16 @@ export default function About() {
 
 
                 <div className='container max-w-[1280px] mx-auto relative z-10'>
-                    <p className='absolute bottom-20 text-white px-8 py-2 md:text-5xl text-4xl'>Laparoscopic & Hysteroscopic Surgeries</p>
+                    <p className='absolute bottom-20 text-white px-8 py-2 md:text-5xl text-4xl'>3D Laparoscopic & Hysteroscopic Surgeries</p>
                     <p className=" absolute bottom-8 text-white px-8 py-2">
-                    <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">Laparoscopic & Hysteroscopic Surgeries</Link>
+                    <Link href="/">Home</Link> &gt; <Link href="/Treatments">Treatments</Link>&gt; <Link href="/Treatments">3D Laparoscopic & Hysteroscopic Surgeries</Link>
                 </p>
                     
                 </div>
             </div>
             <div className='container max-w-[1280px] mx-auto mt-8 md:mt-14 mb-14'>
             <p className='md:text-base text-base md:pl-0  pl-6 md:pr-0 pr-6 text-justify text-[#5C5C5C]'>
-                Benefit from advanced surgical precision and minimal invasiveness with Laparoscopic & Hysteroscopic Surgeries at Spandan Maternity 
+                Benefit from advanced surgical precision and minimal invasiveness with 3D Laparoscopic & Hysteroscopic Surgeries at Spandan Maternity 
                 Home. Our skilled surgical team utilizes cutting-edge techniques to perform a variety of procedures, resulting in faster recovery and 
                 reduced post-operative discomfort. Whether you need diagnostic or therapeutic interventions for gynecological conditions like fibroids, 
                 endometriosis, or infertility-related issues, our personalized care ensures your specific needs are addressed. Trust Spandan for expert 
@@ -46,11 +46,11 @@ export default function About() {
                         
                         />
                     </div>
-                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under Laparoscopic & Hysteroscopic Surgeries</h1>
+                    <h1 className='text-base mb-3 font-bold md:pl-0 pl-4 md:mt-0 mt-8'>Services under 3D Laparoscopic & Hysteroscopic Surgeries</h1>
                     <ul className="list-disc text-base md:pl-6 pl-12 text-[#5C5C5C]">
                     <li>Preoperative evaluation</li>
                     <li>Surgical consultation</li>
-                    <li>Laparoscopic procedures (e.g., tubal ligation, ovarian cystectomy)</li>
+                    <li>3D Laparoscopic procedures (e.g., tubal ligation, ovarian cystectomy)</li>
                     <li>Hysteroscopic procedures (e.g., endometrial ablation, polypectomy)</li>
                     <li>Anesthesia administration</li>
                     <li>Postoperative care and monitoring</li>

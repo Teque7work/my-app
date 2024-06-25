@@ -95,7 +95,7 @@ const Footer = () =>{
         <ul className="text-sm mt-12 space-y-4">
             <li><a href="/Treatments/Infertility-Work-up">Infertility Work-up</a></li>
             <li><a href="/Treatments/Family-Planning">Family Planning</a></li>
-            <li><a href="/Treatments/Laparoscopic">Laparoscopic & Hysteroscopic Surgeries</a></li>
+            <li><a href="/Treatments/Laparoscopic">3D Laparoscopic & Hysteroscopic Surgeries</a></li>
             <li><a href="/Treatments/Menopausal-Problems">Menopausal Problems</a></li>
             <li><a href="/Treatments/Adolescent-Health">Adolescent Health Counselling</a></li>
             <li><a href="/Treatments/IVF-Speciality">IVF Speciality</a></li>

@@ -81,9 +81,9 @@ export default function About() {
             </p>
             <br />
             <p>
-                As a distinguished gynaecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home,
+                As a distinguished gynaecologist, IVF expert, and 3D laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home,
                 a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility
-                treatments combined with compassionate patient care. Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including <span className=' font-bold text-[#009290]'><a href='/Treatments/Laparoscopic'>High-risk pregnancy management and Laparoscopic procedures.</a> </span>
+                treatments combined with compassionate patient care. Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including <span className=' font-bold text-[#009290]'><a href='/Treatments/Laparoscopic'>High-risk pregnancy management and 3D Laparoscopic procedures.</a> </span>
             </p>
 
             <div className="grid md:grid-cols-3 grid-cols-1 gap-8 md:mt-12 mt-8 md:mb-4 mb-0">
@@ -125,11 +125,30 @@ export default function About() {
                             />
                         </div>
                     </div>
+
+                   
+                </div>
+                <div>
+                <div className="md:h-[405px] h-[150px] rounded-2xl flex justify-center items-center md:pl-0 pl-8 md:pr-0 pr-8 md:mt-12 mt-8 md:mb-8 relative">
+                    <div className="w-[875px] h-full relative md:max-w-[875px]">
+                        <Image
+                            src="/Images/Aesculap 3D.jpg"
+                            layout="fill"
+                            alt="Picture of the author"
+                            className="rounded-2xl object-cover object-center"
+                        />
+                    </div>
+                </div>
+
+
+
+
+
                 </div>
 
             <br />
             <p>
-                With a track record of successful IUI and laparoscopic surgeries over 20 years,
+                With a track record of successful IUI and 3D laparoscopic surgeries over 20 years,
                 Dr. Vegad has transformed countless lives, delivering optimal outcomes for her patients. She is also a proactive
                 educator, regularly hosting IVF awareness seminars, adolescent health seminars and fitness seminars.
             </p>

@@ -88,8 +88,8 @@ export default function Page(){
           <div className='text-center md:text-justify'>
             <h1 className='md:text-3xl text-2xl md:mt-0 mt-8 md:text-4xl font-bold pb-4 text-purple-900'>Empowering Womens Health</h1> 
             <p className='font-medium pb-4 text-slate-500'>Dr. Surabhi Vegad stands as a premier Obstetrician and Leading Gynecologist in Bhuj, Kutch, specializing in state-of-the-art treatments for a wide range of gynaecological issues. With extensive experience spanning over 20 years, Dr. Vegad is a trailblazer in womens healthcare, consistently advancing research and patient care.</p> 
-            <p className='font-medium pb-4 text-slate-500'>As a distinguished gynecologist, IVF expert, and laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care.</p> 
-            <p className='pb-4 text-slate-500 '>Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including <span className=' font-bold text-[#009290]'><a href='/SurabhiVegad'>High-risk pregnancy management and Laparoscopic procedures.</a> </span></p>
+            <p className='font-medium pb-4 text-slate-500'>As a distinguished gynecologist, IVF expert, and 3D laparoscopic surgeon, Dr. Vegad offers unparalleled services at Spandan Maternity Home, a renowned fertility hospital in Bhuj, Kutch. Committed to international standards, she ensures top-tier infertility treatments combined with compassionate patient care.</p> 
+            <p className='pb-4 text-slate-500 '>Beyond her core expertise in Obstetrics and Gynecology, Dr. Vegad has honed her skills in specialized areas, including <span className=' font-bold text-[#009290]'><a href='/SurabhiVegad'>High-risk pregnancy management and 3D Laparoscopic procedures.</a> </span></p>
             <a href="/SurabhiVegad" className="md:w-[20%] w-[40%] md:ml-0 ml-24 justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
               Read More 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
@@ -179,7 +179,7 @@ export default function Page(){
           </div>
           <div className='bg-purple-50 rounded flex flex-col  p-6 '>
             <Image className='pb-4' src="./SVG/laparoscopy-icon.svg" alt="Laparoscopy Surgery" width={50} height={50} />
-            <h3 className='text-purple-900 font-semibold mb-4 text-lg'>Laparoscopy Surgery</h3>
+            <h3 className='text-purple-900 font-semibold mb-4 text-lg'>3D Laparoscopy Surgery</h3>
             <p className='text-purple-900 text-sm mb-4'>Minimally invasive abdominal procedure.</p>
             <Link href="/Treatments/Laparoscopic"> 
               <button className="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 mt-2 pt-1 pb-1 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">

@@ -49,8 +49,8 @@ export default function Facilities() {
             <div className='container max-w-[1280px] mx-auto relative z-10 pt-14 pb-14'>
                 <div className='flex justify-center'>
                 <p className="text-black text-lg text-center text-[#581C87]">
-                             Specializing in advanced infertility solutions, <br></br>
-                            <span className='text-xl text-[#EC4899]'><a href="/SurabhiVegad" className="text-[#EC4899] underline-offset-1"> <u>our Maternity Home in Bhuj.</u></a></span>
+                    Specializing in Advanced Women's Maternity Solutions <br></br>
+                            <span className='text-xl text-[#EC4899]'><a href="/SurabhiVegad" className="text-[#EC4899] underline-offset-1"> <u>with Cutting-Edge Technology.</u></a></span>
                         </p>
                 </div>
             </div>

@@ -176,7 +176,7 @@ const TreatmentDropdown: React.FC = () => {
                     </li>
                     <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
                       <Link href="/Treatments/Laparoscopic" className="text-purple-900" onClick={closeMenu}>
-                      Laparoscopic & Hysteroscopic Surgeries
+                      3D Laparoscopic & Hysteroscopic Surgeries
                       </Link>
                     </li>
                     <li className="hover:text-pink-600 hover:bg-gray-100 hover:font-semibold rounded-full px-3 py-2 hover:transition hover:duration-300">
