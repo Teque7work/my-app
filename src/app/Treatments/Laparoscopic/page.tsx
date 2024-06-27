@@ -3,7 +3,7 @@ import Link from 'next/link'
 import '@/style/global.css';
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
-    title: 'Laparoscopic & Hysteroscopic Surgeries',
+    title: '3D Laparoscopic & Hysteroscopic Surgeries',
     keywords: 'Gynecologist Bhuj, Dr Vegad, IVF in Kutch',
     description: 'As a distinguished gynecologist, IVF expert, and laparoscopic surgeon',
     openGraph:{
@@ -39,7 +39,7 @@ export default function About() {
                 <div className='md:w-1/2 w-full mt-12'>
                 <div className='container bg-black md:hidden'> 
                         <Image
-                        src="/Images/treat5.jpg"
+                        src="/Images/Banner111.jpg"
                         width={640}
                         height={348}
                         alt="Picture of the author"
@@ -64,7 +64,7 @@ export default function About() {
                     <div className='md:w-1/2 w-full mt-12'>
                         <div className='container bg-black hidden md:block'> 
                         <Image
-                        src="/Images/treat5.jpg"
+                        src="/Images/Banner111.jpg"
                         width={640}
                         height={348}
                         alt="Picture of the author"

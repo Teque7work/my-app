@@ -205,20 +205,39 @@ export default function Page(){
         </div>
       </div> 
       {/* Parallex Section */}
-      <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed bg-cover bg-center h-[970px] sm:h-[500px] mt-0 sm:mt-0">
+      <section className="bg-[url('/Images/parallax-lab-image.jpg')] bg-fixed bg-cover bg-center h-[970px] mb-16 sm:h-[520px] mt-0 sm:mt-0">
         <div className="container max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center">
           <div className="w-full sm:w-1/2 flex flex-col items-center mb-[-20px]">
-            <div><Image src="/Images/parant.png" width={500} height={100} alt="" className='mt-[-85px]' /></div>
+            <div><Image src="/Images/parant.png" width={500} height={100} alt="" className='mt-[-58px]' /></div>
           </div>
           <div className="w-full sm:w-1/2">
           <div>
-          <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='md:mt-4 mt-8 md:ml-0 ml-2' />
-          </div>
+      <div className="md:mt-4 mt-8 md:ml-0 ml-2 hidden md:block">
+        <Image
+          src="/Images/Frame 1746.png"
+          layout="intrinsic"
+          objectFit="cover"
+          width={193}
+          height={122}
+          alt=""
+        />
+      </div>
+      <div className="md:mt-4 mt-8 md:ml-0 ml-2 block md:hidden">
+        <Image
+          src="/Images/Frame 1746.png"
+          layout="intrinsic"
+          objectFit="cover"
+          width={113}
+          height={122}
+          alt=""
+        />
+      </div>
+    </div>
             <h3 className='text-[#27115f] font-bold text-2xl mb-8 mt-8 sd:mt-0 text-center sm:text-left'>
                 Introducing Bavishi Fertility Institute (BFI) - Premier IVF & Gynecology Care in Bhuj, Kutch
             </h3>
             <div className='space-y-8'>
-            <div className='text-slate-500 sm:mt-0 text-left leading-snug  md:p-0 md:text-left p-2 md:p-0 '>
+            <div className='text-slate-500 sm:mt-0 text-left leading-snug md:p-0 md:text-left p-2 md:p-0 '>
 
                 <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & <a href="/Ivfcenter" className="font-bold text-[#27115f] underline-offset-1"> <u>IVF Centre</u> </a>
                 stands as a beacon of comprehensive womens healthcare. Under the esteemed leadership of Dr. Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.</p>
@@ -260,10 +279,20 @@ export default function Page(){
       </div>
       <section className='bg-purple-50 md:pt-14 pt-12 md:mt-14 mt-8 md:mb-0 mb-16 md:pb-0 pb-12 md:h-[580px]'>
         <div className="max-w-[1280px] mx-auto">
-          <div className='text-center '>
-            <h1 className='text-4xl  font-bold text-purple-900'>Cashless Facility</h1> 
-              <p className='text-xs pt-4 pb-14 text-purple-800'>List of empaneled Insurance Company.</p>
-          </div>
+          <div className='flex justify-between items-center'>
+            <div className='text-left ml-4'>
+                <h1 className='text-4xl font-bold text-purple-900'>Cashless Facility</h1> 
+                <p className='text-xs pt-4 pb-14 text-purple-800'>List of empaneled Insurance Company.</p>
+            </div>
+            <div className='text-right mr-4'>
+            <a href="/Insurance" className="md:w-[100%] w-[40%] md:ml-0 ml-24 mt-[-40px] justify-center border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white text-sm ransition-all duration-300 pt-2 pb-2 rounded-3xl pl-4 pr-4 shadow-lg flex items-center">
+              View All
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+            </div>
+        </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-0 md:gap-4 md:mb-4">
             <div className="box-border rounded-2xl h-auto md:w-full/5 w-full/2 p-4 flex flex-col justify-center items-center  relative">
               <div>

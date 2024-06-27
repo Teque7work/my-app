@@ -284,16 +284,17 @@ const Header: React.FC = () => {
                 <li className="text-purple-900 text-xl border-1 md:border-none md:p-0 p-4" onClick={closeMenu}>
                 <TreatmentDropdown />
               </li>
+              <li className="border-2 md:border-none md:p-0 p-4 ">
+                  <Link href="/Treatments/Laparoscopic" className="text-purple-900 text-xl" onClick={closeMenu}>
+                  3D Laparoscopic
+                  </Link>
+                </li>
                  <li className="border-2 md:border-none md:p-0 p-4 ">
                   <Link href="/Facilities" className="text-purple-900 text-xl"  onClick={closeMenu}>
                     Facilities
                   </Link>
                 </li>
-                <li className="border-2 md:border-none md:p-0 p-4 border-y-0">
-                  <Link href="/Insurance" className="text-purple-900 text-xl" onClick={closeMenu}>
-                    Insurance
-                  </Link>
-                </li>
+                
                 <li className="border-2 md:border-none md:p-0 p-4">
                   <Link href="/Contact" className="text-purple-900 text-xl" onClick={closeMenu}>
                     Contact
