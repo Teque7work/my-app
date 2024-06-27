@@ -35,7 +35,8 @@ export default function About() {
                     <div className='w-full md:w-1/2 mb-8 gap-4'>
                     <div>
                         {/* <Image src="/Images/ivf.svg" width={40} height={40} alt="" className='md:ml-4 ml-4 md:mt-4' /> */}
-                        <Image src="/Images/Frame 1746.png" layout="intrinsic" objectFit="cover" width={153} height={12} alt="" className='md:ml-4 ml-4 md:mt-4' />
+                        <Image src="/Images/Frame 1746.png" layout="intrinsic" objectFit="cover" width={153} height={12} alt="" className='md:ml-4 ml-4 md:mt-4 md:block hidden' />
+                        <Image src="/Images/Frame 1746.png" layout="intrinsic" objectFit="cover" width={113} height={12} alt="" className='md:ml-4 ml-4 md:mt-4 md:hidden block' />
                     </div>
                         <div className='text-[#009290] font-medium md:p-4 p-4 md:mr-8 mr-0 text-justify md:mt-8 mt-0'>
                             <p>Located in Bhuj, Kutch, Spandan Maternity Home in collaboration with most reputed Bavishi fertility Institute & IVF Centre stands as a beacon of comprehensive women&apos;s healthcare. Under the esteemed leadership of Dr Surbhi Vegad, a top-rated gynaecologist in Bhuj Kutch, our centre offers a diverse range of services, from routine deliveries to complex gynaecological surgeries.
