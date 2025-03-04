@@ -277,7 +277,7 @@ export default function Page(){
           <Testimonials_Slider />
         </div>
       </div>
-      <section className='bg-purple-50 md:pt-14 pt-12 md:mt-14 mt-8 md:mb-0 mb-16 md:pb-0 pb-12 md:h-[580px]'>
+      <section className='bg-purple-50 md:pt-14 pt-12 md:mt-14 mt-8 md:mb-0 mb-16 md:pb-0 pb-12 md:h-[780px]'>
         <div className="max-w-[1280px] mx-auto">
         <div className="flex justify-between items-center md:flex-row flex-col md:justify-between md:items-center">
           <div className="text-left md:ml-4 md:mt-0 mt-2">
@@ -294,7 +294,7 @@ export default function Page(){
           </div>
         </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-0 md:gap-4 md:mb-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-0 md:gap-4 md:mb-4">
             <div className="box-border rounded-2xl h-auto md:w-full/5 w-full/2 p-4 flex flex-col justify-center items-center  relative">
               <div>
                 <Image src="/Images/insurance1.png" width={300} height={300} alt="cigna" />
@@ -322,7 +322,7 @@ export default function Page(){
             </div>
             <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
-                <Image src="/Images/insurance6.png" width={300} height={300} alt="cigna" />
+                <Image src="/Images/Care Health Insurance.jpg" width={300} height={300} alt="cigna" />
               </div>
             </div>
             <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
@@ -330,14 +330,14 @@ export default function Page(){
                 <Image src="/Images/universal sampoo.jpg" width={300} height={300} alt="cigna" />
               </div>
             </div>
-            <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
+            {/* <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
                 <Image src="/Images/megma.jpg" width={300} height={300} alt="cigna" />
               </div>
-            </div>
+            </div> */}
             <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
               <div>
-                <Image src="/Images/aditya birla.jpg" width={300} height={300} alt="cigna" />
+                <Image src="/Images/Reliance General.jpg" width={300} height={300} alt="cigna" />
               </div>
             </div>
             <div className="box-border rounded-2xl h-auto w-full/5 p-4 flex flex-col justify-center items-center relative">
