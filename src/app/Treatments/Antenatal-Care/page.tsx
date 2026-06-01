@@ -127,5 +127,31 @@ export default function About() {
 
                     </div>
             </div>
+
+            {/* Nutrition During Pregnancy - PDF Resource Section */}
+            <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
+                <h2 className='text-2xl font-bold text-purple-900 mb-4 md:pl-0 pl-6 md:pr-0 pr-6'>Nutrition During Pregnancy</h2>
+                <p className='text-base text-[#5C5C5C] text-justify mb-4 md:pl-0 pl-6 md:pr-0 pr-6'>
+                    Good nutrition during pregnancy is essential for the health of both mother and baby. 
+                    Our comprehensive guide covers all three trimesters — from the first 13 weeks through 
+                    to delivery — with trimester-specific food recommendations, foods to avoid, and 
+                    practical meal plans tailored for Western India.
+                </p>
+                <ul className="list-disc text-base md:pl-6 pl-12 text-[#5C5C5C] md:pr-0 pr-6 mb-6">
+                    <li>Trimester-wise recommended foods and meal plans</li>
+                    <li>Foods to avoid during each stage of pregnancy</li>
+                    <li>Calorie and protein guidance per trimester</li>
+                    <li>Practical tips to manage nausea, acidity, and fatigue</li>
+                    <li>Traditional Indian food options rich in iron, calcium, and protein</li>
+                </ul>
+                <a 
+                    href="/pdfs/Spandan_Nutrition.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block md:mt-0 mt-0 md:mb-0 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center md:ml-0 ml-6"
+                >
+                    View Nutrition Guide
+                </a>
+            </div>
         </div>
     )}
