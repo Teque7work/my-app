@@ -145,7 +145,7 @@ export default function About() {
                     <li>Traditional Indian food options rich in iron, calcium, and protein</li>
                 </ul>
                 <a 
-                    href="/pdfs/Spandan_Nutrition.pdf" 
+                    href="/spandan_nutrition.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block md:mt-0 mt-0 md:mb-0 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center md:ml-0 ml-6"
