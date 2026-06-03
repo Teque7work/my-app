@@ -129,7 +129,7 @@ export default function About() {
             </div>
 
             {/* Nutrition During Pregnancy - PDF Resource Section */}
-            <div className='container max-w-[1280px] mx-auto mt-14 mb-14'>
+            <div className='container max-w-[1280px] mx-auto mt-14 mb-14 scroll-mt-40' id='nutritionguide'>
                 <h2 className='text-2xl font-bold text-purple-900 mb-4 md:pl-0 pl-6 md:pr-0 pr-6'>Nutrition During Pregnancy</h2>
                 <p className='text-base text-[#5C5C5C] text-justify mb-4 md:pl-0 pl-6 md:pr-0 pr-6'>
                     Good nutrition during pregnancy is essential for the health of both mother and baby. 
@@ -148,9 +148,9 @@ export default function About() {
                     href="/spandan_nutrition.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block md:mt-0 mt-0 md:mb-0 text-center w-[200px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center md:ml-0 ml-6"
+                    className="block md:mt-0 mt-0 md:mb-0 text-center w-[230px] h-[50px] rounded-3xl text-white bg-pink-500 flex items-center justify-center md:ml-0 ml-6"
                 >
-                    View Nutrition Guide
+                    View Nutrition Guide PDF
                 </a>
             </div>
         </div>
